@@ -1,0 +1,8 @@
+{% assign min = 50 %}
+{% assign max = 100 %}
+{% assign diff = max | minus: min %}
+{% assign randomNumber = site.time | date: "%s" | modulo: diff | plus: min %}
+<footer class="site-footer">
+    footer
+</footer>
+<script defer src="{{ site.baseurl }}/assets/js/script.js?v={{randomNumber}}"></script>

@@ -1,0 +1,21 @@
+{
+  "name": "quantitas-tourism-landing",
+  "version": "1.0.0",
+  "description": "Questo ambiente di sviluppo si basa su Jekyll e Tailwind.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "bundle exec jekyll serve --livereload",
+    "css": "npx tailwindcss -i ./assets/style.tailwind.css -o assets/css/style.css --watch --minify",
+    "js": "npx babel ./assets/js/script.babel.js --out-file ./assets/js/script.js --watch --presets minify"
+  },
+  "author": "LC.D",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "babel-preset-minify": "^0.5.2",
+    "tailwindcss": "^3.4.10"
+  }
+}
