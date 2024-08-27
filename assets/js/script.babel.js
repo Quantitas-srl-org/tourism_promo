@@ -15,9 +15,11 @@ const header = {
       if (siteHeader.classList.contains('is-open')) {
         icon.innerHTML = 'close';
         menuToggleBtn.setAttribute('aria-label', 'Chiudi il menù');
+        menuToggleBtn.setAttribute('aria-expanded', 'true');
       } else {
         icon.innerHTML = 'menu';
         menuToggleBtn.setAttribute('aria-label', 'Apri il menù');
+        menuToggleBtn.setAttribute('aria-expanded', 'false');
       }
     })
   },
@@ -27,6 +29,15 @@ const header = {
         siteHeader.classList.remove('is-open');
       }
       console.log(event.key)
+    })
+  },
+  setStickyHeaderStyle: () => {
+    document.addEventListener('scroll', event => {
+      if (window.scrollY > 32) {
+        siteHeader.classList.add('is-sticky');
+      } else {
+        siteHeader.classList.remove('is-sticky');
+      }
     })
   }
 }
@@ -39,3 +50,4 @@ const header = {
 
 header.siteMenuToggle();
 header.keyPressEscToCloseMenu();
+header.setStickyHeaderStyle();

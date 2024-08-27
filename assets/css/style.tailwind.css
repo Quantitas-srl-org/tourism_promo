@@ -122,7 +122,11 @@
     }
 
     .site-header {
-        @apply py-5;
+        @apply transition-all duration-300 py-5 bg-gradient-to-b from-false-white to-transparent sticky top-0;
+    }
+
+    .site-header.is-sticky {
+        @apply !bg-false-white shadow-xl;
     }
 
     .site-menu a {
@@ -151,11 +155,11 @@
 
     .is-open #menu-toggle-btn,
     .is-open .site-logo {
-        @apply z-10;
+        @apply z-10 !block;
     }
 
     .is-open .site-menu {
-        @apply !block absolute top-0 left-0 w-full bg-tan z-0 h-full;
+        @apply !block absolute top-0 left-0 w-full z-0 h-screen bg-gradient-to-b from-white to-tan;
     }
 
     .is-open .site-menu ul {
