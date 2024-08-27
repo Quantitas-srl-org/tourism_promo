@@ -58,11 +58,11 @@
 
 @layer utilities {
     .gradient-secondary {
-        @apply bg-gradient-to-t from-secondary to-secondary-dark
+        @apply bg-gradient-to-t from-secondary to-secondary-dark;
     }
 
     .gradient-secondary-reverse {
-        @apply bg-gradient-to-b from-secondary to-secondary-dark
+        @apply bg-gradient-to-b from-secondary to-secondary-dark;
     }
 
     .gradient-primary {
@@ -101,7 +101,8 @@
     .site-bg {
         @apply
         bg-false-white
-        bg-[url("../images/bg-texture.png")]
+        bg-[url("../images/bg-texture.png")] /*fallback*/
+        bg-[url("../images/bg-texture.webp")]
         bg-center
         bg-repeat
         bg-[length:20px_20px]
@@ -111,12 +112,13 @@
         before:left-0
         before:w-full
         before:h-full
-        before:bg-[url("../images/color-lights.png")]
+        before:bg-[url("../images/color-lights.png")] /*fallback*/
+        before:bg-[url("../images/color-lights.webp")]
         before:bg-top
         before:bg-no-repeat
         before:bg-contain
         before:md:bg-cover
-        before:-z-10
+        before:-z-10;
     }
 
     .site-header {
@@ -136,6 +138,27 @@
         bg-no-repeat
         bg-contain
         my-2
-        -indent-96
+        -indent-96;
+    }
+
+    #menu-toggle-btn {
+        @apply h-10 w-10 items-center justify-center;
+    }
+
+    #menu-toggle-btn span {
+        @apply text-[32px];
+    }
+
+    .is-open #menu-toggle-btn,
+    .is-open .site-logo {
+        @apply z-10;
+    }
+
+    .is-open .site-menu {
+        @apply !block absolute top-0 left-0 w-full bg-tan z-0 h-full;
+    }
+
+    .is-open .site-menu ul {
+        @apply flex-col gap-12 mt-[120px];
     }
 }
