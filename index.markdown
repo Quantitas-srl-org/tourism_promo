@@ -1,5 +1,6 @@
 ---
 layout: home
+###
 hero-h1: Analizza, valuta e prendi decisioni <em>data driven</em>
 hero-subtitle:  Con la <strong class="text-gradient">Quantitas Tourism Intelligence</strong> puoi gestire la tua DMO partendo dai tuoi dati più importanti.
 hero-p1: >-

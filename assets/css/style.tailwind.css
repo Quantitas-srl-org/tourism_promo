@@ -70,8 +70,9 @@
     }
 
     .text-gradient {
-        @apply gradient-primary inline-block text-transparent bg-clip-text;
+        @apply gradient-primary inline text-transparent bg-clip-text;
     }
+
     .wrapper {
         @apply w-full max-w-screen-xl px-2 mx-auto md:px-4;
     }
@@ -129,7 +130,7 @@
     }
 
     .site-header.is-sticky {
-        @apply !bg-false-white shadow-xl;
+        @apply !bg-false-white shadow-xl z-50;
     }
 
     .site-menu a {
@@ -167,5 +168,45 @@
 
     .is-open .site-menu ul {
         @apply flex-col gap-12 mt-[120px];
+    }
+
+    .decorative-image {
+        @apply absolute bg-no-repeat bg-contain z-[-1];
+    }
+
+    .decorative-image.water {
+        @apply
+        bg-[url("../images/water.png")] /*fallback*/
+        bg-[url("../images/water.webp")]
+        md:w-[372px]
+        md:h-[304px]
+        sm:w-[281px]
+        sm:h-[277px]
+        w-[201px]
+        h-[167px]
+    }
+
+    .decorative-image.nature {
+        @apply
+        bg-[url("../images/nature.png")] /*fallback*/
+        bg-[url("../images/nature.webp")]
+        md:w-[274px]
+        md:h-[178px]
+        sm:w-[214px]
+        sm:h-[138px]
+        w-[164px]
+        h-[98px]
+    }
+
+    .decorative-image.city {
+        @apply
+        bg-[url("../images/city.png")] /*fallback*/
+        bg-[url("../images/city.webp")]
+        md:w-[370px]
+        md:h-[323px]
+        sm:w-[300px]
+        sm:h-[273px]
+        w-[200px]
+        h-[186px];
     }
 }
