@@ -69,6 +69,9 @@
         @apply bg-gradient-to-t from-primary to-primary-dark
     }
 
+    .text-gradient {
+        @apply gradient-primary inline-block text-transparent bg-clip-text;
+    }
     .wrapper {
         @apply w-full max-w-screen-xl px-2 mx-auto md:px-4;
     }
