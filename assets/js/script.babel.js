@@ -3,7 +3,8 @@
  */
 const menuToggleBtn = document.querySelector('#menu-toggle-btn'),
   siteHeader = document.querySelector('.site-header'),
-  icon = menuToggleBtn.querySelector('span');
+  icon = menuToggleBtn.querySelector('span'),
+  slider = document.querySelector('.slider');
 
 /**
  * Header
@@ -39,15 +40,30 @@ const header = {
         siteHeader.classList.remove('is-sticky');
       }
     })
+    document.addEventListener('load', event => {
+      if (window.scrollY > 32) {
+        siteHeader.classList.add('is-sticky');
+      }
+    })
   }
 }
 
-/*const components = {
-  componentsFunction: () => {
-    console.log('component works!')
+const components = {
+  scrollDrivenAnimation: () => {
+    slider.animate(
+      {transform: ['translateX(0)', 'translateX(-600px)']},
+      {
+        fill: 'both',
+        timeline: new ScrollTimeline({
+          source: document.documentElement,
+        }),
+        rangeStart: new CSSUnitValue(0, 'px'),
+        rangeEnd: new CSSUnitValue(1200, 'px'),
+      });
   },
-}*/
+}
 
 header.siteMenuToggle();
 header.keyPressEscToCloseMenu();
 header.setStickyHeaderStyle();
+components.scrollDrivenAnimation();

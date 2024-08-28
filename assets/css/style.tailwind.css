@@ -69,12 +69,23 @@
         @apply bg-gradient-to-t from-primary to-primary-dark
     }
 
+    .gradient-tan {
+        @apply bg-gradient-to-b from-tan to-tan-dark
+    }
+
     .text-gradient {
         @apply gradient-primary inline text-transparent bg-clip-text;
     }
 
     .wrapper {
         @apply w-full max-w-screen-xl px-2 mx-auto md:px-4;
+    }
+
+    .emboss {
+        box-shadow: -3px 3px 8px 0 rgba(0, 0, 0, 0.30),
+        -1px 1px 2px 0 rgba(0, 0, 0, 0.40),
+        inset 2px -2px 4px 0 rgba(0, 0, 0, 0.35),
+        inset -2px 2px 5px 0 #FFF;
     }
 }
 
@@ -126,11 +137,11 @@
     }
 
     .site-header {
-        @apply transition-all duration-300 py-5 bg-gradient-to-b from-false-white to-transparent sticky top-0;
+        @apply transition-all duration-300 py-5 bg-gradient-to-b from-false-white to-transparent sticky top-0 z-50;
     }
 
     .site-header.is-sticky {
-        @apply !bg-false-white shadow-xl z-50;
+        @apply !bg-false-white shadow-xl;
     }
 
     .site-menu a {
@@ -208,5 +219,24 @@
         sm:h-[273px]
         w-[200px]
         h-[186px];
+    }
+
+    .card {
+        @apply
+        p-4
+        rounded-2xl
+        gradient-tan
+        inline-flex
+        flex-col
+        gap-2
+        emboss;
+    }
+
+    .card.is-light {
+        @apply bg-false-white bg-none;
+    }
+
+    .slider .card img {
+        @apply h-[280px] md:h-[360px] w-auto;
     }
 }

@@ -1,6 +1,6 @@
-<header class="wrapper md:flex md:gap-6 justify-between items-center mt-36 sm:mt-48 md:mt-52 mb-12">
+<header class="wrapper md:flex md:gap-6 justify-between items-center mt-36 sm:mt-48 md:mt-52 mb-6">
     {% include home-hero-cover.html %}
-    <div class="basis-1/2 mb-8 md:mb-0">
+    <div class="md:basis-1/2 mb-8 md:mb-0">
         <h1 class="text-4xl md:text-5xl font-bold text-gradient">
             {{ page.hero-h1 }}
         </h1>
@@ -8,7 +8,7 @@
             {{ page.hero-subtitle }}
         </p>
     </div>
-    <div class="basis-1/2 space-y-2">
+    <div class="md:basis-1/2 space-y-2">
         <p>
             {{ page.hero-p1 }}
         </p>
@@ -21,3 +21,5 @@
         <a href="#" class="btn">{{ page.hero-cta }}</a>
     </div>
 </header>
+
+{% include home-hero-slider.html %}
