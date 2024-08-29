@@ -1,6 +1,6 @@
 <header class="wrapper relative md:flex md:gap-6 justify-between items-center pt-36 sm:pt-48 md:pt-52 pb-6">
     {% include home-hero-cover.html %}
-    <div class="md:basis-1/2 mb-8 md:mb-0">
+    <div class="md:basis-1/2 mb-8 md:mb-0 animation move-in-left">
         <h1 class="text-4xl md:text-5xl font-bold text-gradient">
             {{ page.hero-h1 }}
         </h1>
@@ -9,16 +9,16 @@
         </p>
     </div>
     <div class="md:basis-1/2 space-y-2">
-        <p>
+        <p class="animation fade-in">
             {{ page.hero-p1 }}
         </p>
-        <p>
+        <p class="animation fade-in">
             {{ page.hero-p2 }}
         </p>
-        <p class="pb-6">
+        <p class="pb-6 animation fade-in" >
             {{ page.hero-p3 }}
         </p>
-        <a href="#" class="btn">{{ page.hero-cta }}</a>
+        <a href="#" class="btn animation move-in-right">{{ page.hero-cta }}</a>
     </div>
 </header>
 {% include home-hero-slider.html %}

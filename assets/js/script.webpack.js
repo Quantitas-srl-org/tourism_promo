@@ -3,8 +3,7 @@ import * as focusTrap from 'focus-trap';
 /**
  * DOM elements
  */
-const menuToggleBtn = document.querySelector('#menu-toggle-btn'),
-  siteHeader = document.querySelector('.site-header'),
+const menuToggleBtn = document.querySelector('#menu-toggle-btn'), siteHeader = document.querySelector('.site-header'),
   icon = menuToggleBtn.querySelector('span'),
   imageStrategy = document.querySelector('.scroll-animation-strategy').querySelector('img'),
   slider = document.querySelector('.slider');
@@ -20,8 +19,7 @@ const header = {
     menuToggleBtn.setAttribute('aria-label', 'Apri il menù');
     menuToggleBtn.setAttribute('aria-expanded', 'false');
     trap.deactivate();
-  },
-  siteMenuToggle: () => {
+  }, siteMenuToggle: () => {
     menuToggleBtn.addEventListener('click', () => {
       siteHeader.classList.toggle('is-open');
       if (siteHeader.classList.contains('is-open')) {
@@ -33,16 +31,14 @@ const header = {
         header.siteMenuClose();
       }
     })
-  },
-  keyPressEscToCloseSiteMenu: () => {
+  }, keyPressEscToCloseSiteMenu: () => {
     document.addEventListener('keyup', (event) => {
       if (event.key === 'Escape') {
         siteHeader.classList.remove('is-open');
         header.siteMenuClose();
       }
     })
-  },
-  setStickyHeaderStyle: () => {
+  }, setStickyHeaderStyle: () => {
     document.addEventListener('scroll', () => {
       if (window.scrollY > 32) {
         siteHeader.classList.add('is-sticky');
@@ -58,25 +54,18 @@ const header = {
   }
 }
 
-
 const components = {
   scrollDrivenAnimations: () => {
-    slider.animate(
-      {transform: ['translateX(0)', 'translateX(-600px)']},
-      {
-        fill: 'both',
-        timeline: new ScrollTimeline({
-          source: document.documentElement,
-        })
-      });
-    imageStrategy.animate(
-      {transform: ['rotate(0)', 'rotate(360deg)']},
-      {
-        fill: 'both',
-        timeline: new ScrollTimeline({
-          source: document.documentElement,
-        })
-      });
+    slider.animate({transform: ['translateX(0)', 'translateX(-600px)']}, {
+      fill: 'both', timeline: new ScrollTimeline({
+        source: document.documentElement,
+      })
+    });
+    imageStrategy.animate({transform: ['rotate(0)', 'rotate(360deg)']}, {
+      fill: 'both', timeline: new ScrollTimeline({
+        source: document.documentElement,
+      })
+    });
   }
 }
 
