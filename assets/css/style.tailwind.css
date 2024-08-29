@@ -71,7 +71,7 @@
     }
 
     .text-gradient {
-        @apply gradient-primary inline text-transparent bg-clip-text;
+        @apply gradient-primary inline-block text-transparent bg-clip-text;
     }
 
     .wrapper {
@@ -84,6 +84,7 @@
         inset 2px -2px 4px 0 rgba(0, 0, 0, 0.35),
         inset -2px 2px 5px 0 #FFF;
     }
+
     body {
         @apply text-black text-base md:text-lg;
     }
@@ -297,8 +298,11 @@
         rounded
         inline-flex
         items-center
+        w-full
+        justify-center
         text-center
-        text-xl
+        text-lg
+        md:text-xl
         font-bold;
     }
 }
@@ -316,6 +320,10 @@
 
     .move-in-right {
         animation-name: moveInRight;
+    }
+
+    .move-in-bottom {
+        animation-name: moveInBottom;
     }
 
     .fade-in {
@@ -364,6 +372,18 @@
 
     100% {
         opacity: 1;
+    }
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
 

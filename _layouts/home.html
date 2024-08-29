@@ -4,7 +4,7 @@ layout: default
 {% include home-hero.html %}
 
 <section class="wrapper !max-w-[920px] py-16">
-    <h2 class="text-gradient text-4xl font-bold">
+    <h2 class="text-gradient text-3xl md:text-4xl font-bold">
         {{ page.section-a-h2 }}
     </h2>
     <div class="max-w-screen-sm m-auto mt-6 space-y-4">
@@ -28,7 +28,7 @@ layout: default
         <span class="absolute overflow-x-hidden w-full h-screen top-[-175px] left-0" aria-hidden="true">
             <span class="decorative-image city top-0 right-[-60px] z-10 !w-[360px] !h-[323px]"></span>
         </span>
-        <div class="md:basis-1/2 mb-8 md:mb-0">
+        <div class="md:basis-1/2 mb-8 md:mb-0 relative z-10">
             <ul class="block-list grid grid-cols-2 gap-6">
                 <li>{{ page.section-b-list-1 }}</li>
                 <li>{{ page.section-b-list-2 }}</li>
@@ -39,8 +39,8 @@ layout: default
                 {{ page.section-b-list-p }}
             </p>
         </div>
-        <div class="md:basis-1/2 space-y-2">
-            <h2 class="text-accent font-bold text-4xl pb-2">
+        <div class="md:basis-1/2 space-y-2 relative z-10">
+            <h2 class="text-accent font-bold text-3xl md:text-4xl pb-2">
                 {{ page.section-b-h2 }}
             </h2>
             <p>
@@ -58,7 +58,7 @@ layout: default
 
 <section class="wrapper py-16">
     <div class="max-w-3xl text-center mb-16 mx-auto space-y-4">
-        <h2 class="text-gradient text-5xl font-bold">
+        <h2 class="text-gradient text-4xl md:text-5xl font-bold">
             {{ page.section-c-h2 }}
         </h2>
         <p class="text-3xl">
@@ -71,7 +71,7 @@ layout: default
     <ol class="space-y-12">
         <li class="md:flex items-center">
             <div class="md:basis-1/2 mb-6 md:mb-0 mr-0 md:mr-6">
-                <h3 class="text-5xl text-gradient font-bold">
+                <h3 class="text-4xl md:text-5xl text-gradient font-bold">
                     {{ page.section-c-list-1-h3 }}
                 </h3>
                 <p class="mb-2 mt-6">
@@ -87,7 +87,7 @@ layout: default
         </li>
         <li class="md:flex md:flex-row-reverse md:-space-x-6 items-center">
             <div class="md:basis-1/2 mb-6 md:mb-0 ml-0 md:ml-6">
-                <h3 class="text-5xl text-gradient font-bold">
+                <h3 class="text-4xl md:text-5xl text-gradient font-bold">
                     {{ page.section-c-list-2-h3 }}
                 </h3>
                 <p class="mb-2 mt-6">

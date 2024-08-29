@@ -2,7 +2,7 @@
 layout: home
 ###
 hero-h1: Analizza, valuta e prendi decisioni <em>data driven</em>
-hero-subtitle: Con la <strong class="text-gradient">Quantitas Tourism Intelligence</strong> puoi gestire la tua DMO partendo dai tuoi dati più importanti.
+hero-subtitle: Con la <strong class="text-gradient !inline">Quantitas Tourism Intelligence</strong> puoi gestire la tua DMO partendo dai tuoi dati più importanti.
 hero-p1: >-
   Il nostro team costruisce ad hoc per la tua DMO <strong>soluzioni e narrazioni integrate di dati per
   rispondere alle domande sul tuo territorio</strong> e sul mercato del turismo.
