@@ -256,7 +256,7 @@
     }
 
     .card.is-light {
-        @apply bg-false-white bg-none;
+        @apply bg-false-white bg-none w-full;
     }
 
     .slider .card img {
@@ -301,4 +301,20 @@
         text-xl
         font-bold;
     }
+
+    .slider {
+        animation-name: slider;
+        animation-timeline: scroll();
+        animation-timing-function: linear;
+    }
 }
+
+@keyframes slider {
+    from {
+        transform: translateX(0)
+    }
+    to {
+        transform: translateX(-600px)
+    }
+}
+

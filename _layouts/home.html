@@ -26,7 +26,7 @@ layout: default
 <section class="section-gradient py-14">
     <div class="wrapper md:flex md:space-x-6 relative">
         <span class="absolute overflow-x-hidden w-full h-screen top-[-175px] left-0" aria-hidden="true">
-            <span class="decorative-image city top-0 right-[-60px] z-10 !w-[320px] !h-[283px]"></span>
+            <span class="decorative-image city top-0 right-[-60px] z-10 !w-[360px] !h-[323px]"></span>
         </span>
         <div class="md:basis-1/2 mb-8 md:mb-0">
             <ul class="block-list grid grid-cols-2 gap-6">
@@ -54,4 +54,54 @@ layout: default
             </div>
         </div>
     </div>
+</section>
+
+<section class="wrapper py-16">
+    <div class="max-w-3xl text-center mb-16 mx-auto">
+        <h2 class="text-gradient text-5xl font-bold">
+            {{ page.section-c-h2 }}
+        </h2>
+        <div class="mt-6 space-y-4">
+            <p class="text-3xl">
+                {{ page.section-c-p-1 }}
+            </p>
+            <p class="font-bold text-3xl text-primary">
+                {{ page.section-c-p-2 }}
+            </p>
+        </div>
+    </div>
+    <ol class="space-y-12">
+        <li class="md:flex items-center">
+            <div class="md:basis-1/2 mb-6 md:mb-0 mr-0 md:mr-6">
+                <h3 class="text-5xl text-gradient font-bold">
+                    {{ page.section-c-list-1-h3 }}
+                </h3>
+                <p class="mb-2 mt-6">
+                    {{ page.section-c-list-1-p-1 }}
+                </p>
+                <p>
+                    {{ page.section-c-list-1-p-2 }}
+                </p>
+            </div>
+            <div class="md:basis-1/2 scroll-animation-strategy">
+                {% include card.html img='/assets/images/route-strategy.png' alt='...' is-light='true' %}
+            </div>
+        </li>
+        <li class="md:flex md:flex-row-reverse md:-space-x-6 items-center">
+            <div class="md:basis-1/2 mb-6 md:mb-0 ml-0 md:ml-6">
+                <h3 class="text-5xl text-gradient font-bold">
+                    {{ page.section-c-list-2-h3 }}
+                </h3>
+                <p class="mb-2 mt-6">
+                    {{ page.section-c-list-2-p-1 }}
+                </p>
+                <p>
+                    {{ page.section-c-list-2-p-2 }}
+                </p>
+            </div>
+            <div class="md:basis-1/2">
+                {% include card.html img='/assets/images/route-analysis.png' alt='...' is-light='true' %}
+            </div>
+        </li>
+    </ol>
 </section>

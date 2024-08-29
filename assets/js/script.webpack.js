@@ -6,6 +6,7 @@ import * as focusTrap from 'focus-trap';
 const menuToggleBtn = document.querySelector('#menu-toggle-btn'),
   siteHeader = document.querySelector('.site-header'),
   icon = menuToggleBtn.querySelector('span'),
+  imageStrategy = document.querySelector('.scroll-animation-strategy').querySelector('img'),
   slider = document.querySelector('.slider');
 
 const trap = focusTrap.createFocusTrap('#site-header', {});
@@ -57,22 +58,31 @@ const header = {
   }
 }
 
+
 const components = {
-  scrollDrivenAnimation: () => {
+  scrollDrivenAnimations: () => {
     slider.animate(
       {transform: ['translateX(0)', 'translateX(-600px)']},
       {
         fill: 'both',
         timeline: new ScrollTimeline({
           source: document.documentElement,
-        }),
-        rangeStart: new CSSUnitValue(0, 'px'),
-        rangeEnd: new CSSUnitValue(1200, 'px'),
+        })
       });
-  },
+    imageStrategy.animate(
+      {transform: ['rotate(0)', 'rotate(360deg)']},
+      {
+        fill: 'both',
+        timeline: new ScrollTimeline({
+          source: document.documentElement,
+        })
+      });
+  }
 }
 
-header.siteMenuToggle();
-header.keyPressEscToCloseSiteMenu();
-header.setStickyHeaderStyle();
-components.scrollDrivenAnimation();
+document.addEventListener('DOMContentLoaded', () => {
+  header.siteMenuToggle();
+  header.keyPressEscToCloseSiteMenu();
+  header.setStickyHeaderStyle();
+  components.scrollDrivenAnimations();
+})

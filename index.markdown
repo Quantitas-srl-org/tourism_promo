@@ -40,4 +40,27 @@ section-b-list-2: Ottimizzare il proprio funzionamento
 section-b-list-3: Informare il processo decisionale
 section-b-list-4: Affinare le proprie strategie
 section-b-list-p: Solo con i <strong class="text-accent">dati veri</strong> puoi prendere le <strong class="text-accent">decisioni giuste</strong>
+
+section-c-h2: Facciamo la strada insieme a te
+section-c-p-1: dalla strategia <strong><em>Data driven</strong></em> alla costruzione del <strong><em>Data Management Plan</strong></em>.
+section-c-p-2: Un approccio scientifico composto da 4 fasi
+section-c-list-1-h3: Strategia
+section-c-list-1-p-1: >-
+  In questa fase verranno definiti ruoli, procedure, componenti tecnologiche necessarie, architetture, data policy e l'insieme di tutte le attività 
+  associate alla gestione e alla governance dei dati della Destinazione.
+section-c-list-1-p-2: L'output di questa fase sarà il documento di Data Management Plan (DMP) della destinazione.
+section-c-list-2-h3: Data Management Plan Data Analysis e Data Management
+section-c-list-2-p-1: >-
+  In questa fase saremo di supporto alla Destinazione nella scelta o sviluppo degli strumenti informatici e suoi componenti studiati su misura sulla base delle
+  sue necessità. Alcune delle componenti potranno essere già adottate e in uso dalla Destinazione, e in questo caso si provvederà a una loro implementazione 
+  in modo conforme alle diverse tecnologie coinvolte.
+section-c-list-2-p-2: >-
+  Per questa fase Quantitas valorizzerà ogni singola componente sulla base di quanto definito nella fase progettuale. Le singole componenti possono essere
+  sviluppate direttamente da Quantitas nella loro totalità, oppure prevedere eventuale integrazione di componenti realizzate da altri fornitori.
+section-c-list-3-h3:
+section-c-list-3-p-1: >-
+section-c-list-3-p-2: >-
+section-c-list-4-h3:
+section-c-list-4-p-1: >-
+section-c-list-4-p-2: >-
 ---
