@@ -45,7 +45,7 @@ language: "it"
 # their entries' file path in the `include:` list.
 #
 exclude:
-  - assets/js/script.babel.js
+  - assets/js/script.webpack.js
   - assets/css/style.tailwind.css
   - tailwind.config.js
   - package.json

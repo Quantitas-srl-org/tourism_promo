@@ -25,11 +25,13 @@ const header = {
     })
   },
   keyPressEscToCloseMenu: () => {
-    document.addEventListener('keypress', (event) => {
+    document.addEventListener('keyup', (event) => {
       if (event.key === 'Escape') {
         siteHeader.classList.remove('is-open');
+        icon.innerHTML = 'menu';
+        menuToggleBtn.setAttribute('aria-label', 'Apri il menù');
+        menuToggleBtn.setAttribute('aria-expanded', 'false');
       }
-      console.log(event.key)
     })
   },
   setStickyHeaderStyle: () => {

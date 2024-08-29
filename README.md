@@ -1,5 +1,5 @@
 # Quantitas Tourism Promo Landing page
-Benvenuto! Questo ambiente di sviluppo si basa su **Jekyll** con **Babel** per la compilazione del Vanilla JS e **Tailwind** per lo stile.
+Benvenuto! Questo ambiente di sviluppo si basa su **Jekyll** con **Webpack** per la compilazione del Vanilla JS e **Tailwind** per lo stile CSS.
 
 ### Installazione
 1. Per eseguire l'applicazione in locale è necessario installare **Ruby Gem**. Segui la guida relativa al tuo sistema operativo che trovi a [questo link](https://jekyllrb.com/docs/installation/) 
@@ -14,3 +14,5 @@ Per compilare CSS e JS eseguire i seguenti comandi:
 
 - CSS: `npm run css`
 - JS: `npm run js`
+
+_Nota:_ Webpack è configurato in `mode=production`, per usare la modalità sviluppo puoi aggiornare `webpack.confsig.js`
