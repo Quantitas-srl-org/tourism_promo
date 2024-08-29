@@ -17,7 +17,7 @@ module.exports = {
       'tan': '#EBE8E3',
       'tan-dark': '#B6B6B4',
       'accent': '#3FFD6A',
-      'primary-dark': '#12275C', //'#13285E',
+      'primary-dark': '#13285E',
       'primary': '#1157AD',
       'secondary': '#00BD2B',
       'secondary-dark': '#005536',

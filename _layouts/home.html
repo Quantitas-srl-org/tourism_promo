@@ -2,5 +2,56 @@
 layout: default
 ---
 {% include home-hero.html %}
-<div class="h-[2000px]">
-</div>
+
+<section class="wrapper !max-w-[920px] py-16">
+    <h2 class="text-gradient text-4xl font-bold">
+        {{ page.section-a-h2 }}
+    </h2>
+    <div class="max-w-screen-sm m-auto mt-6 space-y-4">
+        <p>
+            {{ page.section-a-p-1 }}
+        </p>
+        <p>
+            {{ page.section-a-p-2 }}
+        </p>
+        <p>
+            {{ page.section-a-p-3 }}
+        </p>
+        <div class="flex justify-end">
+            <a href="#" class="btn">{{ page.section-a-cta }}</a>
+        </div>
+    </div>
+</section>
+
+<section class="section-gradient py-14">
+    <div class="wrapper md:flex md:space-x-6 relative">
+        <span class="absolute overflow-x-hidden w-full h-screen top-[-175px] left-0" aria-hidden="true">
+            <span class="decorative-image city top-0 right-[-60px] z-10 !w-[320px] !h-[283px]"></span>
+        </span>
+        <div class="md:basis-1/2 mb-8 md:mb-0">
+            <ul class="block-list grid grid-cols-2 gap-6">
+                <li>{{ page.section-b-list-1 }}</li>
+                <li>{{ page.section-b-list-2 }}</li>
+                <li>{{ page.section-b-list-3 }}</li>
+                <li>{{ page.section-b-list-4 }}</li>
+            </ul>
+            <p class="text-2xl text-center mt-6">
+                {{ page.section-b-list-p }}
+            </p>
+        </div>
+        <div class="md:basis-1/2 space-y-2">
+            <h2 class="text-accent font-bold text-4xl pb-2">
+                {{ page.section-b-h2 }}
+            </h2>
+            <p>
+                {{ page.section-b-p-1 }}
+            </p>
+            <p>
+                {{ page.section-b-p-2 }}
+            </p>
+            <div class="flex justify-end pt-6">
+                <a href="#" class="btn btn-secondary">{{ page.section-b-cta }}</a>
+            </div>
+        </div>
+    </div>
+</section>

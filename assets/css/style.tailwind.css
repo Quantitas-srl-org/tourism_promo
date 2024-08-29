@@ -91,8 +91,7 @@
 
 @layer components {
     .btn {
-        @apply hover:border-accent
-        active:border-secondary-dark
+        @apply
         transition
         ease-in-out
         duration-300
@@ -110,7 +109,31 @@
         border-secondary
         font-bold
         tracking-[1.25px]
-        gradient-secondary;
+        gradient-secondary
+        hover:border-accent
+        active:border-secondary-dark;
+    }
+
+    .btn-secondary {
+        @apply
+        relative
+        bg-transparent
+        bg-none
+        border-[3px]
+        rounded-[48px]
+        border-transparent
+        duration-1000;
+        background: linear-gradient(#1157AD, #1157AD) padding-box,
+        linear-gradient(95deg, #3FFD6A 40%, white 50%, #3FFD6A 60%) border-box;
+    }
+
+    .btn-secondary:hover {
+        background: linear-gradient(#1157AD, #1157AD) padding-box,
+        linear-gradient(95deg, #3FFD6A 100%, white 100%, #3FFD6A 100%) border-box;
+    }
+
+    .btn-secondary:active {
+        @apply duration-100 border-primary-dark bg-none;
     }
 
     .site-bg {
@@ -238,5 +261,44 @@
 
     .slider .card img {
         @apply h-[280px] md:h-[360px] w-auto;
+    }
+
+    .section-gradient {
+        @apply
+        gradient-primary
+        relative
+        my-12
+        text-white
+        before:content-['']
+        before:absolute
+        before:top-[-63px]
+        before:left-0
+        before:w-full
+        before:h-[64px]
+        before:bg-[url("../images/wave-top.png")]
+        before:bg-repeat-x
+        before:bg-[length:1440px_64px]
+        after:content-['']
+        after:absolute
+        after:bottom-[-63px]
+        after:left-0
+        after:w-full
+        after:h-[64px]
+        after:bg-[url("../images/wave-bottom.png")]
+        after:bg-repeat-x
+        after:bg-[length:1440px_64px]
+    }
+
+    .block-list li {
+        @apply
+        border-4
+        border-white
+        p-4
+        rounded
+        inline-flex
+        items-center
+        text-center
+        text-xl
+        font-bold;
     }
 }
