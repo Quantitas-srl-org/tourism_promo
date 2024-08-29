@@ -6,3 +6,4 @@ vendor
 node_modules
 .idea
 .DS_Store
+assets/js/script.js.LICENSE.txt

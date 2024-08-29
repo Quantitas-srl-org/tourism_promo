@@ -12,6 +12,7 @@
   "author": "LC.D",
   "license": "ISC",
   "devDependencies": {
+    "focus-trap": "^7.5.4",
     "scroll-timeline-polyfill": "^1.1.0",
     "tailwindcss": "^3.4.10",
     "webpack": "^5.94.0",

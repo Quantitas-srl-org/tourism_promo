@@ -1,3 +1,5 @@
+import * as focusTrap from 'focus-trap';
+
 /**
  * DOM elements
  */
@@ -6,10 +8,18 @@ const menuToggleBtn = document.querySelector('#menu-toggle-btn'),
   icon = menuToggleBtn.querySelector('span'),
   slider = document.querySelector('.slider');
 
+const trap = focusTrap.createFocusTrap('#site-header', {});
+
 /**
  * Header
  */
 const header = {
+  siteMenuClose: () => {
+    icon.innerHTML = 'menu';
+    menuToggleBtn.setAttribute('aria-label', 'Apri il menù');
+    menuToggleBtn.setAttribute('aria-expanded', 'false');
+    trap.deactivate();
+  },
   siteMenuToggle: () => {
     menuToggleBtn.addEventListener('click', () => {
       siteHeader.classList.toggle('is-open');
@@ -17,32 +27,29 @@ const header = {
         icon.innerHTML = 'close';
         menuToggleBtn.setAttribute('aria-label', 'Chiudi il menù');
         menuToggleBtn.setAttribute('aria-expanded', 'true');
+        trap.activate();
       } else {
-        icon.innerHTML = 'menu';
-        menuToggleBtn.setAttribute('aria-label', 'Apri il menù');
-        menuToggleBtn.setAttribute('aria-expanded', 'false');
+        header.siteMenuClose();
       }
     })
   },
-  keyPressEscToCloseMenu: () => {
+  keyPressEscToCloseSiteMenu: () => {
     document.addEventListener('keyup', (event) => {
       if (event.key === 'Escape') {
         siteHeader.classList.remove('is-open');
-        icon.innerHTML = 'menu';
-        menuToggleBtn.setAttribute('aria-label', 'Apri il menù');
-        menuToggleBtn.setAttribute('aria-expanded', 'false');
+        header.siteMenuClose();
       }
     })
   },
   setStickyHeaderStyle: () => {
-    document.addEventListener('scroll', event => {
+    document.addEventListener('scroll', () => {
       if (window.scrollY > 32) {
         siteHeader.classList.add('is-sticky');
       } else {
         siteHeader.classList.remove('is-sticky');
       }
     })
-    document.addEventListener('load', event => {
+    document.addEventListener('load', () => {
       if (window.scrollY > 32) {
         siteHeader.classList.add('is-sticky');
       }
@@ -66,6 +73,6 @@ const components = {
 }
 
 header.siteMenuToggle();
-header.keyPressEscToCloseMenu();
+header.keyPressEscToCloseSiteMenu();
 header.setStickyHeaderStyle();
 components.scrollDrivenAnimation();
