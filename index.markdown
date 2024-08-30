@@ -57,10 +57,17 @@ section-c-list-2-p-1: >-
 section-c-list-2-p-2: >-
   Per questa fase Quantitas valorizzerà ogni singola componente sulla base di quanto definito nella fase progettuale. Le singole componenti possono essere
   sviluppate direttamente da Quantitas nella loro totalità, oppure prevedere eventuale integrazione di componenti realizzate da altri fornitori.
-section-c-list-3-h3:
-section-c-list-3-p-1: >-
+section-c-list-3-h3: Competenze
+section-c-list-3-p-1: >- 
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 section-c-list-3-p-2: >-
-section-c-list-4-h3:
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+section-c-list-4-h3: Implementazione degli strumenti tecnologici
 section-c-list-4-p-1: >-
+  In questa fase saremo di supporto alla Destinazione nella scelta o sviluppo degli strumenti informatici e suoi componenti studiati su misura sulla base
+  delle sue necessità. Alcune delle componenti potranno essere già adottate e in uso dalla Destinazione, e in questo caso si provvederà a una loro implementazione in modo conforme alle diverse tecnologie coinvolte.
 section-c-list-4-p-2: >-
+  Per questa fase Quantitas valorizzerà ogni singola componente sulla base di quanto definito nella fase progettuale. Le singole componenti possono essere sviluppate direttamente dal nostro team nella loro totalità,
+  oppure prevedere eventuale integrazione di componenti realizzate da altri fornitori.
+section-c-cta: Inizia ora la trasformazione
 ---

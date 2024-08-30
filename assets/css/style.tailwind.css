@@ -51,6 +51,13 @@
         font-style: italic;
         font-display: swap;
     }
+    body {
+        @apply text-black text-base md:text-lg;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        line-height: 120% !important;
+    }
 }
 
 @layer utilities {
@@ -85,9 +92,6 @@
         inset -2px 2px 5px 0 #FFF;
     }
 
-    body {
-        @apply text-black text-base md:text-lg;
-    }
 }
 
 @layer components {
@@ -243,6 +247,34 @@
         sm:h-[273px]
         w-[200px]
         h-[186px];
+    }
+
+    .decorative-image.bg-blur-1 {
+        @apply
+        bg-[url("../images/bg-blur-1.png")]
+        w-[532px]
+        h-[882px];
+    }
+
+    .decorative-image.bg-blur-2 {
+        @apply
+        bg-[url("../images/bg-blur-2.png")]
+        w-[478px]
+        h-[766px];
+    }
+
+    .decorative-image.bg-blur-3 {
+        @apply
+        bg-[url("../images/bg-blur-3.png")]
+        w-[421px]
+        h-[813px];
+    }
+
+    .decorative-image.bg-blur-4 {
+        @apply
+        bg-[url("../images/bg-blur-4.png")]
+        w-[588px]
+        h-[843px];
     }
 
     .card {
