@@ -7,11 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "bundle exec jekyll serve --livereload",
     "css": "npx tailwindcss -i ./assets/css/style.tailwind.css -o assets/css/style.css --watch --minify",
-    "js": "npx webpack --config webpack.config.js --watch"
+    "js": "npx webpack --config webpack.config.js --watch",
+    "dev": "concurrently \"npm run css\" \"npm run js\" \"npm run build\""
   },
   "author": "LC.D",
   "license": "ISC",
   "devDependencies": {
+    "concurrently": "^8.2.2",
     "focus-trap": "^7.5.4",
     "tailwindcss": "^3.4.10",
     "webpack": "^5.94.0",

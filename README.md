@@ -1,3 +1,5 @@
+![Quantitas Logo](./assets/images/quantitas-logo.svg)
+
 # Quantitas Tourism Promo Landing page
 Benvenuto! Questo ambiente di sviluppo si basa su **Jekyll** con **Webpack** per la compilazione del Vanilla JS e **Tailwind** per lo stile CSS.
 
@@ -15,4 +17,10 @@ Per compilare CSS e JS eseguire i seguenti comandi:
 - CSS: `npm run css`
 - JS: `npm run js`
 
-_Nota:_ Webpack è configurato in `mode=production`, per usare la modalità sviluppo puoi aggiornare `webpack.confsig.js`
+Puoi eseguire tutti i comandi contemporaneamente lanciando `npm run dev` che sfrutta Concurrently per eseguire insieme `npm run css & npm run js & npm run build`
+
+**TODO:** 
+
+Webpack è configurato in `mode=development`, per l'ambiente di produzione aggiornare `webpack.config.js` a `mode=production`.
+
+Jekyll è configurato con `debug: true`, per l'ambiente di produzione aggiornare `_config.yml` mettendo `false` a debug.
