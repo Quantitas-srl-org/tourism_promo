@@ -6,7 +6,8 @@ import * as focusTrap from 'focus-trap';
 const menuToggleBtn = document.querySelector('#menu-toggle-btn'), siteHeader = document.querySelector('.site-header'),
   icon = menuToggleBtn.querySelector('span'),
   imageStrategy = document.querySelector('.scroll-animation-strategy').querySelector('img'),
-  slider = document.querySelector('.slider');
+  slider = document.querySelector('.slider'),
+  accordionBtn = document.querySelectorAll('.accordion-btn');
 
 const trap = focusTrap.createFocusTrap('#site-header', {});
 
@@ -66,6 +67,28 @@ const components = {
         source: document.documentElement,
       })
     });
+  },
+  accordion: () => {
+    accordionBtn.forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const panelId = btn.getAttribute('aria-controls'),
+          id = btn.getAttribute('data-id'),
+          panel = document.getElementById(panelId),
+          icon = btn.querySelector('.material-symbols-outlined'),
+          wrapper = document.querySelector('.accordion-wrapper-' + id);
+        console.log(wrapper)
+        panel.classList.toggle('hidden');
+        const isOpen = !panel.classList.contains('hidden');
+        btn.setAttribute('aria-expanded', isOpen.toString());
+        if (isOpen) {
+          wrapper.classList.add('border-2')
+          icon.innerHTML = 'keyboard_arrow_up'
+        } else {
+          wrapper.classList.remove('border-2')
+          icon.innerHTML = 'keyboard_arrow_down'
+        }
+      })
+    })
   }
 }
 
@@ -74,4 +97,5 @@ document.addEventListener('DOMContentLoaded', () => {
   header.keyPressEscToCloseSiteMenu();
   header.setStickyHeaderStyle();
   components.scrollDrivenAnimations();
+  components.accordion();
 })

@@ -1,0 +1,27 @@
+<section class="wrapper !max-w-screen-md py-16">
+    <h2 class="text-4xl md:text-5xl mb-6">
+        <small class="text-base">{{ page.faq-small }}</small><br>
+        <span class="font-bold text-gradient">{{ page.faq-h2 }}</span>
+    </h2>
+    <ul class="faq space-y-6">
+        <!--<span class="border-2"></span>>-->
+        {% for faq in site.faqs %}
+        <li class="bg-white border border-primary rounded block accordion-wrapper-{{ forloop.index }}">
+            <h3>
+                <button type="button" id="accordion-btn-{{ forloop.index }}"
+                        class="accordion-btn flex justify-between items-center font-bold w-full py-4 px-6"
+                        data-id="{{ forloop.index }}"
+                        aria-controls="accordion-panel-{{ forloop.index }}"
+                        aria-expanded="false">
+                    <span>{{ faq.question }}</span>
+                    <span class="material-symbols-outlined text-primary">keyboard_arrow_down</span>
+                </button>
+            </h3>
+            <div role="region" id="accordion-panel-{{ forloop.index }}" class="accordion-panel pt-2 pb-4 px-6 hidden"
+                 aria-labelledby="accordion-btn-{{ forloop.index }}">
+                {{ faq.answer }}
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</section>

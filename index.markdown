@@ -95,4 +95,7 @@ section-e-h2: Gli esperti dei Big data sul Turismo
 section-e-p-1: La nostra azienda integra molteplici fonti dati di settore <strong>elaborati, integrati, analizzati e interpretati</strong>.
 section-e-p-2: Creiamo narrazioni dinamiche <strong>dall’alto impatto visivo</strong> che aiutano le DMO nell’analisi del territorio, nel fare management e nel <strong>prendere decisioni strategiche</strong>.
 section-e-cta: Scopri di più su Quantitas
+#FAQ
+faq-h2: FAQs
+faq-small: Hai qualche domanda?
 ---
