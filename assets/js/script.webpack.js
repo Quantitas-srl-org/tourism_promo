@@ -6,7 +6,6 @@ import * as focusTrap from 'focus-trap';
 const menuToggleBtn = document.querySelector('#menu-toggle-btn'), siteHeader = document.querySelector('.site-header'),
   icon = menuToggleBtn.querySelector('span'),
   imageStrategy = document.querySelector('.scroll-animation-strategy').querySelector('img'),
-  imageScheme = document.querySelector('.scroll-animation-scheme').querySelector('span'),
   slider = document.querySelector('.slider');
 
 const trap = focusTrap.createFocusTrap('#site-header', {});
@@ -58,22 +57,15 @@ const header = {
 const components = {
   scrollDrivenAnimations: () => {
     slider.animate({transform: ['translateX(0)', 'translateX(-600px)']}, {
-      fill: 'both', timeline: new ScrollTimeline({
+      timeline: new ScrollTimeline({
         source: document.documentElement,
       })
     });
     imageStrategy.animate({transform: ['rotate(0)', 'rotate(360deg)']}, {
-      fill: 'both', timeline: new ScrollTimeline({
+      timeline: new ScrollTimeline({
         source: document.documentElement,
       })
     });
-   /*
-    imageScheme.animate({transform: ['translateY(0)', 'translateY(100px)']}, {
-      fill: 'both', timeline: new ScrollTimeline({
-        source: document.documentElement,
-      })
-    });
-    */
   }
 }
 
