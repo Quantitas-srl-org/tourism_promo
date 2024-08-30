@@ -1,6 +1,6 @@
 ---
 layout: home
-###
+#Hero
 hero-h1: Analizza, valuta e prendi decisioni <em>data driven</em>
 hero-subtitle: Con la <strong class="text-gradient !inline">Quantitas Tourism Intelligence</strong> puoi gestire la tua DMO partendo dai tuoi dati più importanti.
 hero-p1: >-
@@ -14,7 +14,7 @@ hero-p3: >-
   globale e ti <strong>affianchiamo nell’interpretazione dei risultati e delle tendenze</strong>. Prendi
   decisioni aziendali e politiche sicure, <strong>basate sui tuoi dati sul turismo e sul territorio</strong>.
 hero-cta: Dai potere ai tuoi dati
-
+#Section A
 section-a-h2: >-
   Tourism Intelligence: la leva per lo sviluppo sostenibile e la competitività della Destinazione
 section-a-p-1: >-
@@ -26,7 +26,7 @@ section-a-p-2: >-
 section-a-p-3: >-
   <strong>Ti affianchiamo sia nel trovare le risposte a partire dai dati, sia nella costruzione di una strategia basata su questi dati.</strong>
 section-a-cta: Diventa una dmo sostenibile
-
+#Section B
 section-b-h2: Fianco a fianco per tutto il precorso
 section-b-p-1: >-
   Quantitas ti supporta durante tutto il percorso, aiutandoti a identificare lo scopo della raccolta e analisi dei dati, i destinatari e i produttori, 
@@ -40,7 +40,7 @@ section-b-list-2: Ottimizzare il proprio funzionamento
 section-b-list-3: Informare il processo decisionale
 section-b-list-4: Affinare le proprie strategie
 section-b-list-p: Solo con i <strong class="text-accent">dati veri</strong> puoi prendere le <strong class="text-accent">decisioni giuste</strong>
-
+#Section C
 section-c-h2: Facciamo la strada insieme a te
 section-c-p-1: dalla strategia <strong><em>Data driven</strong></em> alla costruzione del <strong><em>Data Management Plan</strong></em>.
 section-c-p-2: Un approccio scientifico composto da 4 fasi
@@ -70,4 +70,25 @@ section-c-list-4-p-2: >-
   Per questa fase Quantitas valorizzerà ogni singola componente sulla base di quanto definito nella fase progettuale. Le singole componenti possono essere sviluppate direttamente dal nostro team nella loro totalità,
   oppure prevedere eventuale integrazione di componenti realizzate da altri fornitori.
 section-c-cta: Inizia ora la trasformazione
+#Section D
+section-d-h2: Fai crescere la tua Destinazione iniziando con <span class="text-accent"><span class="font-bold">Quantitas</span> il percorso per diventare una <span class="font-bold">SMART DMO</span></span>
+section-d-p-1: La Comunità Europea richiede un approccio globale e competenze specifiche per ottenere la certificazione e dare accesso ai Fondi Europei
+section-d-strong-1: >- 
+  Ottenere lo status di Smart DMO è un'opportunità per:
+section-d-list-a-1: Promuovere il benessere delle comunità locali
+section-d-list-a-2: Aumentare la competitività del settore turistico
+section-d-list-a-3: Ottenere uno sviluppo sostenibile e resiliente
+section-d-p-2: <strong>Le “destinazioni Smart” sono in continua evoluzione</strong> nella fornitura di servizi ai turisti, a seguito di cambiamenti socio-demografici, culturali, tecnologici, ambientali e politici che interessano tutti gli ambiti della società.
+section-d-p-3: >-
+  Essere consapevoli di questi sviluppi è <strong>fondamentale per pianificare strategie di gestione e sviluppo del turismo e azioni tempestive</strong>. Soprattutto quando il management innovativo della destinazione richiede non solo investimenti in tecnologie ma anche 
+  <strong>cambiamenti culturali nella DMO e nell'intero ecosistema turistico</strong>.
+section-d-link: Scarica il documento della Commissione Europea
+section-d-h3: Diventa Smart con Quantitas
+section-d-strong-2: >-
+  Insieme possiamo:
+section-d-list-b-1: Definire strategie specifiche e modelli di governance efficaci
+section-d-list-b-2: Individuare flussi di dati e <em>dataset</em> rilevanti
+section-d-list-b-3: Migliorare la sostenibilità ambientale, le tecnologie e le infrastrutture chiave
+section-d-cta: Inizia ora
+
 ---

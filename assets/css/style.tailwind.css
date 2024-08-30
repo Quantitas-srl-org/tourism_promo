@@ -277,6 +277,13 @@
         h-[843px];
     }
 
+    .decorative-image.lights {
+        @apply
+        bg-[url("../images/lights.png")]
+        w-[1020px]
+        h-[1020px];
+    }
+
     .card {
         @apply
         p-4

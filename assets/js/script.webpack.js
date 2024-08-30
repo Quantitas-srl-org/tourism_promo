@@ -6,6 +6,7 @@ import * as focusTrap from 'focus-trap';
 const menuToggleBtn = document.querySelector('#menu-toggle-btn'), siteHeader = document.querySelector('.site-header'),
   icon = menuToggleBtn.querySelector('span'),
   imageStrategy = document.querySelector('.scroll-animation-strategy').querySelector('img'),
+  imageScheme = document.querySelector('.scroll-animation-scheme').querySelector('span'),
   slider = document.querySelector('.slider');
 
 const trap = focusTrap.createFocusTrap('#site-header', {});
@@ -66,6 +67,13 @@ const components = {
         source: document.documentElement,
       })
     });
+   /*
+    imageScheme.animate({transform: ['translateY(0)', 'translateY(100px)']}, {
+      fill: 'both', timeline: new ScrollTimeline({
+        source: document.documentElement,
+      })
+    });
+    */
   }
 }
 
