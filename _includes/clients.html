@@ -1,0 +1,12 @@
+<section class="wrapper !max-w-[920px] py-16 text-center space-y-6">
+    <p class="text-[34px] font-bold strikethrough">
+        I nostri <s>clienti</s> <span class="sr-only">partner</span>
+    </p>
+    <ul class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+        {% for client in site.clients %}
+        <li>
+            {% include card.html img=client.path alt=client.alt is-light="true" is-small="true" %}
+        </li>
+        {% endfor %}
+    </ul>
+</section>

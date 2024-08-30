@@ -344,6 +344,24 @@
         md:text-xl
         font-bold;
     }
+
+    .strikethrough {
+        @apply
+        relative
+        inline-block
+        after:content-['']
+        after:absolute
+        after:top-[-27px]
+        after:right-[-24px]
+        after:w-[120px]
+        after:h-[50px]
+        after:bg-[length:120px_50px]
+        after:bg-[url("../images/strikethrough.png")];
+    }
+
+    .strikethrough s {
+        text-decoration: none;
+    }
 }
 
 @media (prefers-reduced-motion: no-preference) {
