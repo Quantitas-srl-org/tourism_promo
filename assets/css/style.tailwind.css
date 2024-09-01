@@ -169,7 +169,7 @@
     }
 
     .site-header.is-sticky {
-        @apply !bg-false-white shadow-xl;
+        @apply !bg-opacity backdrop-blur-md shadow-xl;
     }
 
     .site-menu a {
@@ -280,8 +280,14 @@
     .decorative-image.lights {
         @apply
         bg-[url("../images/lights.png")]
-        w-[1020px]
-        h-[1020px];
+        right-0
+        top-0
+        w-[620px]
+        h-[620px]
+        sm:w-[820px]
+        sm:h-[820px]
+        md:w-[1020px]
+        md:h-[1020px];
     }
 
     .card {

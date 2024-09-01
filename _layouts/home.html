@@ -87,7 +87,7 @@ layout: default
                         {{ page.section-c-list-1-p-2 }}
                     </p>
                 </div>
-                <div class="md:basis-1/2 scroll-animation-strategy">
+                <div class="md:basis-1/2 scroll-animation-strategy overflow-hidden">
                     {% include card.html img='/assets/images/route-strategy.png' alt='Illustrazione astratta di un
                     sistema planetario che ruota su se stesso' is-light='true' %}
                 </div>
@@ -111,7 +111,7 @@ layout: default
                 </div>
                 <div class="md:basis-1/2">
                     {% include card.html img='/assets/images/route-analysis.png' alt='Illustrazione astratta di diversi
-                    grafici' is-light='true' %}
+                    grafici' is-light='true' padding='true' %}
                 </div>
             </div>
         </li>
@@ -133,7 +133,7 @@ layout: default
                 </div>
                 <div class="md:basis-1/2 scroll-animation-strategy">
                     {% include card.html img='/assets/images/route-skill.png' alt='Illustrazione astratta di fiori
-                    digitali che crescono' is-light='true' %}
+                    digitali che crescono' is-light='true' padding='true' %}
                 </div>
             </div>
         </li>
@@ -155,7 +155,7 @@ layout: default
                 </div>
                 <div class="md:basis-1/2">
                     {% include card.html img='/assets/images/route-code.png' alt='Illustrazione astratta di due
-                    dispositivi tecnologici' is-light='true' %}
+                    dispositivi tecnologici' is-light='true' padding='true' %}
                 </div>
             </div>
         </li>
@@ -243,9 +243,9 @@ layout: default
             <a href="#" class="btn btn-secondary">{{ page.section-d-cta }}</a>
         </div>
     </div>
-    <span class="absolute overflow-x-hidden w-full h-[1020px] top-[80px] left-0 z-[1]"
+    <span class="absolute overflow-x-hidden w-full h-[1020px] top-[1040px] sm:top-[840px] md:top-[270px] lg:top-[80px] left-0 z-[1]"
           aria-hidden="true">
-       <span class="decorative-image lights top-0 right-0 w-[360px] h-[323px]"></span>
+       <span class="decorative-image lights"></span>
     </span>
 </section>
 
