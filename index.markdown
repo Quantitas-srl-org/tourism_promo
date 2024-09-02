@@ -98,4 +98,25 @@ section-e-cta: Scopri di più su Quantitas
 #FAQ
 faq-h2: FAQs
 faq-small: Hai qualche domanda?
+#Form
+form-title: Scopri con Quantitas come dare potere ai tuoi dati
+form-p-1: Scrivici per fissare un appuntamento conoscitivo. In questo primo incontro ti chiederemo come è strutturata la tua destinazione, quali sono le vostre esigenze e a quali domande volete che i dati e il nostro team trovino la risposta.
+form-p-2: In questo primo incontro ti chiederemo come è strutturata la tua destinazione, quali sono le vostre esigenze e a quali domande volete che i dati e il nostro team trovino la risposta.
+form-label-company-name: Nome azienda
+form-helper-company-name: Inserisci la denominazione aziendale (obbligatorio)
+form-placeholder-company-name: Denominazione Azienda
+form-label-first-name: Nome referente
+form-helper-first-name: Inserisci il tuo nome
+form-placeholder-first-name: Il tuo nome
+form-label-last-name: Cognome referente
+form-helper-last-name: Inserisci il tuo cognome
+form-placeholder-last-name: Il tuo cognome
+form-label-phone: Numero di telefono
+form-helper-phone: Inserisci un telefono per essere contattato da un nostro responsabile
+form-placeholder-phone: +39 123456789
+form-label-email: Email
+form-helper-email: Inserisci il tuo indirizzo di email aziendale (obbligatorio)
+form-placeholder-email: La tua email aziendale
+form-label-toggle: Sono interessato a diventare una Smart Tourism Destination
+form-cta: Invia
 ---

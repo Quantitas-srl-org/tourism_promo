@@ -409,6 +409,19 @@
         backface-visibility: hidden;
         animation-name: scaleUp;
     }
+    .input-wrapper {
+        @apply flex flex-col
+    }
+    .label {
+        @apply font-bold text-lg inline-block mb-1
+    }
+    .input {
+        @apply appearance-none p-4 rounded border border-primary bg-false-white
+    }
+    .helper-text {
+        @apply leading-tight inline-block mt-2
+    }
+
 }
 
 

@@ -1,7 +1,59 @@
 <section class="section-gradient py-14">
     <div class="wrapper !max-w-screen-md">
-        <form action="#" class="card is-light text-black py-6 px-8">
-            form
+        <form action="#" class="card is-light text-black !bg-white py-6 px-8">
+            <h2 class="text-4xl md:text-5xl text-gradient font-bold text-center">{{ page.form-title }}</h2>
+            <p> {{ page.form-p-1 }} </p>
+            <p> {{ page.form-p-2 }} </p>
+            <fieldset class="flex flex-col gap-6">
+                <div class="input-wrapper">
+                    <label for="input-company-name" class="label">
+                        {{ page.form-label-company-name }}
+                        <sup>*</sup> <span class="sr-only">obbligatorio</span>
+                    </label>
+                    <input type="text" id="input-company-name" aria-describedby="input-company-name-helper"
+                           class="input" placeholder="{{ page.form-placeholder-company-name }}">
+                    <small id="input-company-name-helper" class="helper-text">{{ page.form-helper-company-name
+                        }}</small>
+                </div>
+                <div class="flex flex-col md:flex-row gap-6">
+                    <div class="input-wrapper md:basis-1/2">
+                        <label for="input-first-name" class="label">
+                            {{ page.form-label-first-name }}
+                        </label>
+                        <input type="text" id="input-first-name" aria-describedby="input-first-name-helper"
+                               class="input" placeholder="{{ page.form-placeholder-first-name }}">
+                        <small id="input-first-name-helper" class="helper-text"> {{ page.form-helper-first-name
+                            }}</small>
+                    </div>
+                    <div class="input-wrapper md:basis-1/2">
+                        <label for="input-last-name" class="label">
+                            {{ page.form-label-company-name }}
+                        </label>
+                        <input type="text" id="input-last-name" aria-describedby="input-last-name-helper" class="input"
+                               placeholder="{{ page.form-placeholder-last-name }}">
+                        <small id="input-last-name-helper" class="helper-text"> {{ page.form-helper-last-name }}</small>
+                    </div>
+                </div>
+                <div class="flex flex-col md:flex-row gap-6">
+                    <div class="input-wrapper md:basis-1/2">
+                        <label for="input-phone" class="label">
+                            {{ page.form-label-phone }}
+                        </label>
+                        <input type="text" id="input-phone" aria-describedby="input-phone-helper" class="input"
+                               placeholder="{{ page.form-placeholder-phone }}">
+                        <small id="input-phone-helper" class="helper-text"> {{ page.form-helper-phone }}</small>
+                    </div>
+                    <div class="input-wrapper md:basis-1/2">
+                        <label for="input-email" class="label">
+                            {{ page.form-label-email }}
+                            <sup>*</sup> <span class="sr-only">obbligatorio</span>
+                        </label>
+                        <input type="text" id="input-email" aria-describedby="input-email-helper" class="input"
+                               placeholder="{{ page.form-placeholder-email }}">
+                        <small id="input-email-helper" class="helper-text"> {{ page.form-helper-email }}</small>
+                    </div>
+                </div>
+            </fieldset>
         </form>
     </div>
 </section>
