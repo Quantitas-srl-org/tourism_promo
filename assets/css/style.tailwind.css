@@ -99,6 +99,10 @@
 }
 
 @layer components {
+    .icon {
+        @apply flex-none inline-block w-6 h-6 align-middle fill-none;
+    }
+
     .btn {
         @apply
         transition

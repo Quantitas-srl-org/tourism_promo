@@ -24,9 +24,11 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 language: "it"
-# email: your-email@example.com
-# twitter_username: jekyllrb
-# github_username:  jekyll
+email: info@quantitas.it
+twitter_username: QuantitasSrl
+facebook_username: quantitas.it
+linkedin_username: quantitas-srl
+
 clients:
   - path: /assets/images/clients/otrf.png
     alt: Logo di Osservatorio del Turismo Regionale Federato
