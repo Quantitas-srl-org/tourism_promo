@@ -60,7 +60,7 @@
     }
 
     *:focus-visible {
-        @apply outline-3 outline-offset-4 transition-all duration-300 outline-primary ring-1 ring-white ring-opacity-50;
+        @apply outline-2 outline-offset-4 transition-all duration-300 outline-primary ring-1 ring-white ring-opacity-50;
     }
 }
 
