@@ -24,15 +24,17 @@
                         </label>
                         <input type="text" id="input-first-name" name="first-name"
                                aria-describedby="input-first-name-helper"
+                               autocomplete="given-name"
                                class="input" placeholder="{{ page.form-placeholder-first-name }}">
                         <small id="input-first-name-helper" class="helper-text"> {{ page.form-helper-first-name
                             }}</small>
                     </div>
                     <div class="input-wrapper md:basis-1/2">
                         <label for="input-last-name" class="label">
-                            {{ page.form-label-company-name }}
+                            {{ page.form-label-last-name }}
                         </label>
                         <input type="text" id="input-last-name" name="last-name"
+                               autocomplete="family-name"
                                aria-describedby="input-last-name-helper" class="input"
                                placeholder="{{ page.form-placeholder-last-name }}">
                         <small id="input-last-name-helper" class="helper-text"> {{ page.form-helper-last-name }}</small>
@@ -43,7 +45,9 @@
                         <label for="input-phone" class="label">
                             {{ page.form-label-phone }}
                         </label>
-                        <input type="text" id="input-phone" name="phone" aria-describedby="input-phone-helper"
+                        <input type="text" id="input-phone" name="phone"
+                               autocomplete="tel"
+                               aria-describedby="input-phone-helper"
                                class="input"
                                placeholder="{{ page.form-placeholder-phone }}">
                         <small id="input-phone-helper" class="helper-text"> {{ page.form-helper-phone }}</small>
@@ -55,6 +59,7 @@
                         </label>
                         <input type="text" id="input-email" name="email" aria-required="true"
                                aria-describedby="input-email-helper"
+                               autocomplete="off"
                                class="input"
                                placeholder="{{ page.form-placeholder-email }}">
                         <small id="input-email-helper" class="helper-text"> {{ page.form-helper-email }}</small>
