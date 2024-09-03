@@ -376,6 +376,62 @@
     .strikethrough s {
         text-decoration: none;
     }
+
+    .input-wrapper {
+        @apply flex flex-col
+    }
+
+    .label {
+        @apply font-bold text-lg inline-block mb-1
+    }
+
+    .input {
+        @apply appearance-none p-4 rounded border border-primary bg-false-white
+    }
+
+    .helper-text {
+        @apply leading-tight inline-block mt-2
+    }
+
+    .toggle {
+        @apply
+        absolute
+        cursor-pointer
+        top-[8px]
+        left-0
+        right-0
+        bottom-0
+        bg-tan
+        transition-all
+        duration-500
+        w-12
+        h-4
+        rounded-full
+        before:content-['']
+        before:absolute
+        before:w-[26px]
+        before:h-[26px]
+        before:left-0
+        before:bottom-[-4px]
+        before:bg-white
+        before:rounded-full
+        before:shadow-[0_1px_2px_0_rgba(0,0,0,.8)]
+        before:transition-all;
+    }
+
+    input:checked + .toggle {
+        @apply
+        bg-tan-dark
+        before:bg-primary;
+    }
+
+    input:checked + .toggle:before {
+        @apply left-[26px];
+    }
+
+   #input-toggle:focus-visible + .toggle  +.label-toggle {
+       @apply outline outline-2 outline-offset-4 outline-primary rounded-2xl transition-all duration-300;
+    }
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -409,21 +465,7 @@
         backface-visibility: hidden;
         animation-name: scaleUp;
     }
-    .input-wrapper {
-        @apply flex flex-col
-    }
-    .label {
-        @apply font-bold text-lg inline-block mb-1
-    }
-    .input {
-        @apply appearance-none p-4 rounded border border-primary bg-false-white
-    }
-    .helper-text {
-        @apply leading-tight inline-block mt-2
-    }
-
 }
-
 
 @keyframes moveInLeft {
     0% {

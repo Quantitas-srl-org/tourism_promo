@@ -100,6 +100,7 @@ faq-h2: FAQs
 faq-small: Hai qualche domanda?
 #Form
 form-title: Scopri con Quantitas come dare potere ai tuoi dati
+form-legend: Contatta Quantitas S.R.L.
 form-p-1: Scrivici per fissare un appuntamento conoscitivo. In questo primo incontro ti chiederemo come è strutturata la tua destinazione, quali sono le vostre esigenze e a quali domande volete che i dati e il nostro team trovino la risposta.
 form-p-2: In questo primo incontro ti chiederemo come è strutturata la tua destinazione, quali sono le vostre esigenze e a quali domande volete che i dati e il nostro team trovino la risposta.
 form-label-company-name: Nome azienda

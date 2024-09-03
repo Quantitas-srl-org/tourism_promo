@@ -22,6 +22,7 @@ module.exports = {
       'primary': '#1157AD',
       'secondary': '#00BD2B',
       'secondary-dark': '#005536',
+      'alert': '#B70101',
     },
     extend: {},
   },

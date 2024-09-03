@@ -5,6 +5,7 @@
             <p> {{ page.form-p-1 }} </p>
             <p> {{ page.form-p-2 }} </p>
             <fieldset class="flex flex-col gap-6">
+                <legend class="sr-only">{{ page.form-legend }}</legend>
                 <div class="input-wrapper">
                     <label for="input-company-name" class="label">
                         {{ page.form-label-company-name }}
@@ -53,7 +54,18 @@
                         <small id="input-email-helper" class="helper-text"> {{ page.form-helper-email }}</small>
                     </div>
                 </div>
+                <div class="relative">
+                    <input type="checkbox" id="input-toggle" class="opacity-0 w-0 h-0">
+                    <span class="toggle"></span>
+                    <label for="input-toggle" class="label-toggle font-bold cursor-pointer pl-14 z-[1] relative">
+                        {{ page.form-label-toggle }}
+                    </label>
+
+                </div>
             </fieldset>
+            <div class="flex justify-end">
+                <button type="submit" class="btn !py-4">{{ page.form-cta }}</button>
+            </div>
         </form>
     </div>
 </section>
