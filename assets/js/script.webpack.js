@@ -184,9 +184,9 @@ const form = {
       !form.validateEmail(inputEmail.value)
     ) {
       if (inputCompanyName.value === '') form.setInvalid(inputCompanyName)
-      if (inputEmail.value === '') form.setInvalid(inputEmail)
       if (inputPrivacy.checked === false) form.setInvalid(inputPrivacy)
-      else if (!form.validateEmail(inputEmail.value)) form.setInvalid(inputEmail)
+      if (inputEmail.value === '') form.setInvalid(inputEmail)
+      else if (!form.validateEmail(inputEmail.value)) form.setInvalid(inputEmail, 'Questa non è una email valida')
       return false;
     }
     return true;
