@@ -208,6 +208,7 @@
     before:left-0
     before:w-full
     before:h-full
+    before:min-h-[1024px]
     before:bg-[url("../images/color-lights.png")] /*fallback*/
     before:bg-[url("../images/color-lights.webp")]
     before:bg-top
@@ -466,7 +467,7 @@ input:checked + .toggle:before {
 
     .fade-in {
         animation-name: fadeIn;
-        animation-duration: 2s;
+        animation-duration: 3s;
     }
 
     .card.is-small:hover {

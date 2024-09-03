@@ -2,16 +2,18 @@
 layout: default
 ---
 
-<section class="wrapper !max-w-screen-md bg-white border border-tan rounded-xl p-6 mt-12 mb-32">
-    <a href="/" class="flex items-center gap-2 uppercase text-primary-dark tracking-wide mb-4">
-        <span class="material-symbols-outlined text-primary-dark" aria-hidden="true">arrow_back</span>
-        Torna indietro
-    </a>
-    <h1 class="text-4xl md:text-5xl text-gradient font-bold mb-6">
-        {{ page.page-title }}
-    </h1>
-    <div class="prose md:prose-lg">
-        {{ content }}
+<section class="wrapper !max-w-screen-md">
+    <div class="bg-white border border-tan rounded-xl p-6 mt-12 mb-32">
+        <a href="/" class="flex items-center gap-2 uppercase text-primary-dark tracking-wide mb-4">
+            <span class="material-symbols-outlined text-primary-dark" aria-hidden="true">arrow_back</span>
+            Torna indietro
+        </a>
+        <h1 class="text-4xl md:text-5xl text-gradient font-bold mb-6">
+            {{ page.page-title }}
+        </h1>
+        <div class="prose prose-base md:prose-lg">
+            {{ content }}
+        </div>
     </div>
 </section>
 <section class="section-gradient py-12">
