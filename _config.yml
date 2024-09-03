@@ -29,6 +29,9 @@ twitter_username: QuantitasSrl
 facebook_username: quantitas.it
 linkedin_username: quantitas-srl
 
+page-cta-eye-brown: da DMO a Smart Tourism Destination con Quantitas
+page-cta-heading: Fai crescere la tua Destinazione con la <strong class="text-accent">Tourism Intelligence</strong>
+
 clients:
   - path: /assets/images/clients/otrf.png
     alt: Logo di Osservatorio del Turismo Regionale Federato

@@ -13,6 +13,7 @@
   "author": "LC.D",
   "license": "ISC",
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.15",
     "concurrently": "^8.2.2",
     "focus-trap": "^7.5.4",
     "tailwindcss": "^3.4.10",

@@ -5,14 +5,17 @@ import * as focusTrap from 'focus-trap';
  */
 const menuToggleBtn = document.querySelector('#menu-toggle-btn'), siteHeader = document.querySelector('.site-header'),
   icon = menuToggleBtn.querySelector('span'),
-  imageStrategy = document.querySelector('.scroll-animation-strategy').querySelector('img'),
-  slider = document.querySelector('.slider'), accordionBtn = document.querySelectorAll('.accordion-btn'),
+  imageStrategyWrapper = document.querySelector('.scroll-animation-strategy'),
+  imageStrategy = imageStrategyWrapper ? imageStrategyWrapper.querySelector('img') : null,
+  slider = document.querySelector('.slider'),
+  accordionBtn = document.querySelectorAll('.accordion-btn'),
   contactForm = document.querySelector('#contact-form'),
   inputCompanyName = document.querySelector('#input-company-name'),
   inputEmail = document.querySelector('#input-email'),
   inputPrivacy = document.querySelector('#input-privacy'),
-  fieldset = contactForm.querySelector('fieldset'),
+  fieldset = contactForm ? contactForm.querySelector('fieldset') : null,
   formSuccess = document.querySelector('#form-success');
+
 
 const trap = focusTrap.createFocusTrap('#site-header', {});
 
@@ -65,18 +68,23 @@ const header = {
 
 const components = {
   scrollDrivenAnimations: () => {
-    slider.animate({transform: ['translateX(0)', 'translateX(-600px)']}, {
-      timeline: new ScrollTimeline({
-        source: document.documentElement,
-      })
-    });
-    imageStrategy.animate({transform: ['rotate(0)', 'rotate(360deg)']}, {
-      timeline: new ScrollTimeline({
-        source: document.documentElement,
-      })
-    });
+    if (slider) {
+      slider.animate({transform: ['translateX(0)', 'translateX(-600px)']}, {
+        timeline: new ScrollTimeline({
+          source: document.documentElement,
+        })
+      });
+    }
+    if (imageStrategy) {
+      imageStrategy.animate({transform: ['rotate(0)', 'rotate(360deg)']}, {
+        timeline: new ScrollTimeline({
+          source: document.documentElement,
+        })
+      });
+    }
   },
   accordion: () => {
+    if(!accordionBtn) return;
     accordionBtn.forEach(btn => {
       btn.addEventListener('click', (e) => {
         const panelId = btn.getAttribute('aria-controls'), id = btn.getAttribute('data-id'),
@@ -99,7 +107,7 @@ const components = {
 
 const form = {
   submitAction: () => {
-    if (!contactForm) return false;
+    if (!contactForm) return;
     contactForm.addEventListener('submit', (e) => {
       e.preventDefault();
       if (form.validateForm()) {
