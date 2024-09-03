@@ -67,14 +67,15 @@
                         {{ page.form-label-toggle }}
                     </label>
                 </div>
+                <hr class="text-tan">
                 <div class="flex gap-2 items-center">
-                    <input type="checkbox" id="input-privacy" name="privacy">
+                    <input type="checkbox" id="input-privacy" name="privacy" class="w-6 h-6">
                     <label for="input-privacy" class="text-sm">
                         {{ page.form-label-privacy }}
                     </label>
                 </div>
             </fieldset>
-            <div class="flex justify-end">
+            <div class="flex justify-end mt-4">
                 <button type="submit" class="btn !py-4">{{ page.form-cta }}</button>
             </div>
             <p role="status" aria-live="polite" id="form-success" hidden style="display: none"

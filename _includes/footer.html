@@ -2,61 +2,63 @@
 {% assign max = 100 %}
 {% assign diff = max | minus: min %}
 {% assign randomNumber = site.time | date: "%s" | modulo: diff | plus: min %}
-<footer class="site-footer relative mt-24">
-    <span class="absolute overflow-x-hidden w-full h-full top-[-60px] sm:top-[-80px] md:top-[-110px] left-0 z-[1]"
-          aria-hidden="true">
+<footer class="site-footer mt-24 pt-4 bg-tan">
+    <div class="wrapper sm:flex justify-between items-start relative py-16 z-10">
+         <span class="absolute overflow-x-hidden w-full h-full top-[-60px] sm:top-[-80px] md:top-[-120px] left-0 z-[1]"
+               aria-hidden="true">
         <span class="decorative-image water top-2 right-[-60px]"></span>
         <span class="decorative-image nature top-0 right-[90px] sm:right-[170px] md:right-[250px]"></span>
         <span class="decorative-image city top-2 right-[180px] sm:right-[300px] md:right-[410px]"></span>
     </span>
-
-    <div class="wrapper sm:flex justify-between items-start bg-tan py-16 z-10">
         <a class="site-logo mb-6 sm:mb-0" href="/" title="Torna alla home page">
             <span class="sr-only">Quantitas S.R.L.</span>
         </a>
         <nav class="z-10">
             <ul class="space-y-2">
                 <li>
-                    <a href="#" class="text-primary-dark underline underline-offset-4">
+                    <a href="#" class="text-primary-dark underline underline-offset-4 hover:no-underline">
                         Tourism Intelligence
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="text-primary-dark underline underline-offset-4">
+                    <a href="#" class="text-primary-dark underline underline-offset-4 hover:no-underline">
                         Smart Tourism Destination
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="text-primary-dark underline underline-offset-4">
+                    <a href="#" class="text-primary-dark underline underline-offset-4 hover:no-underline">
                         Scopri di più su Quantitas
                     </a>
                 </li>
                 <li>
-                    <a href="/privacy" class="text-primary-dark underline underline-offset-4">
+                    <a href="/privacy" class="text-primary-dark underline underline-offset-4 hover:no-underline">
                         Privacy & Cookie
                     </a>
                 </li>
             </ul>
             <ul class="mt-4 flex space-x-4">
                 <li>
-                    <a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank" title="Vai alla pagina Facebook" aria-label="Vai alla pagina Facebook"
-                       class="text-primary">
+                    <a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank"
+                       title="Vai alla pagina Facebook" aria-label="Vai alla pagina Facebook"
+                       class="text-primary hover:text-primary-dark">
                         <svg class="icon" aria-hidden="true" focusable="false">
                             <use xlink:href="/assets/images/icons.svg#facebook"/>
                         </svg>
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/company/{{ site.linkedin_username }}" target="_blank" title="Vai alla pagina Linkedin" aria-label="Vai alla pagina Linkedin"
-                       class="text-primary">
+                    <a href="https://www.linkedin.com/company/{{ site.linkedin_username }}" target="_blank"
+                       title="Vai alla pagina Linkedin" aria-label="Vai alla pagina Linkedin"
+                       class="text-primary hover:text-primary-dark">
                         <svg class="icon" aria-hidden="true" focusable="false">
                             <use xlink:href="/assets/images/icons.svg#linkedin"/>
                         </svg>
                     </a>
                 </li>
                 <li>
-                    <a href="https://x.com/{{ site.twitter_username }}" target="_blank" title="Vai alla pagina su X" aria-label="Vai alla pagina su X"
-                       class="text-primary">
+                    <a href="https://x.com/{{ site.twitter_username }}" target="_blank" title="Vai alla pagina su X"
+                       aria-label="Vai alla pagina su X"
+                       class="text-primary hover:text-primary-dark">
                         <svg class="icon" aria-hidden="true" focusable="false">
                             <use xlink:href="/assets/images/icons.svg#twitter-x"/>
                         </svg>
