@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<section class="wrapper !max-w-screen-md bg-white border border-tan rounded-xl p-6 mt-12 mb-32">
+    <a href="/" class="flex items-center gap-2 uppercase text-primary-dark tracking-wide mb-4">
+        <span class="material-symbols-outlined text-primary-dark" aria-hidden="true">arrow_back</span>
+        Torna indietro
+    </a>
+    <h1 class="text-4xl md:text-5xl text-gradient font-bold mb-6">
+        {{ page.page-title }}
+    </h1>
+    <div class="prose md:prose-lg">
+        {{ content }}
+    </div>
+</section>
+<section class="section-gradient py-12">
+    <div class="wrapper !max-w-[480px] text-center space-y-4">
+        <p class="uppercase text-sm">
+            {{ site.page-cta-eye-brown }}
+        </p>
+        <p class="text-4xl md:text-5xl !leading-tight">
+            {{ site.page-cta-heading }}
+        </p>
+    </div>
+</section>
+<div class="mt-24 pb-24 wrapper text-center">
+    <a href="/" class="btn">inizia ora la trasformazione</a>
+</div>
