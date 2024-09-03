@@ -149,155 +149,6 @@
         @apply duration-100 border-primary-dark bg-none;
     }
 
-    .site-bg {
-        @apply
-        bg-false-white
-        bg-[url("../images/bg-texture.png")] /*fallback*/
-        bg-[url("../images/bg-texture.webp")]
-        bg-center
-        bg-repeat
-        bg-[length:20px_20px]
-        before:content-['']
-        before:absolute
-        before:top-0
-        before:left-0
-        before:w-full
-        before:h-full
-        before:bg-[url("../images/color-lights.png")] /*fallback*/
-        before:bg-[url("../images/color-lights.webp")]
-        before:bg-top
-        before:bg-no-repeat
-        before:bg-contain
-        before:md:bg-cover
-        before:-z-10;
-    }
-
-    .site-header {
-        @apply transition-all duration-300 py-5 bg-gradient-to-b from-false-white to-transparent sticky top-0 z-50;
-    }
-
-    .site-header.is-sticky {
-        @apply !bg-opacity backdrop-blur-md shadow-xl;
-    }
-
-    .site-menu a {
-        @apply px-4 py-2 font-bold hover:underline underline-offset-4;
-    }
-
-    .site-logo {
-        @apply
-        block
-        w-[210px]
-        h-[28px]
-        bg-[url("../images/quantitas-logo.svg")]
-        bg-no-repeat
-        bg-contain
-        my-2
-        -indent-96;
-    }
-
-    #menu-toggle-btn {
-        @apply h-10 w-10 items-center justify-center;
-    }
-
-    #menu-toggle-btn span {
-        @apply text-[32px];
-    }
-
-    .is-open #menu-toggle-btn,
-    .is-open .site-logo {
-        @apply z-10 !block;
-    }
-
-    .is-open .site-menu {
-        @apply !block absolute top-0 left-0 w-full z-0 h-screen bg-gradient-to-b from-white to-tan;
-    }
-
-    .is-open .site-menu ul {
-        @apply flex-col gap-12 mt-[120px];
-    }
-
-    .decorative-image {
-        @apply absolute bg-no-repeat bg-contain z-[-1];
-    }
-
-    .decorative-image.water {
-        @apply
-        bg-[url("../images/water.png")] /*fallback*/
-        bg-[url("../images/water.webp")]
-        md:w-[372px]
-        md:h-[304px]
-        sm:w-[281px]
-        sm:h-[277px]
-        w-[201px]
-        h-[167px]
-    }
-
-    .decorative-image.nature {
-        @apply
-        bg-[url("../images/nature.png")] /*fallback*/
-        bg-[url("../images/nature.webp")]
-        md:w-[274px]
-        md:h-[178px]
-        sm:w-[214px]
-        sm:h-[138px]
-        w-[164px]
-        h-[98px]
-    }
-
-    .decorative-image.city {
-        @apply
-        bg-[url("../images/city.png")] /*fallback*/
-        bg-[url("../images/city.webp")]
-        md:w-[370px]
-        md:h-[323px]
-        sm:w-[300px]
-        sm:h-[273px]
-        w-[200px]
-        h-[186px];
-    }
-
-    .decorative-image.bg-blur-1 {
-        @apply
-        bg-[url("../images/bg-blur-1.png")]
-        w-[532px]
-        h-[882px];
-    }
-
-    .decorative-image.bg-blur-2 {
-        @apply
-        bg-[url("../images/bg-blur-2.png")]
-        w-[478px]
-        h-[766px];
-    }
-
-    .decorative-image.bg-blur-3 {
-        @apply
-        bg-[url("../images/bg-blur-3.png")]
-        w-[421px]
-        h-[813px];
-    }
-
-    .decorative-image.bg-blur-4 {
-        @apply
-        bg-[url("../images/bg-blur-4.png")]
-        w-[588px]
-        h-[843px];
-    }
-
-    .decorative-image.lights {
-        @apply
-        bg-[url("../images/lights.png")]
-        right-0
-        top-0
-        w-[620px]
-        h-[620px]
-        sm:w-[820px]
-        sm:h-[820px]
-        md:w-[1020px]
-        md:h-[1020px];
-    }
-
     .card {
         @apply
         p-4
@@ -311,10 +162,6 @@
 
     .card.is-light {
         @apply bg-false-white bg-none w-full;
-    }
-
-    .slider .card img {
-        @apply h-[280px] md:h-[360px] w-auto;
     }
 
     .section-gradient {
@@ -342,96 +189,260 @@
         after:bg-repeat-x
         after:bg-[length:1440px_64px]
     }
+}
 
-    .block-list li {
-        @apply
-        border-4
-        border-white
-        p-4
-        rounded
-        inline-flex
-        items-center
-        w-full
-        justify-center
-        text-center
-        text-lg
-        md:text-xl
-        font-bold;
-    }
 
-    .strikethrough {
-        @apply
-        relative
-        inline-block
-        after:content-['']
-        after:absolute
-        after:top-[-27px]
-        after:right-[-24px]
-        after:w-[120px]
-        after:h-[50px]
-        after:bg-[length:120px_50px]
-        after:bg-[url("../images/strikethrough.png")];
-    }
 
-    .strikethrough s {
-        text-decoration: none;
-    }
 
-    .input-wrapper {
-        @apply flex flex-col
-    }
+.site-bg {
+    @apply
+    bg-false-white
+    bg-[url("../images/bg-texture.png")] /*fallback*/
+    bg-[url("../images/bg-texture.webp")]
+    bg-center
+    bg-repeat
+    bg-[length:20px_20px]
+    before:content-['']
+    before:absolute
+    before:top-0
+    before:left-0
+    before:w-full
+    before:h-full
+    before:bg-[url("../images/color-lights.png")] /*fallback*/
+    before:bg-[url("../images/color-lights.webp")]
+    before:bg-top
+    before:bg-no-repeat
+    before:bg-contain
+    before:md:bg-cover
+    before:-z-10;
+}
 
-    .label {
-        @apply font-bold text-lg inline-block mb-1
-    }
+.site-header {
+    @apply transition-all duration-300 py-5 bg-gradient-to-b from-false-white to-transparent sticky top-0 z-50;
+}
 
-    .input {
-        @apply appearance-none p-4 rounded border border-primary bg-false-white
-    }
+.site-header.is-sticky {
+    @apply !bg-opacity backdrop-blur-md shadow-xl;
+}
 
-    .helper-text {
-        @apply leading-tight inline-block mt-2
-    }
+.site-menu a {
+    @apply px-4 py-2 font-bold hover:underline underline-offset-4;
+}
 
-    .toggle {
-        @apply
-        absolute
-        cursor-pointer
-        top-[8px]
-        left-0
-        right-0
-        bottom-0
-        bg-tan
-        transition-all
-        duration-500
-        w-12
-        h-4
-        rounded-full
-        before:content-['']
-        before:absolute
-        before:w-[26px]
-        before:h-[26px]
-        before:left-0
-        before:bottom-[-4px]
-        before:bg-white
-        before:rounded-full
-        before:shadow-[0_1px_2px_0_rgba(0,0,0,.8)]
-        before:transition-all;
-    }
+.site-logo {
+    @apply
+    block
+    w-[210px]
+    h-[28px]
+    bg-[url("../images/quantitas-logo.svg")]
+    bg-no-repeat
+    bg-contain
+    my-2
+    -indent-96;
+}
 
-    input:checked + .toggle {
-        @apply
-        bg-tan-dark
-        before:bg-primary;
-    }
+#menu-toggle-btn {
+    @apply h-10 w-10 items-center justify-center;
+}
 
-    input:checked + .toggle:before {
-        @apply left-[26px];
-    }
+#menu-toggle-btn span {
+    @apply text-[32px];
+}
 
-   #input-toggle:focus-visible + .toggle  +.label-toggle {
-       @apply outline outline-2 outline-offset-4 outline-primary rounded-2xl transition-all duration-300;
-    }
+.is-open #menu-toggle-btn,
+.is-open .site-logo {
+    @apply z-10 !block;
+}
+
+.is-open .site-menu {
+    @apply !block absolute top-0 left-0 w-full z-0 h-screen bg-gradient-to-b from-white to-tan;
+}
+
+.is-open .site-menu ul {
+    @apply flex-col gap-12 mt-[120px];
+}
+
+.decorative-image {
+    @apply absolute bg-no-repeat bg-contain z-[-1];
+}
+
+.decorative-image.water {
+    @apply
+    bg-[url("../images/water.png")] /*fallback*/
+    bg-[url("../images/water.webp")]
+    md:w-[372px]
+    md:h-[304px]
+    sm:w-[281px]
+    sm:h-[277px]
+    w-[201px]
+    h-[167px]
+}
+
+.decorative-image.nature {
+    @apply
+    bg-[url("../images/nature.png")] /*fallback*/
+    bg-[url("../images/nature.webp")]
+    md:w-[274px]
+    md:h-[178px]
+    sm:w-[214px]
+    sm:h-[138px]
+    w-[164px]
+    h-[98px]
+}
+
+.decorative-image.city {
+    @apply
+    bg-[url("../images/city.png")] /*fallback*/
+    bg-[url("../images/city.webp")]
+    md:w-[370px]
+    md:h-[323px]
+    sm:w-[300px]
+    sm:h-[273px]
+    w-[200px]
+    h-[186px];
+}
+
+.decorative-image.bg-blur-1 {
+    @apply
+    bg-[url("../images/bg-blur-1.png")]
+    w-[532px]
+    h-[882px];
+}
+
+.decorative-image.bg-blur-2 {
+    @apply
+    bg-[url("../images/bg-blur-2.png")]
+    w-[478px]
+    h-[766px];
+}
+
+.decorative-image.bg-blur-3 {
+    @apply
+    bg-[url("../images/bg-blur-3.png")]
+    w-[421px]
+    h-[813px];
+}
+
+.decorative-image.bg-blur-4 {
+    @apply
+    bg-[url("../images/bg-blur-4.png")]
+    w-[588px]
+    h-[843px];
+}
+
+.decorative-image.lights {
+    @apply
+    bg-[url("../images/lights.png")]
+    right-0
+    top-0
+    w-[620px]
+    h-[620px]
+    sm:w-[820px]
+    sm:h-[820px]
+    md:w-[1020px]
+    md:h-[1020px];
+}
+
+
+.slider .card img {
+    @apply h-[280px] md:h-[360px] w-auto;
+}
+
+.block-list li {
+    @apply
+    border-4
+    border-white
+    p-4
+    rounded
+    inline-flex
+    items-center
+    w-full
+    justify-center
+    text-center
+    text-lg
+    md:text-xl
+    font-bold;
+}
+
+.strikethrough {
+    @apply
+    relative
+    inline-block
+    after:content-['']
+    after:absolute
+    after:top-[-27px]
+    after:right-[-24px]
+    after:w-[120px]
+    after:h-[50px]
+    after:bg-[length:120px_50px]
+    after:bg-[url("../images/strikethrough.png")];
+}
+
+.strikethrough s {
+    text-decoration: none;
+}
+
+.input-wrapper {
+    @apply flex flex-col;
+}
+
+.label {
+    @apply font-bold text-lg inline-block mb-1;
+}
+
+.input {
+    @apply appearance-none p-4 rounded border border-primary bg-false-white;
+}
+.input.is-invalid {
+    @apply border-alert border-2;
+}
+
+.helper-text {
+    @apply leading-tight inline-block mt-2;
+}
+
+.toggle {
+    @apply
+    absolute
+    cursor-pointer
+    top-[8px]
+    left-0
+    right-0
+    bottom-0
+    bg-tan
+    transition-all
+    duration-500
+    w-12
+    h-4
+    rounded-full
+    before:content-['']
+    before:absolute
+    before:w-[26px]
+    before:h-[26px]
+    before:left-0
+    before:bottom-[-4px]
+    before:bg-white
+    before:rounded-full
+    before:shadow-[0_1px_2px_0_rgba(0,0,0,.8)]
+    before:transition-all;
+}
+
+input:checked + .toggle {
+    @apply
+    bg-tan-dark
+    before:bg-primary;
+}
+
+input:checked + .toggle:before {
+    @apply left-[26px];
+}
+
+#input-toggle:focus-visible + .toggle  +.label-toggle {
+    @apply outline outline-2 outline-offset-4 outline-primary rounded-2xl transition-all duration-300;
+}
+
+.error-hint {
+    @apply bg-alert text-sm text-white rounded inline-block p-2 mt-2;
 }
 
 @media (prefers-reduced-motion: no-preference) {

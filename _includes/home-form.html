@@ -1,6 +1,6 @@
 <section class="section-gradient py-14">
     <div class="wrapper !max-w-screen-md">
-        <form action="#" class="card is-light text-black !bg-white py-6 px-8">
+        <form action="#" id="contact-form" class="card is-light text-black !bg-white py-6 px-8">
             <h2 class="text-4xl md:text-5xl text-gradient font-bold text-center">{{ page.form-title }}</h2>
             <p> {{ page.form-p-1 }} </p>
             <p> {{ page.form-p-2 }} </p>
@@ -11,7 +11,8 @@
                         {{ page.form-label-company-name }}
                         <sup>*</sup> <span class="sr-only">obbligatorio</span>
                     </label>
-                    <input type="text" id="input-company-name" aria-describedby="input-company-name-helper"
+                    <input type="text" id="input-company-name" name="company-name" aria-required="true"
+                           aria-describedby="input-company-name-helper"
                            class="input" placeholder="{{ page.form-placeholder-company-name }}">
                     <small id="input-company-name-helper" class="helper-text">{{ page.form-helper-company-name
                         }}</small>
@@ -21,7 +22,8 @@
                         <label for="input-first-name" class="label">
                             {{ page.form-label-first-name }}
                         </label>
-                        <input type="text" id="input-first-name" aria-describedby="input-first-name-helper"
+                        <input type="text" id="input-first-name" name="first-name"
+                               aria-describedby="input-first-name-helper"
                                class="input" placeholder="{{ page.form-placeholder-first-name }}">
                         <small id="input-first-name-helper" class="helper-text"> {{ page.form-helper-first-name
                             }}</small>
@@ -30,7 +32,8 @@
                         <label for="input-last-name" class="label">
                             {{ page.form-label-company-name }}
                         </label>
-                        <input type="text" id="input-last-name" aria-describedby="input-last-name-helper" class="input"
+                        <input type="text" id="input-last-name" name="last-name"
+                               aria-describedby="input-last-name-helper" class="input"
                                placeholder="{{ page.form-placeholder-last-name }}">
                         <small id="input-last-name-helper" class="helper-text"> {{ page.form-helper-last-name }}</small>
                     </div>
@@ -40,7 +43,8 @@
                         <label for="input-phone" class="label">
                             {{ page.form-label-phone }}
                         </label>
-                        <input type="text" id="input-phone" aria-describedby="input-phone-helper" class="input"
+                        <input type="text" id="input-phone" name="phone" aria-describedby="input-phone-helper"
+                               class="input"
                                placeholder="{{ page.form-placeholder-phone }}">
                         <small id="input-phone-helper" class="helper-text"> {{ page.form-helper-phone }}</small>
                     </div>
@@ -49,23 +53,35 @@
                             {{ page.form-label-email }}
                             <sup>*</sup> <span class="sr-only">obbligatorio</span>
                         </label>
-                        <input type="text" id="input-email" aria-describedby="input-email-helper" class="input"
+                        <input type="text" id="input-email" name="email" aria-required="true"
+                               aria-describedby="input-email-helper"
+                               class="input"
                                placeholder="{{ page.form-placeholder-email }}">
                         <small id="input-email-helper" class="helper-text"> {{ page.form-helper-email }}</small>
                     </div>
                 </div>
                 <div class="relative">
-                    <input type="checkbox" id="input-toggle" class="opacity-0 w-0 h-0">
+                    <input type="checkbox" id="input-toggle" name="toggle" class="opacity-0 w-0 h-0">
                     <span class="toggle"></span>
                     <label for="input-toggle" class="label-toggle font-bold cursor-pointer pl-14 z-[1] relative">
                         {{ page.form-label-toggle }}
                     </label>
-
+                </div>
+                <div class="flex gap-2 items-center">
+                    <input type="checkbox" id="input-privacy" name="privacy">
+                    <label for="input-privacy" class="text-sm">
+                        {{ page.form-label-privacy }}
+                    </label>
                 </div>
             </fieldset>
             <div class="flex justify-end">
                 <button type="submit" class="btn !py-4">{{ page.form-cta }}</button>
             </div>
+            <p role="status" aria-live="polite" id="form-success" hidden style="display: none"
+               class="border bg-false-white flex flex-col gap-4 p-6 border-primary rounded-3xl">
+                <span class="text-6xl text-gradient font-bold text-center">{{ page.form-success-message-1 }}</span>
+                <span class="text-lg text-center">{{ page.form-success-message-2 }}</span>
+            </p>
         </form>
     </div>
 </section>

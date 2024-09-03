@@ -119,5 +119,8 @@ form-label-email: Email
 form-helper-email: Inserisci il tuo indirizzo di email aziendale (obbligatorio)
 form-placeholder-email: La tua email aziendale
 form-label-toggle: Sono interessato a diventare una Smart Tourism Destination
+form-label-privacy: Accetto la vostra <a href="/privacy" target="_blank" class="underline text-primary">privacy policy</a>
 form-cta: Invia
+form-success-message-1: Grazie!
+form-success-message-2: Verrai contattato dal nostro team il prima possibile
 ---
