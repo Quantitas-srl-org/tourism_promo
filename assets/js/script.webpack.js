@@ -3,7 +3,9 @@ import * as focusTrap from 'focus-trap';
 /**
  * DOM elements
  */
-const menuToggleBtn = document.querySelector('#menu-toggle-btn'), siteHeader = document.querySelector('.site-header'),
+const menuToggleBtn = document.querySelector('#menu-toggle-btn'),
+  siteHeader = document.querySelector('.site-header'),
+  siteHeaderLinks = siteHeader ? siteHeader.querySelector('ul').querySelectorAll('a') : null,
   icon = menuToggleBtn.querySelector('span'),
   imageStrategyWrapper = document.querySelector('.scroll-animation-strategy'),
   imageStrategy = imageStrategyWrapper ? imageStrategyWrapper.querySelector('img') : null,
@@ -50,6 +52,15 @@ const header = {
       }
     })
   },
+  clickOnLinkToCloseSiteMenu: () => {
+    if (!siteHeaderLinks) return
+    siteHeaderLinks.forEach(link => {
+      link.addEventListener('click', (event) => {
+        siteHeader.classList.remove('is-open');
+        header.siteMenuClose()
+      })
+    })
+  },
   setStickyHeaderStyle: () => {
     document.addEventListener('scroll', () => {
       if (window.scrollY > 32) {
@@ -84,7 +95,7 @@ const components = {
     }
   },
   accordion: () => {
-    if(!accordionBtn) return;
+    if (!accordionBtn) return;
     accordionBtn.forEach(btn => {
       btn.addEventListener('click', (e) => {
         const panelId = btn.getAttribute('aria-controls'), id = btn.getAttribute('data-id'),
@@ -205,6 +216,7 @@ document.addEventListener('DOMContentLoaded', () => {
   header.siteMenuToggle();
   header.keyPressEscToCloseSiteMenu();
   header.setStickyHeaderStyle();
+  header.clickOnLinkToCloseSiteMenu();
   components.scrollDrivenAnimations();
   components.accordion();
   form.submitAction();
