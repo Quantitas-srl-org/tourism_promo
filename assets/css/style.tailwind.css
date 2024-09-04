@@ -62,6 +62,26 @@
     *:focus-visible {
         @apply outline-2 outline-offset-4 transition-all duration-300 outline-primary ring-1 ring-white ring-opacity-50;
     }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    #contatti,
+    #smart-tourism-destination,
+    #tourism-intelligence {
+        scroll-margin-top: 60px;
+    }
+
+    .skip-link {
+        @apply block h-[1px] w-[1px] overflow-hidden py-3 px-6 bg-white no-underline absolute top-4 left-4 z-[99] text-base;
+        clip: rect(1px, 1px, 1px, 1px);
+    }
+
+    .skip-link:focus {
+        @apply overflow-visible h-auto w-auto;
+        clip: auto;
+    }
 }
 
 @layer utilities {
@@ -190,8 +210,6 @@
         after:bg-[length:1440px_64px]
     }
 }
-
-
 
 
 .site-bg {
@@ -394,6 +412,7 @@
 .input {
     @apply appearance-none p-4 rounded border border-primary bg-false-white;
 }
+
 .input.is-invalid {
     @apply border-alert border-2;
 }
@@ -438,7 +457,7 @@ input:checked + .toggle:before {
     @apply left-[26px];
 }
 
-#input-toggle:focus-visible + .toggle  +.label-toggle {
+#input-toggle:focus-visible + .toggle + .label-toggle {
     @apply outline outline-2 outline-offset-4 outline-primary rounded-2xl transition-all duration-300;
 }
 

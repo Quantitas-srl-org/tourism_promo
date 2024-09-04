@@ -2,8 +2,10 @@
 <html lang="{{site.language}}">
 {% include head.html %}
 <body class="site-bg">
+<a href="#main" class="skip-link">Vai al contenuto principale</a>
+<a href="#footer" class="skip-link">Vai al pie' di pagina</a>
 {% include header.html %}
-<main>
+<main id="main">
     {{ content }}
 </main>
 {% include footer.html %}

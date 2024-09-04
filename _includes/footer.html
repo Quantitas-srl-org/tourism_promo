@@ -2,7 +2,7 @@
 {% assign max = 100 %}
 {% assign diff = max | minus: min %}
 {% assign randomNumber = site.time | date: "%s" | modulo: diff | plus: min %}
-<footer class="site-footer mt-24 pt-4 bg-tan">
+<footer class="site-footer mt-24 pt-4 bg-tan" id="footer">
     <div class="wrapper sm:flex justify-between items-start relative py-16 z-10">
          <span class="absolute overflow-x-hidden w-full min-h-[380px] h-full top-[-60px] sm:top-[-80px] md:top-[-120px] left-0 z-[1]"
                aria-hidden="true">

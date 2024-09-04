@@ -3,7 +3,8 @@ module.exports = {
   content: [
     '_includes/**/*.html',
     '_layouts/**/*.html',
-    '*.markdown'
+    '*.markdown',
+    '*.html'
   ],
   theme: {
     fontFamily: {
