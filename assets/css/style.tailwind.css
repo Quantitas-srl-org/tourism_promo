@@ -223,16 +223,17 @@
     before:content-['']
     before:absolute
     before:top-0
-    before:left-0
+    before:left-[50%]
+    before:translate-x-[-50%]
     before:w-full
     before:h-full
-    before:min-h-[1024px]
+    before:max-h-[1280px]
+    before:max-w-[1920px]
     before:bg-[url("../images/color-lights.png")] /*fallback*/
-    before:bg-[url("../images/color-lights.webp")]
+    before:bg-[url("../images/color-lights.webp")] /*fallback*/
     before:bg-top
     before:bg-no-repeat
     before:bg-contain
-    before:md:bg-cover
     before:-z-10;
 }
 
