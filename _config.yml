@@ -30,6 +30,7 @@ facebook_username: quantitas.it
 linkedin_username: quantitas-srl
 share-cover: share-cover.jpg
 
+#TEXT
 page-cta-eye-brown: da DMO a Smart Tourism Destination con Quantitas
 page-cta-heading: Fai crescere la tua Destinazione con la <strong class="text-accent">Tourism Intelligence</strong>
 page-cta-link: Inizia ora la trasformazione
@@ -53,6 +54,7 @@ clients:
     alt: Logo di Dolomiti Bellunesi
   - path: /assets/images/clients/g20-spiagge.webp
     alt: Logo di G20 Spiagge Italiane
+
 faqs:
   - question: Testo della domanda
     answer: >-
@@ -96,7 +98,7 @@ faqs:
       dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-debug: true # TODO remove in production
+debug: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.
