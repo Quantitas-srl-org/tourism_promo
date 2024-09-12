@@ -54,8 +54,6 @@ clients:
     alt: Logo di Dolomiti Bellunesi
   - path: /assets/images/clients/g20-spiagge.webp
     alt: Logo di G20 Spiagge Italiane
-  - path: /assets/images/clients/g20-spiagge.webp
-    alt: Logo di G20 Spiagge Italiane
 
 faqs:
   - question: Testo della domanda
