@@ -16,7 +16,8 @@ const menuToggleBtn = document.querySelector('#menu-toggle-btn'),
   inputEmail = document.querySelector('#input-email'),
   inputPrivacy = document.querySelector('#input-privacy'),
   fieldset = contactForm ? contactForm.querySelector('fieldset') : null,
-  formSuccess = document.querySelector('#form-success');
+  formSuccess = document.querySelector('#form-success'),
+  videoPlayer = document.querySelector('video');
 
 
 const trap = focusTrap.createFocusTrap('#site-header', {});
@@ -113,6 +114,27 @@ const components = {
         }
       })
     })
+  },
+  videoPlayer: () => {
+    if (!videoPlayer) return;
+    videoPlayer.addEventListener("ended", (event) => {
+      videoPlayer.play().then(r => {});
+      console.log("Video ended, play it again");
+    });
+
+    const observer = new IntersectionObserver((entry, observer) => {
+        if (entry[0].isIntersecting) {
+          videoPlayer.play().then(r => {});
+          console.log('Video in, isPaused?', videoPlayer.paused)
+        } else {
+          if (!videoPlayer.paused) {
+              videoPlayer.pause();
+          }
+          console.log('Video out, isPaused?',videoPlayer.paused)
+        }
+    }, null);
+
+    observer.observe(videoPlayer);
   }
 }
 
@@ -219,5 +241,11 @@ document.addEventListener('DOMContentLoaded', () => {
   header.clickOnLinkToCloseSiteMenu();
   components.scrollDrivenAnimations();
   components.accordion();
+  components.videoPlayer();
   form.submitAction();
+})
+
+document.addEventListener('scroll', () => {
+
+
 })

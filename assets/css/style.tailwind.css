@@ -365,7 +365,7 @@
 
 
 .slider .card img {
-    @apply h-[280px] md:h-[360px] w-auto;
+    @apply h-[280px] md:h-[360px] w-auto max-w-none;
 }
 
 .block-list li {
