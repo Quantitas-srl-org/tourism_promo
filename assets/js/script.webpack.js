@@ -238,8 +238,3 @@ document.addEventListener('DOMContentLoaded', () => {
   components.videoPlayer();
   form.submitAction();
 })
-
-document.addEventListener('scroll', () => {
-
-
-})
