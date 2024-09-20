@@ -117,10 +117,6 @@ const components = {
   },
   videoPlayer: () => {
     if (!videoPlayer) return;
-    videoPlayer.addEventListener("ended", (event) => {
-      videoPlayer.play().then(r => {});
-      console.log("Video ended, play it again");
-    });
 
     const observer = new IntersectionObserver((entry, observer) => {
         if (entry[0].isIntersecting) {
