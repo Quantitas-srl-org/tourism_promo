@@ -121,12 +121,10 @@ const components = {
     const observer = new IntersectionObserver((entry, observer) => {
         if (entry[0].isIntersecting) {
           videoPlayer.play().then(r => {});
-          console.log('Video in, isPaused?', videoPlayer.paused)
         } else {
           if (!videoPlayer.paused) {
               videoPlayer.pause();
           }
-          console.log('Video out, isPaused?',videoPlayer.paused)
         }
     }, null);
 
