@@ -249,12 +249,7 @@ layout: default
     </span>
 </section>
 
-<div class="bg-black -mt-8 flex justify-center" id="video-wrapper">
-    <video id="video-player" width="1280" height="720" muted>
-        <source src="/assets/images/quantitas-video.mp4" type="video/mp4"/>
-        Your browser does not support the video tag.
-    </video>
-</div>
+
 
 <section class="wrapper !max-w-[920px] py-16 text-center space-y-6">
     <img src="/assets/images/quantitas-logo.svg" class="inline-block" alt="Logo di Quantitas"/>
@@ -272,7 +267,14 @@ layout: default
     <a href="/quantitas" class="btn mt-6">{{ page.section-e-cta }}</a>
 </section>
 
-{% include clients.html has-floating-image="true" %}
+<div class="bg-black -mt-8 flex justify-center" id="video-wrapper">
+    <video id="video-player" width="100%" height="720" muted>
+        <source src="/assets/images/quantitas-video.mp4" type="video/mp4"/>
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+{% include clients.html %}<!--has-floating-image="true"-->
 
 {% include home-form.html %}
 
