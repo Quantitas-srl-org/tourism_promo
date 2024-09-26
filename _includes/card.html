@@ -1,6 +1,11 @@
 <figure class="card {% if include.is-light %}is-light{% endif %} {% if include.is-small %}is-small !p-1 !bg-white{% endif %} ">
-    <img src="{{ include.img }}" width="100%" alt="{{ include.alt }}"
-         class="m-auto {% if include.is-light %}max-w-[380px]{% endif %} {% if include.padding %}py-5{% endif %}" />
+    {% if include.url %}
+    <a href="{{ include.url }}">
+    {% endif %}
+        <img src="{{ include.img }}" width="100%" alt="{{ include.alt }}" class="m-auto rounded-xl {% if include.is-light %}max-w-[380px]{% endif %} {% if include.padding %}py-5{% endif %}" />
+    {% if include.url %}
+    </a>
+    {% endif %}
     <figcaption class="flex items-center {% if include.caption %}justify-between{% else %}justify-end{% endif %} {% if include.caption %}mt-4{% endif %}">
         {% if include.caption %}
         <span class="inline-block bg-white text-xs py-1 px-2 rounded">{{ include.caption }}</span>
