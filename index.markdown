@@ -86,7 +86,7 @@ section-d-list-b-2: Individuare flussi di dati e <em>dataset</em> rilevanti
 section-d-list-b-3: Migliorare la sostenibilità ambientale, le tecnologie e le infrastrutture chiave
 section-d-cta: Inizia ora
 #Section E  
-section-e-h2: Gli esperti dei Big data sul Turismo
+section-e-h2: Gli esperti di Tourism Intelligence
 section-e-p-1: La nostra azienda integra molteplici fonti dati di settore <strong>elaborati, integrati, analizzati e interpretati</strong>.
 section-e-p-2: Creiamo narrazioni dinamiche <strong>dall’alto impatto visivo</strong> che aiutano le DMO nell’analisi del territorio, nel fare management e nel <strong>prendere decisioni strategiche</strong>.
 section-e-cta: Scopri di più su Quantitas
