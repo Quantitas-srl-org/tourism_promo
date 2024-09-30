@@ -29,7 +29,7 @@ section-a-p-2: >-
   le presenze, le nazionalità e molto altro è il punto di partenza per comprendere a fondo cosa succede nel proprio territorio.
 section-a-p-3: >-
   <strong>Ti affianchiamo sia nel trovare le risposte a partire dai dati, sia nella costruzione di una strategia basata su questi dati.</strong>
-section-a-cta: Diventa una dmo sostenibile
+section-a-cta: Diventa una dmo sostenibile e data driven
 #Section B
 section-b-h2: Fianco a fianco per tutto il precorso
 section-b-p-1: >-
