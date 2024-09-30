@@ -48,7 +48,7 @@ section-b-list-p: Solo con i <strong class="text-accent">dati veri</strong> puoi
 section-c-h2: Facciamo la strada insieme a te
 section-c-p-1: dalla definizione della strategia <strong><em>Data driven</strong></em> alla costruzione del <strong><em>Data Management Plan</strong></em>.
 section-c-p-2: Un approccio scientifico composto da 4 fasi
-section-c-list-1-h3: Strategia: Approccio allo Sviluppo Data Driven e Pianificazione
+section-c-list-1-h3: Strategia
 section-c-list-1-p-1: >-
   In questa fase verranno definiti ruoli, procedure, componenti tecnologiche necessarie, architetture, data policy e l'insieme di tutte le attività 
   associate alla gestione e alla governance dei dati della Destinazione.
