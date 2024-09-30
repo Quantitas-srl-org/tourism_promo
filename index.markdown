@@ -54,8 +54,7 @@ section-c-list-1-p-1: >-
 section-c-list-1-p-2:   In questa fase verranno definiti ruoli, procedure, componenti tecnologiche necessarie, architetture, data policy e l'insieme di tutte le attività 
   associate alla gestione e alla governance dei dati della Destinazione.
 section-c-list-2-h3: Sviluppo delle Competenze
-section-c-list-2-p-1: >-
-Il nostro team è composto da professionalità che soddisfano l'intera gamma di necessità informative e tecnologiche della Destinazione. E' funzionale quindi a 
+section-c-list-2-p-1: >-Il nostro team è composto da professionalità che soddisfano l'intera gamma di necessità informative e tecnologiche della Destinazione. E' funzionale quindi a 
 section-c-list-2-p-2: >-
   Per questa fase Quantitas valorizzerà ogni singola componente sulla base di quanto definito nella fase progettuale. Le singole componenti possono essere
   sviluppate direttamente da Quantitas nella loro totalità, oppure prevedere eventuale integrazione di componenti realizzate da altri fornitori.
