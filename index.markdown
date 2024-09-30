@@ -58,13 +58,12 @@ section-c-list-2-p-1: >-
 section-c-list-2-p-2: >-
   Per questa fase Quantitas valorizzerà ogni singola componente sulla base di quanto definito nella fase progettuale. Le singole componenti possono essere
   sviluppate direttamente da Quantitas nella loro totalità, oppure prevedere eventuale integrazione di componenti realizzate da altri fornitori.
-section-c-list-3-h3: Definizione di un Data Management Plan
+section-c-list-3-h3: Data Management
 section-c-list-3-p-1: >- 
   Una volta definiti i bisogni informativi della Destinazione, Quantitas supporterà la Destinazione stessa nella formalizzazione di tutti i processi di gestione del dato, con una definizione dei ruoli, delle modalità di aggiornamento dei dati, dei livelli di accessibilità delle informazioni, dei diversi livelli di accesso, delle caratteristiche di monitoraggio, della scalabilità delle componenti informative e della messa in sicurezza dei dati. Il Data Management Plan (DMP) costituirà la base documentale atta a certificare lo status di Destinazione "Data Driven".
 section-c-list-4-h3: Implementazione degli strumenti tecnologici
 section-c-list-4-p-1: >-
-  In questa fase saremo di supporto alla Destinazione nella scelta o sviluppo degli strumenti informatici e suoi componenti studiati su misura sulla base
-  delle sue necessità. Alcune delle componenti potranno essere già adottate e in uso dalla Destinazione, e in questo caso si provvederà a una loro implementazione in modo conforme alle diverse tecnologie coinvolte.
+  Solo una volta definita una strategia di gestione dei dati, sarà possibile capire di quali strumenti informatici ha bisogno la Destinazione per mettere in produzione i suoi dati e le sue informazioni. Da esperta in soluzioni di Tourism Intelligence, Quantitas è il soggetto ideale per accompagnare la Destinazione nella scelta dello strumento più adatto in ottica di economicità e di abbattimento degli sprechi: i potenziali software suggeriti saranno caratterizzati per essere strettamente funzionali alle esigenze della Destinazione.
 section-c-list-4-p-2: >-
   Per questa fase Quantitas valorizzerà ogni singola componente sulla base di quanto definito nella fase progettuale. Le singole componenti possono essere sviluppate direttamente dal nostro team nella loro totalità,
   oppure prevedere eventuale integrazione di componenti realizzate da altri fornitori.
