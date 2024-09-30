@@ -64,9 +64,6 @@ section-c-list-3-p-1: >-
 section-c-list-4-h3: Implementazione degli strumenti tecnologici
 section-c-list-4-p-1: >-
   Solo una volta definita una strategia di gestione dei dati, sarà possibile capire di quali strumenti informatici ha bisogno la Destinazione per mettere in produzione i suoi dati e le sue informazioni. Da esperta in soluzioni di Tourism Intelligence, Quantitas è il soggetto ideale per accompagnare la Destinazione nella scelta dello strumento più adatto in ottica di economicità e di abbattimento degli sprechi: i potenziali software suggeriti saranno caratterizzati per essere strettamente funzionali alle esigenze della Destinazione.
-section-c-list-4-p-2: >-
-  Per questa fase Quantitas valorizzerà ogni singola componente sulla base di quanto definito nella fase progettuale. Le singole componenti possono essere sviluppate direttamente dal nostro team nella loro totalità,
-  oppure prevedere eventuale integrazione di componenti realizzate da altri fornitori.
 section-c-cta: Inizia ora la trasformazione
 #Section D
 section-d-h2: Fai crescere la tua Destinazione iniziando con <span class="text-accent"><span class="font-bold">Quantitas</span> il percorso per diventare una <span class="font-bold">SMART DMO</span></span>
