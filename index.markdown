@@ -51,8 +51,7 @@ section-c-p-2: Un approccio scientifico composto da 4 fasi
 section-c-list-1-h3: Strategia
 section-c-list-1-p-1: >-
   Per la Destinazione, adottare un modello "Data Driven", consiste in sostanza nel fare dei dati la base di appoggio del processo decisionale e della scoperta di nuove strategie e azioni di marketing.  Nello specifico, per consentire alla DMO di transitare verso lo stato di "Smart Tourism Destination", è fondamentale, in termini di Governance della medesima, acquisire una capacità di ottenere e usare in maniera sistematica informazioni estratte dai dati.
-section-c-list-1-p-2:   In questa fase verranno definiti ruoli, procedure, componenti tecnologiche necessarie, architetture, data policy e l'insieme di tutte le attività 
-  associate alla gestione e alla governance dei dati della Destinazione.
+section-c-list-1-p-2:   In questa fase verranno definiti ruoli, procedure, componenti tecnologiche necessarie, architetture, data policy e l'insieme di tutte le attività associate alla gestione e alla governance dei dati della Destinazione.
 section-c-list-2-h3: Sviluppo delle Competenze
 section-c-list-2-p-1: >-
 Il nostro team è composto da professionalità che soddisfano l'intera gamma di necessità informative e tecnologiche della Destinazione.
