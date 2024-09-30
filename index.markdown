@@ -67,7 +67,7 @@ section-c-list-4-p-1: >-
 section-c-cta: Inizia ora la trasformazione
 #Section D
 section-d-h2: Fai crescere la tua Destinazione iniziando con <span class="text-accent"><span class="font-bold">Quantitas</span> il percorso per diventare una <span class="font-bold">SMART DMO</span></span>
-section-d-p-1: La Comunità Europea richiede un approccio globale e competenze specifiche per ottenere la certificazione e dare accesso ai Fondi Europei
+section-d-p-1: La Comunità Europea richiede un approccio globale e competenze specifiche per ottenere la possibilità di accedere ai Fondi Europei
 section-d-strong-1: >- 
   Ottenere lo status di Smart DMO è un'opportunità per:
 section-d-list-a-1: Promuovere il benessere delle comunità locali
