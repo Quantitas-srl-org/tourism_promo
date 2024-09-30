@@ -46,13 +46,13 @@ section-b-list-4: Affinare le proprie strategie
 section-b-list-p: Solo con i <strong class="text-accent">dati veri</strong> puoi prendere le <strong class="text-accent">decisioni giuste</strong>
 #Section C
 section-c-h2: Facciamo la strada insieme a te
-section-c-p-1: dalla strategia <strong><em>Data driven</strong></em> alla costruzione del <strong><em>Data Management Plan</strong></em>.
+section-c-p-1: dalla definizione della strategia <strong><em>Data driven</strong></em> alla costruzione del <strong><em>Data Management Plan</strong></em>.
 section-c-p-2: Un approccio scientifico composto da 4 fasi
-section-c-list-1-h3: Strategia
+section-c-list-1-h3: Strategia: Approccio allo Sviluppo "Data Driven" e Pianificazione
 section-c-list-1-p-1: >-
   In questa fase verranno definiti ruoli, procedure, componenti tecnologiche necessarie, architetture, data policy e l'insieme di tutte le attività 
   associate alla gestione e alla governance dei dati della Destinazione.
-section-c-list-1-p-2: L'output di questa fase sarà il documento di Data Management Plan (DMP) della destinazione.
+section-c-list-1-p-2: Per la Destinazione, adottare un modello “Data Driven”, consiste in sostanza nel fare dei dati la base di appoggio del processo decisionale e della scoperta di nuove strategie e azioni di marketing.  Nello specifico, per consentire alla DMO di transitare verso lo stato di “Smart Tourism Destination”, è fondamentale, in termini di Governance della medesima, acquisire una capacità di ottenere e usare in maniera sistematica informazioni estratte dai dati. 
 section-c-list-2-h3: Data Management Plan Data Analysis e Data Management
 section-c-list-2-p-1: >-
   In questa fase saremo di supporto alla Destinazione nella scelta o sviluppo degli strumenti informatici e suoi componenti studiati su misura sulla base delle
