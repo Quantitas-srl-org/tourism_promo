@@ -61,8 +61,6 @@ section-c-list-2-p-2: >-
 section-c-list-3-h3: Definizione di un Data Management Plan
 section-c-list-3-p-1: >- 
   Una volta definiti i bisogni informativi della Destinazione, Quantitas supporterà la Destinazione stessa nella formalizzazione di tutti i processi di gestione del dato, con una definizione dei ruoli, delle modalità di aggiornamento dei dati, dei livelli di accessibilità delle informazioni, dei diversi livelli di accesso, delle caratteristiche di monitoraggio, della scalabilità delle componenti informative e della messa in sicurezza dei dati. Il Data Management Plan (DMP) costituirà la base documentale atta a certificare lo status di Destinazione "Data Driven".
-section-c-list-3-p-2: >-
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 section-c-list-4-h3: Implementazione degli strumenti tecnologici
 section-c-list-4-p-1: >-
   In questa fase saremo di supporto alla Destinazione nella scelta o sviluppo degli strumenti informatici e suoi componenti studiati su misura sulla base
