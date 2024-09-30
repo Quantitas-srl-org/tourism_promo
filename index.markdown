@@ -54,9 +54,7 @@ section-c-list-1-p-1: >-
 section-c-list-1-p-2:   In questa fase verranno definiti ruoli, procedure, componenti tecnologiche necessarie, architetture, data policy e l'insieme di tutte le attività associate alla gestione e alla governance dei dati della Destinazione.
 section-c-list-2-h3: Sviluppo delle Competenze
 section-c-list-2-p-1: >-
-  In questa fase saremo di supporto alla Destinazione nella scelta o sviluppo degli strumenti informatici e suoi componenti studiati su misura sulla base delle
-  sue necessità. Alcune delle componenti potranno essere già adottate e in uso dalla Destinazione, e in questo caso si provvederà a una loro implementazione 
-  in modo conforme alle diverse tecnologie coinvolte.
+  Il nostro team è composto da professionalità che soddisfano l'intera gamma di necessità informative e tecnologiche della Destinazione. Accompagnerà la Destinazione in tutti i processi di Individuazione e Raccolta Dati (Data Collection), Integrazione Dati (Data Integration) e nella definizione degli Indici di Prestazione Territoriali (KPI) più adatti per le proprie realtà. Formerà il proprio personale interno nell'acquisizione degli strumenti indispensabili per una Gestione del Dato (Data Management) sostenibile e permanente.
 section-c-list-2-p-2: >-
   Per questa fase Quantitas valorizzerà ogni singola componente sulla base di quanto definito nella fase progettuale. Le singole componenti possono essere
   sviluppate direttamente da Quantitas nella loro totalità, oppure prevedere eventuale integrazione di componenti realizzate da altri fornitori.
