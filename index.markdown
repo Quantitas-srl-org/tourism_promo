@@ -31,7 +31,7 @@ section-a-p-3: >-
   <strong>Ti affianchiamo sia nel trovare le risposte a partire dai dati, sia nella costruzione di una strategia basata su questi dati.</strong>
 section-a-cta: Diventa una dmo sostenibile e data driven
 #Section B
-section-b-h2: Fianco a fianco per tutto il precorso
+section-b-h2: Fianco a fianco per tutto il percorso
 section-b-p-1: >-
   Quantitas ti supporta durante tutto il percorso, aiutandoti a identificare lo scopo della raccolta e analisi dei dati, i destinatari e i produttori, 
   il tipo di dati disponibili e le loro fonti. Questo processo valorizza i dati dell'ecosistema turistico, sia pubblico che privato.
