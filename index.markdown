@@ -118,4 +118,6 @@ form-label-privacy: Accetto la vostra <a href="/privacy" target="_blank" class="
 form-cta: Invia
 form-success-message-1: Grazie!
 form-success-message-2: Verrai contattato dal nostro team il prima possibile
+form-failure-message-1: Ooooops!
+form-failure-message-2: Qualcosa è andato storto, riprova più tardi.
 ---

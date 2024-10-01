@@ -3,7 +3,9 @@ import * as focusTrap from 'focus-trap';
 /**
  * DOM elements
  */
-const menuToggleBtn = document.querySelector('#menu-toggle-btn'),
+const
+  endpoint = "https://www.quantitas.it/forms/turismo-quantitas-it/carrier.php",
+  menuToggleBtn = document.querySelector('#menu-toggle-btn'),
   siteHeader = document.querySelector('.site-header'),
   siteHeaderLinks = siteHeader ? siteHeader.querySelector('ul').querySelectorAll('a') : null,
   icon = menuToggleBtn.querySelector('span'),
@@ -17,6 +19,7 @@ const menuToggleBtn = document.querySelector('#menu-toggle-btn'),
   inputPrivacy = document.querySelector('#input-privacy'),
   fieldset = contactForm ? contactForm.querySelector('fieldset') : null,
   formSuccess = document.querySelector('#form-success'),
+  formFailure = document.querySelector('#form-failure'),
   videoPlayer = document.querySelector('video');
 
 
@@ -176,12 +179,31 @@ const form = {
           }
         }
 
-        fieldset.classList.add('hidden')
-        contactForm.querySelector('button').classList.add('hidden')
-        formSuccess.removeAttribute('hidden')
-        formSuccess.removeAttribute('style')
-        console.log(payload);
-        // TODO: send data somewhere
+        fetch(endpoint, {
+          method: "post",
+          mode: "cors",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify(payload)
+        })
+          .then(response => {
+            fieldset.classList.add('hidden')
+            contactForm.querySelector('button').classList.add('hidden')
+            formSuccess.removeAttribute('hidden')
+            formSuccess.removeAttribute('style')
+            return response.text();
+          })
+          .then(txt => {
+            console.info(txt);
+          })
+          .catch(function(err) {
+            fieldset.classList.add('hidden')
+            contactForm.querySelector('button').classList.add('hidden')
+            formFailure.removeAttribute('hidden')
+            formFailure.removeAttribute('style')
+            console.error("Failed to fetch page: ", err);
+          });
       }
     })
   },

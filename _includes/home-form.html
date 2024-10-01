@@ -88,6 +88,11 @@
                 <span class="text-6xl text-gradient font-bold text-center">{{ page.form-success-message-1 }}</span>
                 <span class="text-lg text-center">{{ page.form-success-message-2 }}</span>
             </p>
+            <p role="status" aria-live="polite" id="form-failure" hidden style="display: none"
+               class="border bg-alert flex flex-col gap-4 p-6 border-primary rounded-3xl text-white">
+                <span class="text-6xl font-bold text-center">{{ page.form-failure-message-1 }}</span>
+                <span class="text-lg text-center">{{ page.form-failure-message-2 }}</span>
+            </p>
         </form>
     </div>
 </section>
