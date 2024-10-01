@@ -14,10 +14,10 @@ hero-p3: >-
   globale e ti <strong>affianchiamo nell’interpretazione dei risultati e delle tendenze</strong>. Prendi
   decisioni aziendali e politiche sicure, <strong>basate sui tuoi dati sul turismo e sul territorio</strong>.
 hero-cta: Dai potere ai tuoi dati
-hero-figure-1: Lorem ipsum dolor sit amet
-hero-figure-2: Lorem ipsum dolor sit amet
-hero-figure-3: Lorem ipsum dolor sit amet
-hero-figure-4: Lorem ipsum dolor sit amet
+hero-figure-1: Esplorazione Multidimensionale
+hero-figure-2: Sistemi di Supporto Decisionale
+hero-figure-3: Dashboard Modulabili
+hero-figure-4: Strumenti di Banchmark Territoriali
 #Section A
 section-a-h2: >-
   Tourism Intelligence: la leva per lo sviluppo sostenibile e la competitività della Destinazione
