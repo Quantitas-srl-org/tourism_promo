@@ -56,17 +56,12 @@ clients:
     alt: Logo di G20 Spiagge Italiane
 
 faqs:
-  - question: Testo della domanda
+  - question: Cos'è Quantitas Tourism Intelligence?
     answer: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-      dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  - question: Testo della domanda
+      Quantitas Tourism Intelligence è la soluzione che ti permette di gestire i dati della DMO (Destination Management Organization) per decidere strategicamente usando  informazioni precise e affidabili.
+  - question: Cos’è l'Intelligence dei dati nel settore turistico?
     answer: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-      dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      L'Intelligence dei dati è la somma di: selezione,integrazione e analisi di dati chiave come flussi turistici, presenze e nazionalità. Riduce il rumore di troppe e confuse informazioni per comprendere meglio il tuo territorio e  le decisioni.
   - question: Testo della domanda
     answer: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
