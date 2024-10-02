@@ -5,6 +5,10 @@ page-title: Informativa sulla <em>privacy</em> e i <em>cookie</em>
 meta_description: Trattamento dei dati e elenco dei cookies.
 ---
 
+- # [Cookies policy](#Cookies-policy)
+ 
+
+
 # Informativa sulla Privacy
 
 La presente informativa è resa ai sensi dell’art. 13 del Regolamento UE 2016/679 (GDPR) e descrive le modalità di trattamento dei dati personali degli utenti che interagiscono con il sito web "*turismo.quantitas.it*" di Quantitas Srl (di seguito, “Titolare”).
@@ -75,7 +79,7 @@ Il Titolare si riserva il diritto di apportare modifiche alla presente informati
 
 Se hai domande o necessiti di ulteriori informazioni in merito al trattamento dei tuoi dati personali, non esitare a contattarci all’indirizzo email *info[at]quantitas.it*.
 
-# Cookie Policy
+# [Cookie Policy]
 
 La presente Cookie Policy è redatta in conformità al Regolamento UE 2016/679 (GDPR) e descrive l’utilizzo dei cookie sul sito web di Quantitas Srl (di seguito, “Titolare”). La presente informativa ha lo scopo di spiegare cosa sono i cookie, quali vengono utilizzati, e come gestirli.
 
