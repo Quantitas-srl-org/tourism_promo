@@ -11,33 +11,33 @@ La presente informativa è resa ai sensi dell’art. 13 del Regolamento UE 2016/
 
 ## 1. Titolare del Trattamento
 
-Il titolare del trattamento dei dati personali è Quantitas Srl, con sede legale in Galleria Trieste 6, 35121 Padova, contattabile all’indirizzo email: *info@quantitas.it*.
+Il titolare del trattamento dei dati personali è Quantitas Srl, con sede legale in Galleria Trieste 6, 35121 Padova, contattabile all’indirizzo email: *info[at]quantitas.it*.
 
 ## 2. Tipologia di Dati Raccolti
 
 Durante la navigazione sul nostro sito, possiamo raccogliere diverse tipologie di dati personali, inclusi ma non limitati a:
 
-	- Dati di navigazione: informazioni come l’indirizzo IP, i nomi a dominio, l’orario della richiesta e altri parametri relativi al sistema operativo e all’ambiente informatico dell’utente.
-	- Dati forniti volontariamente dall’utente: ad esempio, nome, cognome, indirizzo email, numero di telefono, se compilati in form di contatto o moduli di registrazione presenti sul sito.
-	- Cookie e tecnologie di tracciamento: il sito potrebbe utilizzare cookie per migliorare l’esperienza dell’utente. Per maggiori dettagli, si invita a consultare la nostra Cookie Policy (vedi di seguito in questa stessa pagina).
+- Dati di navigazione: informazioni come l’indirizzo IP, i nomi a dominio, l’orario della richiesta e altri parametri relativi al sistema operativo e all’ambiente informatico dell’utente.
+- Dati forniti volontariamente dall’utente: ad esempio, nome, cognome, indirizzo email, numero di telefono, se compilati in form di contatto o moduli di registrazione presenti sul sito.
+- Cookie e tecnologie di tracciamento: il sito potrebbe utilizzare cookie per migliorare l’esperienza dell’utente. Per maggiori dettagli, si invita a consultare la nostra Cookie Policy (vedi di seguito in questa stessa pagina).
 
 ## 3. Finalità del Trattamento
 
 I dati personali raccolti potranno essere trattati per le seguenti finalità:
 
-	- Fornire risposte alle richieste degli utenti;
-	- Migliorare l’esperienza di navigazione del sito e fornire assistenza tecnica;
-	- Inviare comunicazioni promozionali e aggiornamenti, previo consenso esplicito;
-	- Adempiere ad obblighi di legge o regolamentari.
+- Fornire risposte alle richieste degli utenti;
+- Migliorare l’esperienza di navigazione del sito e fornire assistenza tecnica;
+- Inviare comunicazioni promozionali e aggiornamenti, previo consenso esplicito;
+- Adempiere ad obblighi di legge o regolamentari.
 
 ## 4. Base Giuridica del Trattamento
 
 Il trattamento dei dati personali si basa sulle seguenti basi giuridiche:
 
-	- Esecuzione di un contratto o di misure precontrattuali su richiesta dell’interessato (art. 6, par. 1, lett. b del GDPR);
-	- Adempimento di obblighi legali (art. 6, par. 1, lett. c del GDPR);
-	- Legittimo interesse del Titolare a migliorare i propri servizi (art. 6, par. 1, lett. f del GDPR);
-	- Consenso esplicito dell’interessato (art. 6, par. 1, lett. a del GDPR) per specifiche attività di marketing o altre finalità indicate.
+- Esecuzione di un contratto o di misure precontrattuali su richiesta dell’interessato (art. 6, par. 1, lett. b del GDPR);
+- Adempimento di obblighi legali (art. 6, par. 1, lett. c del GDPR);
+- Legittimo interesse del Titolare a migliorare i propri servizi (art. 6, par. 1, lett. f del GDPR);
+- Consenso esplicito dell’interessato (art. 6, par. 1, lett. a del GDPR) per specifiche attività di marketing o altre finalità indicate.
 
 ## 5. Modalità di Trattamento
 
@@ -47,8 +47,8 @@ Il trattamento dei dati sarà effettuato con strumenti elettronici e manuali, ne
 
 I dati personali raccolti potranno essere comunicati a:
 
-	- Soggetti terzi che svolgono attività strumentali ai servizi offerti dal Titolare (ad esempio, fornitori di servizi IT, consulenti);
-	- Autorità giudiziarie o amministrative, in adempimento di obblighi legali.
+- Soggetti terzi che svolgono attività strumentali ai servizi offerti dal Titolare (ad esempio, fornitori di servizi IT, consulenti);
+- Autorità giudiziarie o amministrative, in adempimento di obblighi legali.
 
 I dati non saranno oggetto di diffusione, salvo esplicito consenso dell’interessato.
 
@@ -60,20 +60,20 @@ I dati personali saranno conservati per il tempo strettamente necessario alle fi
 
 In conformità con gli artt. 15-22 del GDPR, l’interessato ha diritto a:
 
-	- Ottenere la conferma dell’esistenza dei propri dati personali e richiedere l’accesso agli stessi;
-	- Chiedere la rettifica o la cancellazione dei dati;
-	- Opporsi al trattamento o richiedere la limitazione dello stesso;
-	- Richiedere la portabilità dei dati;
-	- Revocare in qualsiasi momento il consenso prestato, senza pregiudicare la liceità del trattamento basata sul consenso prima della revoca;
-	- Presentare reclamo all’autorità di controllo competente (Garante per la protezione dei dati personali).
+- Ottenere la conferma dell’esistenza dei propri dati personali e richiedere l’accesso agli stessi;
+- Chiedere la rettifica o la cancellazione dei dati;
+- Opporsi al trattamento o richiedere la limitazione dello stesso;
+- Richiedere la portabilità dei dati;
+- Revocare in qualsiasi momento il consenso prestato, senza pregiudicare la liceità del trattamento basata sul consenso prima della revoca;
+- Presentare reclamo all’autorità di controllo competente (Garante per la protezione dei dati personali).
 
-Le richieste relative all’esercizio dei propri diritti possono essere inviate all’indirizzo email: [Inserire email aziendale].
+Le richieste relative all’esercizio dei propri diritti possono essere inviate all’indirizzo email: *info[at]quantitas.it"*.
 
 ## 9. Modifiche alla Privacy Policy
 
 Il Titolare si riserva il diritto di apportare modifiche alla presente informativa sulla privacy in qualsiasi momento, dandone adeguata comunicazione agli utenti. Si consiglia di consultare periodicamente questa pagina per essere aggiornati su eventuali cambiamenti.
 
-Se hai domande o necessiti di ulteriori informazioni in merito al trattamento dei tuoi dati personali, non esitare a contattarci all’indirizzo email *info@quantitas.it*.
+Se hai domande o necessiti di ulteriori informazioni in merito al trattamento dei tuoi dati personali, non esitare a contattarci all’indirizzo email *info[at]quantitas.it*.
 
 # Cookie Policy
 
@@ -91,8 +91,8 @@ Il sito "*turismo.quantitas.it*" di Quantitas Srl utilizza le seguenti tipologie
 
 Questi cookie sono essenziali per il corretto funzionamento del sito e permettono di fruire dei servizi richiesti. Non richiedono il consenso dell’utente e vengono installati automaticamente al momento dell’accesso al sito.
 
-	- Cookie di navigazione o sessione: garantiscono la normale navigazione e fruizione del sito.
-	- Cookie di funzionalità: permettono all’utente di navigare secondo una serie di criteri selezionati (ad esempio, la lingua) per migliorare il servizio reso.
+- Cookie di navigazione o sessione: garantiscono la normale navigazione e fruizione del sito.
+- Cookie di funzionalità: permettono all’utente di navigare secondo una serie di criteri selezionati (ad esempio, la lingua) per migliorare il servizio reso.
 
 #### b. Cookie di Analisi (Analytics)
 
@@ -112,10 +112,10 @@ L’utente può gestire le preferenze relative ai cookie direttamente all’inte
 
 È importante notare che disabilitare tutti i cookie potrebbe compromettere il funzionamento di questo sito. Di seguito sono riportati i link alle guide per la gestione dei cookie nei principali browser:
 
-	- Google Chrome
-	- Mozilla Firefox
-	- Apple Safari
-	- Microsoft Edge
+- Google Chrome
+- Mozilla Firefox
+- Apple Safari
+- Microsoft Edge
 
 ## 4. Consenso all’uso dei Cookie
 
@@ -127,7 +127,7 @@ Il Titolare si riserva il diritto di apportare modifiche alla presente Cookie Po
 
 ## 6. Contatti
 
-Per maggiori informazioni riguardo l’uso dei cookie o su come gestire il consenso, è possibile contattare Quantitas Srl all’indirizzo email: *info@quantitas.it*.
+Per maggiori informazioni riguardo l’uso dei cookie o su come gestire il consenso, è possibile contattare Quantitas Srl all’indirizzo email: *info[at]quantitas.it*.
 
 Si consiglia di rivedere periodicamente questa Cookie Policy per rimanere aggiornati su eventuali cambiamenti apportati dal Titolare.
 
