@@ -4,7 +4,7 @@ import * as focusTrap from 'focus-trap';
  * DOM elements
  */
 const
-  endpoint = "https://www.quantitas.it/forms/turismo-quantitas-it/carrier_.php",
+  endpoint = "https://www.quantitas.it/forms/turismo-quantitas-it/carrier.php",
   menuToggleBtn = document.querySelector('#menu-toggle-btn'),
   siteHeader = document.querySelector('.site-header'),
   siteHeaderLinks = siteHeader ? siteHeader.querySelector('ul').querySelectorAll('a') : null,
