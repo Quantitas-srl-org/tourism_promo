@@ -16,12 +16,14 @@
         <nav class="z-10">
             <ul class="space-y-2">
                 <li>
-                    <a href="/#tourism-intelligence" class="text-primary-dark underline underline-offset-4 hover:no-underline">
+                    <a href="/#tourism-intelligence"
+                       class="text-primary-dark underline underline-offset-4 hover:no-underline">
                         Tourism Intelligence
                     </a>
                 </li>
                 <li>
-                    <a href="/#smart-tourism-destination" class="text-primary-dark underline underline-offset-4 hover:no-underline">
+                    <a href="/#smart-tourism-destination"
+                       class="text-primary-dark underline underline-offset-4 hover:no-underline">
                         Smart Tourism Destination
                     </a>
                 </li>
@@ -69,4 +71,27 @@
     </div>
 </footer>
 
+<div id="cookies-eu-banner" style="display: none;">
+    <span class="flex justify-between items-center gap-4">
+        <span>
+            {{site.cookie-banner-text}}
+            <a href="/privacy" id="cookies-eu-more" class="underline">{{ site.cookie-policy-link-text }}</a>
+        </span>
+        <!-- <button id="cookies-eu-reject">Rifiuto</button>-->
+        <button id="cookies-eu-accept" class="btn">{{ site.cookie-banner-accept }}</button>
+    </span>
+</div>
+
+<script src="/assets/js/cookie-eu-banner.js"></script>
 <script defer src="/assets/js/script.js?r={{randomNumber}}"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WSG7GZBEZW"></script>
+<script>
+  new CookiesEuBanner(function () {
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-WSG7GZBEZW');
+  }, true);
+</script>

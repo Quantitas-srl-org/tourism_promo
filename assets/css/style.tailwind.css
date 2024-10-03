@@ -466,6 +466,10 @@ input:checked + .toggle:before {
     @apply bg-alert text-sm text-white rounded inline-block p-2 mt-2;
 }
 
+#cookies-eu-banner {
+    @apply bg-primary-dark text-white fixed z-50 bottom-0 left-0 p-4 w-full text-sm md:text-base;
+}
+
 @media (prefers-reduced-motion: no-preference) {
     .animation {
         animation-duration: 1s;

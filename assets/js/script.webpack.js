@@ -59,7 +59,7 @@ const header = {
   clickOnLinkToCloseSiteMenu: () => {
     if (!siteHeaderLinks) return
     siteHeaderLinks.forEach(link => {
-      link.addEventListener('click', (event) => {
+      link.addEventListener('click', () => {
         siteHeader.classList.remove('is-open');
         header.siteMenuClose()
       })
@@ -101,7 +101,7 @@ const components = {
   accordion: () => {
     if (!accordionBtn) return;
     accordionBtn.forEach(btn => {
-      btn.addEventListener('click', (e) => {
+      btn.addEventListener('click', () => {
         const panelId = btn.getAttribute('aria-controls'), id = btn.getAttribute('data-id'),
           panel = document.getElementById(panelId), icon = btn.querySelector('.material-symbols-outlined'),
           wrapper = document.querySelector('.accordion-wrapper-' + id);
@@ -121,9 +121,9 @@ const components = {
   videoPlayer: () => {
     if (!videoPlayer) return;
 
-    const observer = new IntersectionObserver((entry, observer) => {
+    const observer = new IntersectionObserver((entry) => {
         if (entry[0].isIntersecting) {
-          videoPlayer.play().then(r => {});
+          videoPlayer.play().then(() => {});
         } else {
           if (!videoPlayer.paused) {
               videoPlayer.pause();
@@ -227,7 +227,7 @@ const form = {
   },
   validateEmail: (email) => {
     return email.match(
-      /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+      /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
     );
   },
   validateForm: () => {

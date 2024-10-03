@@ -34,6 +34,9 @@ share-cover: share-cover.jpg
 page-cta-eye-brown: da DMO a Smart Tourism Destination con Quantitas
 page-cta-heading: Fai crescere la tua Destinazione con la <strong class="text-accent">Tourism Intelligence</strong>
 page-cta-link: Inizia ora la trasformazione
+cookie-banner-text: Quantitas utilizza solo cookie tecnici al fine di monitorare il traffico in modo anonimo
+cookie-policy-link-text: leggi l'informativa
+cookie-banner-accept: Accetto
 
 clients:
   - path: /assets/images/clients/otrf.webp
