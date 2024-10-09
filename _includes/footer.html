@@ -74,7 +74,7 @@
 <div id="cookies-eu-banner" style="display: none;">
     <span class="flex justify-between items-center gap-4">
         <span>
-            {{site.cookie-banner-text}}
+            {{ site.cookie-banner-text }}
             <a href="/privacy" id="cookies-eu-more" class="underline">{{ site.cookie-policy-link-text }}</a>
         </span>
         <!-- <button id="cookies-eu-reject">Rifiuto</button>-->
@@ -82,16 +82,5 @@
     </span>
 </div>
 
-<script src="/assets/js/cookie-eu-banner.js"></script>
-<script defer src="/assets/js/script.js?r={{randomNumber}}"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-WSG7GZBEZW"></script>
-<script>
-  new CookiesEuBanner(function () {
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'G-WSG7GZBEZW');
-  }, true);
-</script>
+<script defer src="/assets/js/script.js?r={{randomNumber}}"></script>
