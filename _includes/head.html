@@ -52,4 +52,8 @@
     <link rel="preload" as="image" href="/assets/images/water.webp">
     <link rel="stylesheet" href="/assets/css/style.css?r={{randomNumber}}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    {% for lang in site.languages %}
+    {% capture lang_href %}{{site.baseurl}}/{% if lang != site.default_lang %}{{ lang }}/{% endif %}{% if page.permalink_lang[lang] != '/' %}{{page.permalink_lang[lang]}}{% endif %}{% endcapture %}
+    <link rel="alternate" hreflang="{{ lang }}" {% static_href %}href="{{ lang_href }}"{% endstatic_href %} />
+    {% endfor %}
 </head>

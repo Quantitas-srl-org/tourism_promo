@@ -38,6 +38,21 @@
                     </a>
                 </li>
             </ul>
+
+            <div class="flex items-center mt-4 leading-none lang-links">
+                <span class="material-symbols-outlined text-primary-dark !text-lg mr-2"
+                      aria-hidden="true">language</span>
+                <ul class="inline-flex gap-1">
+                    {% for lang in site.languages %}
+                    {% capture lang_href %}/{% if lang != site.default_lang %}{{ lang }}/{% endif %}{% if
+                    page.permalink_lang[lang] != '/' %}{{page.permalink_lang[lang]}}{% endif %}{% endcapture %}
+                    <li>
+                        <a rel="alternate" href="{{ lang_href }}" class="text-primary-dark uppercase hover:underline">{{lang}}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+
             <ul class="mt-4 flex space-x-4">
                 <li>
                     <a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank"

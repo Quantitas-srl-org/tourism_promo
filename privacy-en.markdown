@@ -1,16 +1,16 @@
 ---
-lang: it
+lang: en
 layout: page
 permalink: privacy
 page_id: privacy
 
-title: Privacy and cookies
+title: Informativa sulla privacy e i cookie
 page-title: Informativa sulla <em>privacy</em> e i <em>cookie</em>
 meta_description: Trattamento dei dati e elenco dei cookies.
 ---
 
 
-## Privacy and cookies
+## Informativa sulla Privacy
 
 La presente informativa è resa ai sensi dell’art. 13 del Regolamento UE 2016/679 (GDPR) e descrive le modalità di trattamento dei dati personali degli utenti che interagiscono con il sito web "*turismo.quantitas.it*" di Quantitas Srl (di seguito, “Titolare”).
 

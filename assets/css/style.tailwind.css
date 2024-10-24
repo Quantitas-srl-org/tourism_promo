@@ -246,7 +246,11 @@
 }
 
 .site-menu a {
-    @apply px-4 py-2 font-bold hover:underline underline-offset-4;
+    @apply px-3 py-2 font-bold hover:underline underline-offset-4 text-base;
+}
+
+.lang-links li:first-child::after {
+    content: "/";
 }
 
 .site-logo {

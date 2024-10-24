@@ -59,32 +59,66 @@ clients:
     alt: Logo di G20 Spiagge Italiane
 
 faqs:
-  - question: Cos'è Quantitas Tourism Intelligence?
-    answer: >-
-      Quantitas Tourism Intelligence è la soluzione che ti permette di gestire i dati della DMO (Destination Management Organization) per decidere strategicamente usando  informazioni precise e affidabili.
-  - question: Cos’è l'Intelligence dei dati nel settore turistico?
-    answer: >-
-      L'Intelligence dei dati è la somma di: selezione, integrazione e analisi di dati chiave come flussi turistici, presenze e nazionalità. Riduce il rumore di troppe e confuse informazioni per comprendere meglio il tuo territorio e  le decisioni.
-  - question: Cosa significa adottare un approccio "Data Driven"?
-    answer: >-
-      Significa basare le decisioni della DMO su dati reali e selezionati, permettendo una governance più efficiente e una maggiore competitività nei settori ancillari al turismo, secondo gli standard delle Smart Tourism Destination.
-  - question: Quali dati vengono analizzati?
-    answer: >-
-      Analizziamo molte tipologie di dati, come flussi turistici, presenze, nazionalità, e altri indicatori territoriali, per fornirti una visione sia sintetica che puntuale dell’ecosistema turistico.
-  - question: Come Quantitas supporta la transizione verso una Smart DMO?
-    answer: >-
-      Quantitas ti affianca nell'implementazione di strategie basate sui dati, nella creazione di un piano di gestione dei dati (Data Management Plan) e nella scelta degli strumenti tecnologici più adatti alle tue esigenze.
-  - question: Quali vantaggi offre una Smart DMO?
-    answer: >-
-      Raggiungere lo status di Smart DMO ti permette di accedere ai Fondi Europei e, grazie alla programmazione, migliorare la competitività, ottenere sviluppo sostenibile, e promuovere il benessere delle comunità locali.
-  - question: Come vengono visualizzati i dati raccolti?
-    answer: >-
-      Creiamo visualizzazioni di sintesi  ad alto impatto visivo, semplificando la comprensione di dati complessi e fornendo relazioni chiave per una pianificazione strategica immediata.
-  - question: Come posso utilizzare i Big Data nel turismo?
-    answer: >-
-      I Big Data sono un flusso costante e in tempo reale come dati telefonici o da sensori che  permettono di ottenere indicazioni su comportamenti e attività. Quantitas Tourism Intelligence, analizza le tendenze emergenti e ottimizza le tue strategie di marketing e gestione.
+  it:
+    - question: Cos'è Quantitas Tourism Intelligence?
+      answer: >-
+        Quantitas Tourism Intelligence è la soluzione che ti permette di gestire i dati della DMO (Destination Management Organization) per decidere strategicamente usando  informazioni precise e affidabili.
+    - question: Cos’è l'Intelligence dei dati nel settore turistico?
+      answer: >-
+        L'Intelligence dei dati è la somma di: selezione, integrazione e analisi di dati chiave come flussi turistici, presenze e nazionalità. Riduce il rumore di troppe e confuse informazioni per comprendere meglio il tuo territorio e  le decisioni.
+    - question: Cosa significa adottare un approccio "Data Driven"?
+      answer: >-
+        Significa basare le decisioni della DMO su dati reali e selezionati, permettendo una governance più efficiente e una maggiore competitività nei settori ancillari al turismo, secondo gli standard delle Smart Tourism Destination.
+    - question: Quali dati vengono analizzati?
+      answer: >-
+        Analizziamo molte tipologie di dati, come flussi turistici, presenze, nazionalità, e altri indicatori territoriali, per fornirti una visione sia sintetica che puntuale dell’ecosistema turistico.
+    - question: Come Quantitas supporta la transizione verso una Smart DMO?
+      answer: >-
+        Quantitas ti affianca nell'implementazione di strategie basate sui dati, nella creazione di un piano di gestione dei dati (Data Management Plan) e nella scelta degli strumenti tecnologici più adatti alle tue esigenze.
+    - question: Quali vantaggi offre una Smart DMO?
+      answer: >-
+        Raggiungere lo status di Smart DMO ti permette di accedere ai Fondi Europei e, grazie alla programmazione, migliorare la competitività, ottenere sviluppo sostenibile, e promuovere il benessere delle comunità locali.
+    - question: Come vengono visualizzati i dati raccolti?
+      answer: >-
+        Creiamo visualizzazioni di sintesi  ad alto impatto visivo, semplificando la comprensione di dati complessi e fornendo relazioni chiave per una pianificazione strategica immediata.
+    - question: Come posso utilizzare i Big Data nel turismo?
+      answer: >-
+        I Big Data sono un flusso costante e in tempo reale come dati telefonici o da sensori che  permettono di ottenere indicazioni su comportamenti e attività. Quantitas Tourism Intelligence, analizza le tendenze emergenti e ottimizza le tue strategie di marketing e gestione.
+  en:
+    - question: What is Quantitas Tourism Intelligence?
+      answer: >-
+        Quantitas Tourism Intelligence is the solution that will allow you to manage your DMO data to take strategic decision using precise and trusted informations.
+    - question: What is data intelligence in the tourism sector?
+      answer: >-
+        Data intelligence is the sum of: selection, integration and analysis of key data like touristic flows, overnight tourists and origin of visitors. It reduces the noice cause by too many informations to better understand your territory and decisions.
+    - question: What does it mean to have a "data-driven" approach?
+      answer: >-
+        It means basing the decisions of your DMO on selected real data, allowing for a more effective governance and a higher competitiveness in ancillary sectors of tourism, following the Smart Tourism Destination standards.
+    - question: What data gets analyzed?
+      answer: >-
+        We analyze many types of data, such as tourist flows, overnight tourists, visitor origin, and other territorial indicators, to provide you with both a summarize and punctual view of the tourism ecosystem.
+    - question: How does Quantitas support the transition towards a Smart DMO?
+      answer: >-
+        Quantitas will be by your side in implementing strategies based on data, in creating a Data Management Plan and in choosing the IT tools most suited to your needs.
+    - question: What are the advantages of a Smart DMO?
+      answer: >-
+        Achieving Smart DMO status allows you to access European Funds and, through programming, improve competitiveness, achieve sustainable development, and promote the welfare of local communities.
+    - question: How are the gathered data visualized?
+      answer: >-
+        We create high-impact visual summary visualizations, simplifying understanding of complex data and providing key relationships for immediate strategic planning.
+    - question: How can I use Big Data in tourism?
+      answer: >-
+        Big Data is a constant, real-time stream such as phone or sensor data that enables insights into behaviors and activities. Quantitas Tourism Intelligence, analyzes emerging trends and optimize your marketing and management strategies.
 
+# Jekyll Config
 debug: false
+plugins:
+  - jekyll-polyglot
+
+languages: ["it", "en"]
+default_lang: "it"
+exclude_from_localization: ["javascript", "images", "css", "public"]
+parallel_localization: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
