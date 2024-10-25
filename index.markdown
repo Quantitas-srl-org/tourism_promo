@@ -3,6 +3,8 @@ lang: it
 permalink: /
 layout: home
 page_id: home
+title: Quantitas Tourism Intelligence. Analizza, valuta e prendi decisione Data Driven
+meta_description: Il nostro team costruisce ad hoc per la tua DMO soluzioni e narrazioni integrate di dati per rispondere alle domande sul tuo territorio e sul mercato del turismo.
 
 #Hero
 hero-h1: Analizza, valuta e prendi decisioni <em>data driven</em>
@@ -21,7 +23,8 @@ hero-cta: Dai potere ai tuoi dati
 hero-figure-1: Esplorazione Multidimensionale
 hero-figure-2: Sistemi di Supporto Decisionale
 hero-figure-3: Dashboard Modulabili
-hero-figure-4: Strumenti di Banchmark Territoriali
+hero-figure-4: Strumenti di Benchmark Territoriali
+
 #Section A
 section-a-h2: >-
   Tourism Intelligence: la leva per lo sviluppo sostenibile e la competitività della Destinazione
@@ -34,6 +37,7 @@ section-a-p-2: >-
 section-a-p-3: >-
   <strong>Ti affianchiamo sia nel trovare le risposte a partire dai dati, sia nella costruzione di una strategia basata su questi dati.</strong>
 section-a-cta: Diventa una dmo sostenibile e data driven
+
 #Section B
 section-b-h2: Fianco a fianco per tutto il percorso
 section-b-p-1: >-
@@ -48,6 +52,7 @@ section-b-list-2: Ottimizzare il proprio funzionamento
 section-b-list-3: Informare il processo decisionale
 section-b-list-4: Affinare le proprie strategie
 section-b-list-p: Solo con i <strong class="text-accent">dati veri</strong> puoi prendere le <strong class="text-accent">decisioni giuste</strong>
+
 #Section C
 section-c-h2: Facciamo la strada insieme a te
 section-c-p-1: dalla definizione della strategia <strong><em>Data driven</strong></em> alla costruzione del <strong><em>Data Management Plan</strong></em>.
@@ -69,6 +74,11 @@ section-c-list-4-h3: Implementazione degli strumenti tecnologici
 section-c-list-4-p-1: >-
   Solo una volta definita una strategia di gestione dei dati, sarà possibile capire di quali strumenti informatici ha bisogno la Destinazione per mettere in produzione i suoi dati e le sue informazioni. Da esperta in soluzioni di Tourism Intelligence, Quantitas è il soggetto ideale per accompagnare la Destinazione nella scelta dello strumento più adatto in ottica di economicità e di abbattimento degli sprechi: i potenziali software suggeriti saranno caratterizzati per essere strettamente funzionali alle esigenze della Destinazione.
 section-c-cta: Inizia ora la trasformazione
+alt-figure-a: Illustrazione astratta di un sistema planetario che ruota su se stesso
+alt-figure-b: Illustrazione astratta di diversi grafici
+alt-figure-c: Illustrazione astratta di fiori digitali che crescono
+alt-figure-d: Illustrazione astratta di due dispositivi tecnologici
+
 #Section D
 section-d-h2: Fai crescere la tua Destinazione iniziando con <span class="text-accent"><span class="font-bold">Quantitas</span> il percorso per diventare una <span class="font-bold">SMART DMO</span></span>
 section-d-p-1: La Comunità Europea richiede un approccio globale e competenze specifiche per ottenere la possibilità di accedere ai Fondi Europei
@@ -89,19 +99,23 @@ section-d-list-b-1: Definire strategie specifiche e modelli di governance effica
 section-d-list-b-2: Individuare flussi di dati e <em>dataset</em> rilevanti
 section-d-list-b-3: Migliorare la sostenibilità ambientale, le tecnologie e le infrastrutture chiave
 section-d-cta: Inizia ora
+section-d-figure-alt: >-
+  Illustrazione con al centro il testo 'Smart Tourism Destination' e tutt'intorno, in senso orario a partire dall'alto: 'Dati', 'Infrastrutture e Tecnologie', 'Business', 'Strategia', 'Competenze', 'Governance'
+
 #Section E  
 section-e-h2: Gli esperti di Tourism Intelligence
 section-e-p-1: La nostra azienda integra molteplici fonti dati di settore <strong>elaborati, integrati, analizzati e interpretati</strong>.
 section-e-p-2: Creiamo narrazioni dinamiche <strong>dall’alto impatto visivo</strong> che aiutano le DMO nell’analisi del territorio, nel fare management e nel <strong>prendere decisioni strategiche</strong>.
 section-e-cta: Scopri di più su Quantitas
+
 #FAQ
 faq-h2: FAQs
 faq-small: Hai qualche domanda?
+
 #Form
 form-title: Scopri con Quantitas come dare potere ai tuoi dati
 form-legend: Contatta Quantitas S.R.L.
 form-p-1: Scrivici per fissare un appuntamento conoscitivo. In questo primo incontro ti chiederemo come è strutturata la tua destinazione, quali sono le vostre esigenze e a quali domande volete che i dati e il nostro team trovino la risposta.
-form-p-2: In questo primo incontro ti chiederemo come è strutturata la tua destinazione, quali sono le vostre esigenze e a quali domande volete che i dati e il nostro team trovino la risposta.
 form-label-company-name: Nome azienda
 form-helper-company-name: Inserisci la denominazione aziendale (obbligatorio)
 form-placeholder-company-name: Denominazione Azienda

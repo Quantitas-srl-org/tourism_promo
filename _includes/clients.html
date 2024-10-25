@@ -5,7 +5,7 @@
      </span>
     {% endif %}
     <p class="text-[34px] font-bold strikethrough">
-        I nostri <s>clienti</s> <span class="sr-only">partner</span>
+        {{site.client-title[page.lang]}} <span class="sr-only">partner</span>
     </p>
     <ul class="grid grid-cols-1 sm:grid-cols-3 gap-6">
         {% for client in site.clients %}

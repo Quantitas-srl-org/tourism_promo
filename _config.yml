@@ -18,9 +18,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Quantitas Tourism Intelligence. Analizza, valuta e prendi decisione Data Driven
-description: >- # this means to ignore newlines until "baseurl:"
-  Il nostro team costruisce ad hoc per la tua DMO soluzioni e narrazioni integrate di dati per rispondere alle domande sul tuo territorio e sul mercato del turismo.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 language: "it"
@@ -31,33 +28,53 @@ linkedin_username: quantitas-srl
 share-cover: share-cover.jpg
 
 #TEXT
-page-cta-eye-brown: da DMO a Smart Tourism Destination con Quantitas
-page-cta-heading: Fai crescere la tua Destinazione con la <strong class="text-accent">Tourism Intelligence</strong>
-page-cta-link: Inizia ora la trasformazione
-cookie-banner-text: Quantitas utilizza solo cookie tecnici al fine di monitorare il traffico in modo anonimo.
-cookie-policy-link-text: Leggi l'informativa.
-cookie-banner-accept: Accetto
+page-cta-eye-brown:
+  it: da DMO a Smart Tourism Destination con Quantitas
+  en: From DMO to Smart Tourism Destination with Quantitas
+page-cta-heading:
+  it: Fai crescere la tua Destinazione con la <strong class="text-accent">Tourism Intelligence</strong>
+  en: Grow your destination with  <strong class="text-accent">Tourism Intelligence</strong>
+page-cta-link:
+  it: Inizia ora la trasformazione
+  en: Start the transformation now
+cookie-banner-text:
+  it: Quantitas utilizza solo cookie tecnici al fine di monitorare il traffico in modo anonimo.
+  en: Quantitas uses only technical cookies in order to track traffic anonymously.
+cookie-policy-link-text:
+  it: Leggi l'informativa.
+  en: Read the policy.
+cookie-banner-accept:
+  it: Accetto
+  en: I accept
 
 clients:
   - path: /assets/images/clients/otrf.webp
-    alt: Logo di Osservatorio del Turismo Regionale Federato
+    alt: >-
+      Logo: Osservatorio del Turismo Regionale Federato
   - path: /assets/images/clients/destination-verona-garda.webp
-    alt: Logo di Destination Verona Garda Foundation
+    alt: >-
+      Logo: Destination Verona Garda Foundation
   - path: /assets/images/clients/bologna-welcome.webp
-    alt: Logo di Bologna Welcome
+    alt: >-
+      Logo: Bologna Welcome
   - path: /assets/images/clients/ticino-welcome.webp
-    alt: Logo di Ticino Welcome
+    alt: >-
+      Logo: Ticino Welcome
   - path: /assets/images/clients/terre-alto-piemonte.webp
-    alt: Logo di Terre dell'Alto Piemonte
+    alt: >-
+      Logo: Terre dell'Alto Piemonte
   - path: /assets/images/clients/distretto-dei-laghi.webp
-    alt: Logo di Distretto Turistico dei Laghi
+    alt: >-
+      Logo: Distretto Turistico dei Laghi
   - path: /assets/images/clients/comune-cremona.webp
-    alt: Logo del Comune di Cremona
+    alt: >-
+      Logo: Comune di Cremona
   - path: /assets/images/clients/dolomiti-bellunesi.webp
-    alt: Logo di Dolomiti Bellunesi
+    alt: >-
+      Logo: Dolomiti Bellunesi
   - path: /assets/images/clients/g20-spiagge.webp
-    alt: Logo di G20 Spiagge Italiane
-
+    alt: >-
+      Logo: G20 Spiagge Italiane
 faqs:
   it:
     - question: Cos'è Quantitas Tourism Intelligence?
@@ -109,6 +126,32 @@ faqs:
     - question: How can I use Big Data in tourism?
       answer: >-
         Big Data is a constant, real-time stream such as phone or sensor data that enables insights into behaviors and activities. Quantitas Tourism Intelligence, analyzes emerging trends and optimize your marketing and management strategies.
+back-link:
+    it: Torna indietro
+    en: Backward
+skip-links:
+  main:
+    it: Vai al contenuto principale
+    en: Got to the main content
+  footer:
+    it: Vai al pie' di pagina
+    en: Go to the footer
+client-title:
+  it: I nostri <s>clienti</s>
+  en: Our <s>clients</s>
+header-cta:
+  it: Inizia ora
+  en: Start now
+back-to-home:
+  it: Torna alla home page
+  en: Back to home page
+open-menu:
+  it: Apri il menù
+  en: Open the menu
+close-menu:
+  it: Chiudi il menù
+  en: Close the menu
+
 
 # Jekyll Config
 debug: false

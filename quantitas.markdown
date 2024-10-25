@@ -3,9 +3,9 @@ lang: it
 permalink: quantitas
 page_id: quantitas
 layout: quantitas
-
 title: Quantitas S.R.L. Chi siamo
 meta_description: Il nostro team di esperti supporta le DMO, le DMC e gli Enti Locali nell’integrazione efficace dei dati provenienti da molteplici fonti dati (Data Provider)
+
 #TESTI
 page-title: Gli esperti dei <em>Tourism Intelligence</em>
 content-h2: La nostra azienda <strong class="text-gradient !inline">integra molteplici fonti di dati</strong> di settore elaborati, integrati, analizzati e interpretati.

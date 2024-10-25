@@ -1,22 +1,29 @@
 <figure class="card {% if include.is-light %}is-light{% endif %} {% if include.is-small %}is-small !p-1 !bg-white{% endif %} ">
     {% if include.url %}
     <a href="{{ include.url }}">
-    {% endif %}
-        <img src="{{ include.img }}" width="100%" alt="{{ include.alt }}" class="m-auto rounded-xl {% if include.is-light %}max-w-[380px]{% endif %} {% if include.padding %}py-5{% endif %}" />
-    {% if include.url %}
+        {% endif %}
+        <img src="{{ include.img }}" width="100%"
+             alt="{% if page[include.alt] %}{{ page[include.alt] }}{% else %}{{ include.alt }}{% endif %}"
+             class="m-auto rounded-xl {% if include.is-light %}max-w-[380px]{% endif %} {% if include.padding %}py-5{% endif %}"/>
+        {% if include.url %}
     </a>
     {% endif %}
-    <figcaption class="flex items-center {% if include.caption %}justify-between{% else %}justify-end{% endif %} {% if include.caption %}mt-4{% endif %}">
+    <figcaption
+            class="flex items-center {% if include.caption %}justify-between{% else %}justify-end{% endif %} {% if include.caption %}mt-4{% endif %}">
         {% if include.caption %}
         <span class="inline-block bg-white text-xs py-1 px-2 rounded">{{ include.caption }}</span>
         {% endif %}
         {% if include.is-small != 'true' %}
         <span class="{% if include.is-light %}text-black{% else %}text-white{% endif %}" aria-hidden="true">
             <svg width="21" height="17" viewBox="0 0 21 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0.375 2.07663V14.284C0.375 15.1285 1.05926 15.8125 1.904 15.8125C2.74764 15.8125 3.43202 15.1286 3.43202 14.284V2.07663C3.43202 1.23251 2.74752 0.548034 1.904 0.548034C1.05937 0.548034 0.375 1.23263 0.375 2.07663Z" stroke="currentColor" stroke-width="0.75"/>
-                <path d="M6.08569 6.13077V14.284C6.08569 15.1285 6.76988 15.8125 7.61469 15.8125C8.45876 15.8125 9.14271 15.1287 9.14271 14.284V6.13077C9.14271 5.28634 8.45863 4.60202 7.61469 4.60202C6.77001 4.60202 6.08569 5.28651 6.08569 6.13077Z" stroke="currentColor" stroke-width="0.75"/>
-                <path d="M11.7961 13.6786V14.2843C11.7961 15.1285 12.4802 15.8125 13.3255 15.8125C14.169 15.8125 14.8532 15.1287 14.8532 14.2843V13.6786C14.8532 12.8344 14.1689 12.1504 13.3255 12.1504C12.4803 12.1504 11.7961 12.8346 11.7961 13.6786Z" stroke="currentColor" stroke-width="0.75"/>
-                <path d="M17.5066 11.227V14.284C17.5066 15.1284 18.1913 15.8125 19.0355 15.8125C19.8797 15.8125 20.5636 15.1287 20.5636 14.284V11.227C20.5636 10.3823 19.8797 9.69847 19.0355 9.69847C18.1913 9.69847 17.5066 10.3825 17.5066 11.227Z" stroke="currentColor" stroke-width="0.75"/>
+                <path d="M0.375 2.07663V14.284C0.375 15.1285 1.05926 15.8125 1.904 15.8125C2.74764 15.8125 3.43202 15.1286 3.43202 14.284V2.07663C3.43202 1.23251 2.74752 0.548034 1.904 0.548034C1.05937 0.548034 0.375 1.23263 0.375 2.07663Z"
+                      stroke="currentColor" stroke-width="0.75"/>
+                <path d="M6.08569 6.13077V14.284C6.08569 15.1285 6.76988 15.8125 7.61469 15.8125C8.45876 15.8125 9.14271 15.1287 9.14271 14.284V6.13077C9.14271 5.28634 8.45863 4.60202 7.61469 4.60202C6.77001 4.60202 6.08569 5.28651 6.08569 6.13077Z"
+                      stroke="currentColor" stroke-width="0.75"/>
+                <path d="M11.7961 13.6786V14.2843C11.7961 15.1285 12.4802 15.8125 13.3255 15.8125C14.169 15.8125 14.8532 15.1287 14.8532 14.2843V13.6786C14.8532 12.8344 14.1689 12.1504 13.3255 12.1504C12.4803 12.1504 11.7961 12.8346 11.7961 13.6786Z"
+                      stroke="currentColor" stroke-width="0.75"/>
+                <path d="M17.5066 11.227V14.284C17.5066 15.1284 18.1913 15.8125 19.0355 15.8125C19.8797 15.8125 20.5636 15.1287 20.5636 14.284V11.227C20.5636 10.3823 19.8797 9.69847 19.0355 9.69847C18.1913 9.69847 17.5066 10.3825 17.5066 11.227Z"
+                      stroke="currentColor" stroke-width="0.75"/>
             </svg>
         </span>
         {% endif %}

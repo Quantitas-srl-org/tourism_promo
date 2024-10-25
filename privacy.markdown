@@ -3,8 +3,7 @@ lang: it
 layout: page
 permalink: privacy
 page_id: privacy
-
-title: Privacy and cookies
+title: Privacy e cookie
 page-title: Informativa sulla <em>privacy</em> e i <em>cookie</em>
 meta_description: Trattamento dei dati e elenco dei cookies.
 ---

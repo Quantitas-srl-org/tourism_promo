@@ -1,13 +1,15 @@
 <header id="site-header" class="site-header" role="banner">
     <div class="wrapper flex justify-between items-center">
-        <a class="site-logo" href="/" title="Torna alla home page">
+        <a class="site-logo" href="/" title="{{site.back-to-home[page.lang]}}">
             <span class="sr-only">Quantitas S.R.L.</span>
         </a>
         <button
                 id="menu-toggle-btn"
                 type="button"
                 class="inline-flex lg:hidden"
-                aria-label="Apri il menù"
+                aria-label="{{site.open-menu[page.lang]}}"
+                title="{{site.open-menu[page.lang]}}"
+                data-labels='{"open": "{{site.open-menu[page.lang]}}", "close": "{{site.close-menu[page.lang]}}"}'
                 aria-expanded="false"
                 aria-controls="site-menu"
                 aria-haspopup="menu">
@@ -31,16 +33,17 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/#contatti" class="btn hover:!no-underline !text-sm !px-6">Inizia ora</a>
+                    <a href="/#contatti" class="btn hover:!no-underline !text-sm !px-6">
+                        {{site.header-cta[page.lang] }}
+                    </a>
                 </li>
                 <li class="inline-flex items-center leading-none lang-links">
                     <span class="material-symbols-outlined !text-lg mr-2" aria-hidden="true">language</span>
                     <ul class="inline-flex !gap-1 !flex-row !mt-0">
                         {% for lang in site.languages %}
-                        {% capture lang_href %}/{% if lang != site.default_lang %}{{ lang }}/{% endif %}{% if
-                        page.permalink_lang[lang] != '/' %}{{page.permalink_lang[lang]}}{% endif %}{% endcapture %}
+                        {% capture lang_href %}/{% if lang != site.default_lang %}{{ lang }}/{% endif %}{% if page.permalink_lang[lang] != '/' %}{{page.permalink_lang[lang]}}{% endif %}{% endcapture %}
                         <li>
-                            <a rel="alternate" href="{{ lang_href }}" class="!p-0 !font-normal uppercase">{{lang}}</a>
+                            <a {% static_href %}href="{{ lang_href }}"{% endstatic_href %} class="!p-0 !font-normal uppercase">{{ lang }}</a>
                         </li>
                         {% endfor %}
                     </ul>

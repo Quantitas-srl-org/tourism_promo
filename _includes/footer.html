@@ -29,7 +29,7 @@
                 </li>
                 <li>
                     <a href="/quantitas" class="text-primary-dark underline underline-offset-4 hover:no-underline">
-                        Scopri di più su Quantitas
+                        Quantitas S.R.L.
                     </a>
                 </li>
                 <li>
@@ -47,7 +47,8 @@
                     {% capture lang_href %}/{% if lang != site.default_lang %}{{ lang }}/{% endif %}{% if
                     page.permalink_lang[lang] != '/' %}{{page.permalink_lang[lang]}}{% endif %}{% endcapture %}
                     <li>
-                        <a rel="alternate" href="{{ lang_href }}" class="text-primary-dark uppercase hover:underline">{{lang}}</a>
+                        <a {% static_href %}href="{{ lang_href }}" {% endstatic_href %}
+                           class="text-primary-dark uppercase hover:underline">{{ lang }}</a>
                     </li>
                     {% endfor %}
                 </ul>
@@ -89,11 +90,11 @@
 <div id="cookies-eu-banner" style="display: none;">
     <span class="flex justify-between items-center gap-4">
         <span>
-            {{ site.cookie-banner-text }}
-            <a href="/privacy" id="cookies-eu-more" class="underline">{{ site.cookie-policy-link-text }}</a>
+            {{ site.cookie-banner-text[page.lang] }}
+            <a href="/privacy" id="cookies-eu-more" class="underline">{{ site.cookie-policy-link-text[page.lang] }}</a>
         </span>
         <!-- <button id="cookies-eu-reject">Rifiuto</button>-->
-        <button id="cookies-eu-accept" class="btn">{{ site.cookie-banner-accept }}</button>
+        <button id="cookies-eu-accept" class="btn">{{ site.cookie-banner-accept[page.lang] }}</button>
     </span>
 </div>
 

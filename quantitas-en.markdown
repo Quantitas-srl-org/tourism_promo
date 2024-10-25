@@ -3,9 +3,9 @@ lang: en
 permalink: quantitas
 page_id: quantitas
 layout: quantitas
-
 title: Quantitas S.R.L. Who we are
 meta_description: Our team of experts supports DMOs, DMCs, and local governments in the effective integration of data from multiple data sources
+
 #TESTI
 page-title: Tourism Intelligence Experts
 content-h2: Our company <strong class="text-gradient !inline">integrates multiple sources</strong> of processed, integrated, analyzed and interpreted <strong class="text-gradient !inline">industry data</strong>.

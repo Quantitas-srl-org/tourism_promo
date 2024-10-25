@@ -3,125 +3,134 @@ lang: en
 permalink: /
 layout: home
 page_id: home
+title: Quantitas Tourism Intelligence. Analyze, Evaluate, and Make Data Driven Decisions.
+meta_description: Our team builds ad hoc solutions and integrated data narratives for your DMO to answer questions about your area and the tourism market.
 
 #Hero
 hero-h1: Analyze, evaluate and make <em>data driven</em> decisions.
-hero-subtitle: Con la <strong class="text-gradient !inline">Quantitas Tourism Intelligence</strong> puoi gestire la tua DMO partendo dai tuoi dati più importanti.
+hero-subtitle: With <strong class="text-gradient !inline">Quantitas Tourism Intelligence</strong> you can manage your DMO starting with your most important data.
 hero-p1: >-
-  Il nostro team costruisce ad hoc per la tua DMO <strong>soluzioni e narrazioni integrate di dati per
-  rispondere alle domande sul tuo territorio</strong> e sul mercato del turismo.
-hero-p2: >-
-  Trova le risposte grazie all’Intelligence fornita dai dati e alla <strong><em>data knowledge</em></strong>
-  del nostro team.
+  Our team builds ad hoc <strong>integrated data solutions and narratives</strong>
+  for your DMO to answer questions about your area and the tourism market.
+hero-p2: Find the answers through data-driven intelligence and our team's data knowledge.
 hero-p3: >-
-  Ti aiutiamo a <strong>superare la frammentazione dei dataset</strong> sul turismo per avere una visione
-  globale e ti <strong>affianchiamo nell’interpretazione dei risultati e delle tendenze</strong>. Prendi
-  decisioni aziendali e politiche sicure, <strong>basate sui tuoi dati sul turismo e sul territorio</strong>.
-hero-cta: Dai potere ai tuoi dati
-hero-figure-1: Esplorazione Multidimensionale
-hero-figure-2: Sistemi di Supporto Decisionale
-hero-figure-3: Dashboard Modulabili
-hero-figure-4: Strumenti di Banchmark Territoriali
+  We help you <strong>overcome the fragmentation of tourism datasets</strong> to get a global view and 
+  <strong>support you in interpreting results and trends</strong>. Make confident business and policy 
+  decisions <strong>based on your tourism and land data</strong>.
+hero-cta: Empower your data
+hero-figure-1: Multidimensional Exploration
+hero-figure-2: Decision Support Systems
+hero-figure-3: Modular Dashboards
+hero-figure-4: Spatial Benchmark Tools
+section-d-figure-alt: >-
+  Illustration with the text 'Smart Tourism Destination' in the center and all around, clockwise from the top: 'Data', 'Infrastructure and Technology', 'Business', 'Strategy', 'Skills', 'Governance'
+
 #Section A
 section-a-h2: >-
-  Tourism Intelligence: la leva per lo sviluppo sostenibile e la competitività della Destinazione
-section-a-p-1: >-
-  <strong>L’Intelligence dei dati può essere una forza trainante</strong> per l'innovazione delle destinazioni turistiche e 
-  un importante fattore di competitività, sviluppo sostenibile, qualità della vita e resilienza.
+  Tourism Intelligence: the solution for sustainable development and destination competitiveness
+section-a-p-1: <strong>Data Intelligence can be a driving force</strong> for tourism destination innovation and an important factor in competitiveness, sustainable development, quality of life, and resilience.
 section-a-p-2: >-
-  L’integrazione, gestione e analisi di dati provenienti da molteplici fonti come: il territorio, i flussi turistici, 
-  le presenze, le nazionalità e molto altro è il punto di partenza per comprendere a fondo cosa succede nel proprio territorio.
+  Integrating, managing, and analyzing data from multiple sources such as: territory, tourist flows, overnight tourists, 
+  nationalities, and more is the starting point for a thorough understanding of what is happening in your territory.
 section-a-p-3: >-
-  <strong>Ti affianchiamo sia nel trovare le risposte a partire dai dati, sia nella costruzione di una strategia basata su questi dati.</strong>
-section-a-cta: Diventa una dmo sostenibile e data driven
+  <strong>We support you both in finding answers from data and in building a strategy based on that data.</strong>
+section-a-cta: Become a sustainable, data-driven DMO
+
 #Section B
-section-b-h2: Fianco a fianco per tutto il percorso
+section-b-h2: Side by side all the way
 section-b-p-1: >-
-  Quantitas ti supporta durante tutto il percorso, aiutandoti a identificare lo scopo della raccolta e analisi dei dati, i destinatari e i produttori, 
-  il tipo di dati disponibili e le loro fonti. Questo processo valorizza i dati dell'ecosistema turistico, sia pubblico che privato.
+  Quantitas supports you all along your journey, helping you identify the purpose of data collection and analysis, the recipients and providers, 
+  the type of data available, and their sources. This process enhances data from the tourism ecosystem, both public and private.
 section-b-p-2: >-
-  Attraverso i dati, potrai comprendere meglio e prevedere i modelli di turismo, migliorando l'efficienza e la competitività del tuo ecosistema 
-  turistico con una pianificazione accurata e un'allocazione ottimale delle risorse.
-section-b-cta: Inizia il percorso ora
-section-b-list-1: Migliorare la propria offerta
-section-b-list-2: Ottimizzare il proprio funzionamento
-section-b-list-3: Informare il processo decisionale
-section-b-list-4: Affinare le proprie strategie
-section-b-list-p: Solo con i <strong class="text-accent">dati veri</strong> puoi prendere le <strong class="text-accent">decisioni giuste</strong>
+  Through data, you can better understand and predict tourism patterns, improving the efficiency and competitiveness of your 
+  tourism ecosystem with accurate planning and optimal resource allocation.
+section-b-cta: Begin your journey now
+section-b-list-1: Improve your offering
+section-b-list-2: Optimize your operation
+section-b-list-3: Inform decision making
+section-b-list-4:  Refine your strategies
+section-b-list-p: Only with  <strong class="text-accent">real data</strong> you can take the  <strong class="text-accent">right decisions</strong>.
+
 #Section C
-section-c-h2: Facciamo la strada insieme a te
-section-c-p-1: dalla definizione della strategia <strong><em>Data driven</strong></em> alla costruzione del <strong><em>Data Management Plan</strong></em>.
-section-c-p-2: Un approccio scientifico composto da 4 fasi
-section-c-list-1-h3: Strategia
+section-c-h2: We take the journey with you
+section-c-p-1: from defining the Data driven strategy to building the Data Management Plan.
+section-c-p-2: A scientific approach consisting of 4 stepsA scientific approach in 4 phases
+section-c-list-1-h3: Strategy
 section-c-list-1-p-1: >-
-  Per la Destinazione, adottare un modello "Data Driven", consiste in sostanza nel fare dei dati la base di appoggio del processo decisionale e della scoperta di nuove strategie e azioni di marketing.  Nello specifico, per consentire alla DMO di transitare verso lo stato di "Smart Tourism Destination", è fondamentale, in termini di Governance della medesima, acquisire una capacità di ottenere e usare in maniera sistematica informazioni estratte dai dati.
-section-c-list-1-p-2:   In questa fase verranno definiti ruoli, procedure, componenti tecnologiche necessarie, architetture, data policy e l'insieme di tutte le attività associate alla gestione e alla governance dei dati della Destinazione.
-section-c-list-2-h3: Sviluppo delle Competenze
+  For the Destination, adopting a "Data Driven" model is about making data the basis for supporting decision-making and the discovery of new marketing strategies and actions. Specifically, in order for the DMO to transit to the status of "Smart Tourism Destination," it is essential, in terms of its Governance, to acquire the ability to systematically obtain and use information extracted from data.
+section-c-list-1-p-2: This phase will define roles and procedures necessary technological components, architectures, data policies, and the set of all activities associated with the management and governance of Destination data.
+section-c-list-2-h3: Skills Development
 section-c-list-2-p-1: >-
-  Il nostro team è composto da professionalità che soddisfano l'intera gamma di necessità informative e tecnologiche della Destinazione. Accompagnerà la Destinazione in tutti i processi di Individuazione e Raccolta Dati (Data Collection), Integrazione Dati (Data Integration) e nella definizione degli Indici di Prestazione Territoriali (KPI) più adatti per le proprie realtà. Formerà il proprio personale interno nell'acquisizione degli strumenti indispensabili per una Gestione del Dato (Data Management) sostenibile e permanente.
+  Our team is composed of professionals who meet the full range of information and technology needs of the Destination. The team will accompany the Destination in all processes of Data Identification and Collection, Data Integration and in defining the most suitable Territorial Performance Indices (KPIs) for its realities. It will train the destination’s internal staff in acquiring the essential tools for sustainable and permanent Data Management.
 section-c-list-2-p-2: >-
-  Per questa fase Quantitas valorizzerà ogni singola componente sulla base di quanto definito nella fase progettuale. Le singole componenti possono essere
-  sviluppate direttamente da Quantitas nella loro totalità, oppure prevedere eventuale integrazione di componenti realizzate da altri fornitori.
+  For this phase Quantitas will enhance each individual component based on what was defined in the design phase. The individual components can be developed directly by Quantitas in their entirety, or can be integrated from other suppliers.
 section-c-list-3-h3: Data Management
-section-c-list-3-p-1: >- 
-  Una volta definiti i bisogni informativi della Destinazione, Quantitas supporterà la Destinazione stessa nella formalizzazione di tutti i processi di gestione del dato, con una definizione dei ruoli, delle modalità di aggiornamento dei dati, dei livelli di accessibilità delle informazioni, dei diversi livelli di accesso, delle caratteristiche di monitoraggio, della scalabilità delle componenti informative e della messa in sicurezza dei dati. Il Data Management Plan (DMP) costituirà la base documentale atta a certificare lo status di Destinazione "Data Driven".
-section-c-list-4-h3: Implementazione degli strumenti tecnologici
+section-c-list-3-p-1: >-
+  Once the Destination's information needs have been defined, Quantitas will support the Destination in formalizing all the data management processes, with a definition of roles, how the data will be updated, different levels of information accessibility, monitoring features, scalability of the information components, and data security. The Data Management Plan (DMP) will form the documentary basis suitable for certifying the Destination's "Data Driven" status.
+section-c-list-4-h3: Implementation of technology tools
 section-c-list-4-p-1: >-
-  Solo una volta definita una strategia di gestione dei dati, sarà possibile capire di quali strumenti informatici ha bisogno la Destinazione per mettere in produzione i suoi dati e le sue informazioni. Da esperta in soluzioni di Tourism Intelligence, Quantitas è il soggetto ideale per accompagnare la Destinazione nella scelta dello strumento più adatto in ottica di economicità e di abbattimento degli sprechi: i potenziali software suggeriti saranno caratterizzati per essere strettamente funzionali alle esigenze della Destinazione.
-section-c-cta: Inizia ora la trasformazione
+  Only once a data management strategy has been defined will it be possible to understand what IT tools the Destination needs to put its data and information into production. As an expert in Tourism Intelligence solutions, Quantitas is the ideal party to accompany the Destination in choosing the most suitable tool with attention to cost-effectiveness and waste reduction: the potential software suggested will be characterized to be strictly functional to the Destination's needs.
+section-c-cta: Start the transformation now
+alt-figure-a: Abstract illustration of a planetary system rotating on itself
+alt-figure-b: Abstract illustration of different graphics
+alt-figure-c: Abstract illustration of digital flowers growing
+alt-figure-d: Abstract illustration of two technological devices
+
 #Section D
-section-d-h2: Fai crescere la tua Destinazione iniziando con <span class="text-accent"><span class="font-bold">Quantitas</span> il percorso per diventare una <span class="font-bold">SMART DMO</span></span>
-section-d-p-1: La Comunità Europea richiede un approccio globale e competenze specifiche per ottenere la possibilità di accedere ai Fondi Europei
-section-d-strong-1: >- 
-  Ottenere lo status di Smart DMO è un'opportunità per:
-section-d-list-a-1: Promuovere il benessere delle comunità locali
-section-d-list-a-2: Aumentare la competitività del settore turistico
-section-d-list-a-3: Ottenere uno sviluppo sostenibile e resiliente
-section-d-p-2: <strong>Le “destinazioni Smart” sono in continua evoluzione</strong> nella fornitura di servizi ai turisti, a seguito di cambiamenti socio-demografici, culturali, tecnologici, ambientali e politici che interessano tutti gli ambiti della società.
+section-d-h2: Grow your Destination by starting with <span class="text-accent"><span class="font-bold">Quantitas on the path to becoming a <span class="font-bold">SMART DMO</span></span>
+section-d-p-1: The European Community requires a comprehensive approach and specific skills to gain the ability to access European Funds
+section-d-strong-1: >-
+  Obtaining Smart DMO status is an opportunity to:
+section-d-list-a-1: Promote the well-being of local communities
+section-d-list-a-2:   Increase the competitiveness of the tourism sector
+section-d-list-a-3: Achieve sustainable and resilient development
+section-d-p-2: <strong>"Smart destinations" are constantly evolving</strong> in the provision of services to tourists as a result of socio-demographic, cultural, technological, environmental and political changes affecting all spheres of society.
 section-d-p-3: >-
-  Essere consapevoli di questi sviluppi è <strong>fondamentale per pianificare strategie di gestione e sviluppo del turismo e azioni tempestive</strong>. Soprattutto quando il management innovativo della destinazione richiede non solo investimenti in tecnologie ma anche 
-  <strong>cambiamenti culturali nella DMO e nell'intero ecosistema turistico</strong>.
-section-d-link: Scarica il documento della Commissione Europea
-section-d-h3: Diventa Smart con Quantitas
+  Being aware of these developments is <strong>critical to planning tourism management and development strategies and timely actions</strong>. 
+  Especially when innovative destination management requires not only investment in technology but also <strong>cultural changes in the DMO and the entire tourism ecosystem</strong>.
+section-d-link: Download the European Commission document
+section-d-h3: Become Smart with Quantitas
 section-d-strong-2: >-
-  Insieme possiamo:
-section-d-list-b-1: Definire strategie specifiche e modelli di governance efficaci
-section-d-list-b-2: Individuare flussi di dati e <em>dataset</em> rilevanti
-section-d-list-b-3: Migliorare la sostenibilità ambientale, le tecnologie e le infrastrutture chiave
-section-d-cta: Inizia ora
+  Together we can:
+section-d-list-b-1: Define specific strategies and effective governance models
+section-d-list-b-2: Detect relevant data flows and datasets
+section-d-list-b-3: Improve environmental sustainability, technologies and key infrastructures.
+section-d-cta: Start now
+
 #Section E  
-section-e-h2: Gli esperti di Tourism Intelligence
-section-e-p-1: La nostra azienda integra molteplici fonti dati di settore <strong>elaborati, integrati, analizzati e interpretati</strong>.
-section-e-p-2: Creiamo narrazioni dinamiche <strong>dall’alto impatto visivo</strong> che aiutano le DMO nell’analisi del territorio, nel fare management e nel <strong>prendere decisioni strategiche</strong>.
-section-e-cta: Scopri di più su Quantitas
+section-e-h2: Experts in Tourism Intelligence
+section-e-p-1: Our company integrates multiple industry data sources <strong>processed, integrated, analyzed and interpreted</strong>.
+section-e-p-2: We create dynamic storytelling <strong>with a high visual impact</strong>, that help the DMO in analyzing the territory, managing and taking strategic decisions.
+section-e-cta: Discover more about Quantitas
+
 #FAQ
 faq-h2: FAQs
-faq-small: Hai qualche domanda?
+faq-small: Do you have any questions?
+
 #Form
-form-title: Scopri con Quantitas come dare potere ai tuoi dati
-form-legend: Contatta Quantitas S.R.L.
-form-p-1: Scrivici per fissare un appuntamento conoscitivo. In questo primo incontro ti chiederemo come è strutturata la tua destinazione, quali sono le vostre esigenze e a quali domande volete che i dati e il nostro team trovino la risposta.
-form-p-2: In questo primo incontro ti chiederemo come è strutturata la tua destinazione, quali sono le vostre esigenze e a quali domande volete che i dati e il nostro team trovino la risposta.
-form-label-company-name: Nome azienda
-form-helper-company-name: Inserisci la denominazione aziendale (obbligatorio)
-form-placeholder-company-name: Denominazione Azienda
-form-label-first-name: Nome referente
-form-helper-first-name: Inserisci il tuo nome
-form-placeholder-first-name: Il tuo nome
-form-label-last-name: Cognome referente
-form-helper-last-name: Inserisci il tuo cognome
-form-placeholder-last-name: Il tuo cognome
-form-label-phone: Numero di telefono
-form-helper-phone: Inserisci un telefono per essere contattato da un nostro responsabile
+form-title: Discover how to empower your data with Quantitas
+form-legend: Contact Quantitas S.R.L.
+form-p-1: Contact us to schedule an appointment. In this first meeting we’ll ask you how your destination is structured, what are your needs and which questions you want answered by the data and our team.
+form-label-company-name: Company name
+form-helper-company-name: Enter company name (required)
+form-placeholder-company-name: Company name
+form-label-first-name: Contact person name
+form-helper-first-name: Enter your name
+form-placeholder-first-name: Your name
+form-label-last-name: Referrer surname
+form-helper-last-name: Enter your last name
+form-placeholder-last-name: Your last name
+form-label-phone: Phone number
+form-helper-phone: Enter a phone to be contacted by one of our managers
 form-placeholder-phone: +39 123456789
 form-label-email: Email
-form-helper-email: Inserisci il tuo indirizzo di email aziendale (obbligatorio)
-form-placeholder-email: La tua email aziendale
-form-label-toggle: Sono interessato a diventare una Smart Tourism Destination
-form-label-privacy: Accetto la vostra <a href="/privacy" target="_blank" class="underline text-primary">privacy policy</a>
-form-cta: Invia
-form-success-message-1: Grazie!
-form-success-message-2: Verrai contattato dal nostro team il prima possibile
+form-helper-email: Enter your company email address (required)
+form-placeholder-email: Your corporate email
+form-label-toggle: I am interested in becoming a Smart Tourism Destination
+form-label-privacy: I agree to your <a href="/en/privacy/" target="_blank" class="underline text-primary">privacy policy</a>
+form-cta: Submit
+form-success-message-1: Thank you!
+form-success-message-2: You will be contacted by our team as soon as possible
 form-failure-message-1: Ooooops!
-form-failure-message-2: Qualcosa è andato storto, riprova più tardi.
+form-failure-message-2: Something went wrong, please try again later.
 ---

@@ -22,7 +22,6 @@ const
   formFailure = document.querySelector('#form-failure'),
   videoPlayer = document.querySelector('video');
 
-
 const trap = focusTrap.createFocusTrap('#site-header', {});
 
 /**
@@ -31,7 +30,10 @@ const trap = focusTrap.createFocusTrap('#site-header', {});
 const header = {
   siteMenuClose: () => {
     icon.innerHTML = 'menu';
-    menuToggleBtn.setAttribute('aria-label', 'Apri il menù');
+    const labelObj = menuToggleBtn.dataset.labels ? JSON.parse(menuToggleBtn.dataset.labels) : null;
+    const label = labelObj ? labelObj.open : 'Apri il menù';
+    menuToggleBtn.setAttribute('aria-label', label);
+    menuToggleBtn.setAttribute('title', label);
     menuToggleBtn.setAttribute('aria-expanded', 'false');
     trap.deactivate();
   },
@@ -40,7 +42,10 @@ const header = {
       siteHeader.classList.toggle('is-open');
       if (siteHeader.classList.contains('is-open')) {
         icon.innerHTML = 'close';
-        menuToggleBtn.setAttribute('aria-label', 'Chiudi il menù');
+        const labelObj = menuToggleBtn.dataset.labels ? JSON.parse(menuToggleBtn.dataset.labels) : null;
+        const label = labelObj ? labelObj.close : 'Chiudi il menù';
+        menuToggleBtn.setAttribute('aria-label', label);
+        menuToggleBtn.setAttribute('title', label);
         menuToggleBtn.setAttribute('aria-expanded', 'true');
         trap.activate();
       } else {
@@ -136,6 +141,12 @@ const components = {
 }
 
 const form = {
+  getErrorStrings: (mail = false) => {
+    if (!contactForm) return;
+    const lang = contactForm.dataset.lang;
+    const errorObj = JSON.parse( contactForm.dataset.errors);
+    return mail ? errorObj.mail[lang] : errorObj.default[lang];
+  },
   submitAction: () => {
     if (!contactForm) return;
     contactForm.addEventListener('submit', (e) => {
@@ -209,7 +220,7 @@ const form = {
       }
     })
   },
-  setInvalid: (input = null, errorHint = 'Questo campo è obbligatorio') => {
+  setInvalid: (input = null, errorHint = form.getErrorStrings()) => {
     const errorElement = document.createElement('span'),
       errorID = 'error-' + input.id;
     input.setAttribute('aria-invalid', 'true');
@@ -245,7 +256,7 @@ const form = {
       if (inputCompanyName.value === '') form.setInvalid(inputCompanyName)
       if (inputPrivacy.checked === false) form.setInvalid(inputPrivacy)
       if (inputEmail.value === '') form.setInvalid(inputEmail)
-      else if (!form.validateEmail(inputEmail.value)) form.setInvalid(inputEmail, 'Questa non è una email valida')
+      else if (!form.validateEmail(inputEmail.value)) form.setInvalid(inputEmail, form.getErrorStrings(true))
       return false;
     }
     return true;

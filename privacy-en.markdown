@@ -3,12 +3,10 @@ lang: en
 layout: page
 permalink: privacy
 page_id: privacy
-
 title: Privacy Policy and cookies
 page-title: Privacy Policy and cookies
 meta_description: Privacy Policy and cookies.
 ---
-
 
 ## Privacy Policy
 

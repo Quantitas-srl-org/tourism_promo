@@ -12,6 +12,17 @@
   },
   "author": "LC.D",
   "license": "ISC",
+  "prettier": {
+    "tabWidth": 4,
+    "useTabs": false,
+    "singleQuote": true,
+    "semi": true,
+    "bracketSpacing": true,
+    "arrowParens": "avoid",
+    "trailingComma": "all",
+    "bracketSameLine": false,
+    "printWidth": 80
+  },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.15",
     "concurrently": "^8.2.2",

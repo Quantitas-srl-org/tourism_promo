@@ -2,11 +2,11 @@
 layout: compress
 ---
 <!doctype html>
-<html lang="{{site.language}}">
+<html lang="{{page.lang}}">
 {% include head.html %}
 <body class="site-bg">
-<a href="#main" class="skip-link">Vai al contenuto principale</a>
-<a href="#footer" class="skip-link">Vai al pie' di pagina</a>
+<a href="#main" class="skip-link">{{site.skip-links.main[page.lang]}}</a>
+<a href="#footer" class="skip-link">{{site.skip-links.footer[page.lang]}}</a>
 {% include header.html %}
 <main id="main">
     {{ content }}
