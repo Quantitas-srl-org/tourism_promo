@@ -249,8 +249,11 @@
     @apply px-3 py-2 font-bold hover:underline underline-offset-4 text-base;
 }
 
-.lang-links li:first-child::after {
+.lang-links li::after {
     content: "/";
+}
+.lang-links li:last-child::after {
+    content: none;
 }
 
 .site-logo {

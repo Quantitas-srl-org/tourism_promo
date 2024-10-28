@@ -18,6 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+# Jekyll Config
+debug: false
+plugins:
+  - jekyll-polyglot
+
+languages: ["it", "en"]
+default_lang: "it"
+exclude_from_localization: ["javascript", "images", "css", "public"]
+parallel_localization: true
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 language: "it"
@@ -27,7 +36,27 @@ facebook_username: quantitas.it
 linkedin_username: quantitas-srl
 share-cover: share-cover.jpg
 
-#TEXT
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+exclude:
+  - assets/js/script.webpack.js
+  - assets/css/style.tailwind.css
+  - tailwind.config.js
+  - webpack.config.js
+  - README.md
+  - package.json
+  - package-lock.json
+  - .jekyll-cache/
+  - assets/js/script.js.LICENSE.txt
+
+
+# TEXT
 page-cta-eye-brown:
   it: da DMO a Smart Tourism Destination con Quantitas
   en: From DMO to Smart Tourism Destination with Quantitas
@@ -151,33 +180,3 @@ open-menu:
 close-menu:
   it: Chiudi il menù
   en: Close the menu
-
-
-# Jekyll Config
-debug: false
-plugins:
-  - jekyll-polyglot
-
-languages: ["it", "en"]
-default_lang: "it"
-exclude_from_localization: ["javascript", "images", "css", "public"]
-parallel_localization: true
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-exclude:
-  - assets/js/script.webpack.js
-  - assets/css/style.tailwind.css
-  - tailwind.config.js
-  - webpack.config.js
-  - README.md
-  - package.json
-  - package-lock.json
-  - .jekyll-cache/
-  - assets/js/script.js.LICENSE.txt

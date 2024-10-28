@@ -20,6 +20,40 @@ Per compilare CSS e JS eseguire i seguenti comandi:
 
 Puoi eseguire tutti i comandi contemporaneamente lanciando `npm run dev` che sfrutta Concurrently per eseguire insieme `npm run css & npm run js & npm run build`
 
+### Internazionalizzazione
+
+Le lingue disponibili sono definite in `_config.yml` alla voce
+```yaml
+languages: ["it", "en", ...]
+```
+Ogni pagina o post può essere tradotto nella lingua corrispondente 
+semplicemente duplicando il file che si vuol tradurre e aggiungendo `-[lang].markdown` al nome del file. 
+Fa eccezione l'italiano dove non va specificata la lingua nel nome del file.
+```markdown
+- privacy.markdown
+- privacy-en.markdown
+- privacy-es.markdown
+```
+Nel front matter di ciascun file deve essere specificata la lingua.
+_N.b._ Definire sempre il `permalink`
+
+in `privacy.markdown`
+```markdown
+lang: it
+layout: page
+permalink: privacy
+page_id: privacy
+```
+
+in `privacy-en.markdown`
+```markdown
+lang: en
+layout: page
+permalink: privacy
+page_id: privacy
+```
+
+
 **TODO:** 
 
 Webpack è configurato in `mode=development`, per l'ambiente di produzione aggiornare `webpack.config.js` a `mode=production`.
