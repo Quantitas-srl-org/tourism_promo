@@ -54,7 +54,7 @@ section-b-list-p: Only with  <strong class="text-accent">real data</strong> you 
 #Section C
 section-c-h2: We take the journey with you
 section-c-p-1: from defining the Data driven strategy to building the Data Management Plan.
-section-c-p-2: A scientific approach consisting of 4 stepsA scientific approach in 4 phases
+section-c-p-2: A scientific approach consisting of 4 steps
 section-c-list-1-h3: Strategy
 section-c-list-1-p-1: >-
   For the Destination, adopting a "Data Driven" model is about making data the basis for supporting decision-making and the discovery of new marketing strategies and actions. Specifically, in order for the DMO to transit to the status of "Smart Tourism Destination," it is essential, in terms of its Governance, to acquire the ability to systematically obtain and use information extracted from data.
