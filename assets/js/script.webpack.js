@@ -83,6 +83,13 @@ const header = {
         siteHeader.classList.add('is-sticky');
       }
     })
+  },
+  fixLangSwitcher: () => {
+    const langBtn = document.querySelectorAll('.lang-switcher');
+    langBtn.forEach(lang => {
+      const href = lang.dataset.ref
+      lang.setAttribute('href', href);
+    })
   }
 }
 
@@ -268,6 +275,7 @@ document.addEventListener('DOMContentLoaded', () => {
   header.keyPressEscToCloseSiteMenu();
   header.setStickyHeaderStyle();
   header.clickOnLinkToCloseSiteMenu();
+  header.fixLangSwitcher();
   components.scrollDrivenAnimations();
   components.accordion();
   components.videoPlayer();

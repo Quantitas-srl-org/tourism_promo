@@ -41,9 +41,12 @@
                     <span class="material-symbols-outlined !text-lg mr-2" aria-hidden="true">language</span>
                     <ul class="inline-flex !gap-1 !flex-row !mt-0">
                         {% for tongue in site.languages %}
+                        {% capture lang_href %}{% if tongue == site.default_lang %}{{site.baseurl}}{{page.url}}{% else
+                        %}{{site.baseurl}}/{{ tongue }}{{page.url}}{% endif %}{% endcapture %}
                         <li>
-                            <a class="!p-0 !font-normal uppercase {% if tongue == site.active_lang %}underline{% endif %}"
-                               {% static_href %}href="{% if tongue == site.default_lang %}{{site.baseurl}}{{page.url}}{% else %}{{site.baseurl}}/{{ tongue }}{{page.url}}{% endif %}"{% endstatic_href %}>
+                            <a class="lang-switcher !p-0 uppercase {% if tongue != site.active_lang %}!font-normal {% endif %}"
+                               href="#"
+                               data-ref="{{lang_href}}">
                                 {{ tongue }}
                             </a>
                         </li>
