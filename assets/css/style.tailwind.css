@@ -404,7 +404,9 @@
     after:bg-[length:120px_50px]
     after:bg-[url("../images/strikethrough.png")];
 }
-
+.strikethrough-en {
+    @apply after:bg-[url("../images/strikethrough-en.png")]
+}
 .strikethrough s {
     text-decoration: none;
 }

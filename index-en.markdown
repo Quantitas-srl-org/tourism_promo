@@ -117,7 +117,7 @@ form-placeholder-company-name: Company name
 form-label-first-name: Contact person name
 form-helper-first-name: Enter your name
 form-placeholder-first-name: Your name
-form-label-last-name: Referrer surname
+form-label-last-name: Contact person last name
 form-helper-last-name: Enter your last name
 form-placeholder-last-name: Your last name
 form-label-phone: Phone number
