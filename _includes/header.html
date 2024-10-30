@@ -34,7 +34,11 @@
                 </li>
                 <li>
                     <a href="/#contatti" class="btn hover:!no-underline !text-sm !px-6">
-                        {{site.header-cta[page.lang] }}
+                        {% if site.header-cta[page.lang] %}
+                            {{ site.header-cta[page.lang] }}
+                        {% else %}
+                            Inizia ora
+                        {% endif %}
                     </a>
                 </li>
                 <li class="inline-flex items-center leading-none lang-links">
